@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "How to locate your Appdata folder"
+category: wallet
+tags: windows linux macos
+---
+The location of your Appdata folder depends on your operating system.
+
+* **Windows:** _%APPDATA%\Roaming\Bulwark_  
+**To access:**  Press Windows+R and write %appdata%
+
+* **Linux:** _~/.bulwark/_  
+**To access:**  Navigate to the .bulwark folder in your home directory
+
+* **macOS:** _~/Library/Application Support/Bulwark_  
+**To access:** Press Cmd+Space to open Spotlight, type ~/Library/Application Support/Bulwark and press Enter.
