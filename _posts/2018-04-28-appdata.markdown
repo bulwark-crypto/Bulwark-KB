@@ -6,11 +6,11 @@ tags: windows linux macos
 ---
 The location of your Appdata folder depends on your operating system.
 
-* **Windows:** _%APPDATA%\Roaming\Bulwark_  
-Press Windows+R and write %appdata%
+* **Windows:** %APPDATA%\\Roaming\\Bulwark  
+_Press Windows+R and write %appdata%_
 
-* **Linux:** _~/.bulwark/_  
-Navigate to the .bulwark folder in your home directory
+* **Linux:** ~/.bulwark/  
+_Navigate to the .bulwark folder in your home directory_
 
-* **macOS:** _~/Library/Application Support/Bulwark_  
-Press Cmd+Space to open Spotlight, type ~/Library/Application Support/Bulwark and press Enter.
+* **macOS:** ~/Library/Application Support/Bulwark  
+_Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
