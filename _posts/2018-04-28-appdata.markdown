@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to locate your Appdata folder"
-category: wallet
+category: Wallet
 tags: windows linux macos
 ---
 The location of your Appdata folder depends on your operating system.
