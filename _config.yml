@@ -28,22 +28,10 @@ github_username:  bulwark-crypto
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-category-pages
 
 permalink: /:categories/:title
 
-# Create category collections
-collections:
-  category:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
