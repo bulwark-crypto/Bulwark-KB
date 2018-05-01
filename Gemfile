@@ -21,6 +21,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-category-pages"
+  gem "jekyll-lunr-js-search"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

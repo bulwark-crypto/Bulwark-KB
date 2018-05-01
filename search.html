@@ -2,27 +2,25 @@
 layout: default
 ---
 
-<form action="/search.html" method="get">
-  <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-</form>
+<section id="search-results" style="display: none;"> </section>
 
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">
-      <a href="/category/{{ category_name }}">{{ category_name }}</a>
-    </h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+      {{#is_post}}
+      <ul>
+        {{#tags}}<li>{{.}} </li>{{/tags}}
+      </ul>
+      {{/is_post}}
     </article>
-    {% endfor %}
-  </div>
-{% endfor %}
+  {{/entries}}
+</script>
+{% endraw %}
 
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 

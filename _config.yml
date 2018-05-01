@@ -28,7 +28,9 @@ github_username:  bulwark-crypto
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-paginate
   - jekyll-category-pages
+  - jekyll-lunr-js-search
 
 permalink: /:categories/:title
 
