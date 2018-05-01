@@ -3,8 +3,13 @@
 Postings are located in `_posts`.  
 File names must follow the `YYYY-MM-DD-title.markdown` format.
 
-To build the site, [jekyll](https://jekyllrb.com) needs to be installed.  
-  [Windows Installation Guide]() / [Linux & Mac Installation Guide]()
+[Jekyll](https://jekyllrb.com) needs to be installed.  
+  [Windows Installation Guide](https://jekyllrb.com/docs/windows/) / [Linux & Mac Installation Guide](https://jekyllrb.com/docs/installation/)
+
+Before you start, install the dependencies:
+```
+bundle install
+```
 
 To build the site, run
 ```
