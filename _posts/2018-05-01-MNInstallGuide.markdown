@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Masternode Setup Guide"
-category: Official Information
-tags: Official Info Masternode Guide 
+title:  "Masternode setup guide"
+category: Guides
+tags:
+  - Masternode
 ---
 
 ## System requirements

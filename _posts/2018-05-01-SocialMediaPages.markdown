@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Social Media by Language"
-category: Official Information
-tags: Official Info
+title:  "Social media pages"
+category: Information
+tags:
+  - Links
 ---
 
 

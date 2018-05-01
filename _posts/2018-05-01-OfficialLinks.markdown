@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Official Link Compilation"
-categories:
-- Official Information
-category:
+title:  "Official link compilation"
+category: Information
 tags:
-- Official Information
+  - Links
 ---
 
 * [Bitcoin Talk Announcement](https://bitcointalk.org/index.php?topic=2499481.0)

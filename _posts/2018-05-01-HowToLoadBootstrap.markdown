@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Instructions for loading a Bootstrap"
-category: Official Information
-tags: Official Info Wallet Issues Troubleshooting
+category: Guides
+tags:
+  - Wallet
+  - Troubleshooting
 ---
 
 

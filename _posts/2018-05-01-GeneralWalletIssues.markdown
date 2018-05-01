@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "General Wallet Issues"
-category: Official Information
-tags: Official Info Wallet Issues Troubleshooting
+title:  "Fixing general wallet issues"
+category: Guides
+tags:
+  - Wallet
+  - Troubleshooting
 ---
 
 #### General Issues with the Wallet
