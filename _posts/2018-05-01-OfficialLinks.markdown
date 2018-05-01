@@ -1,68 +1,45 @@
 ---
 layout: post
 title:  "Official Link Compilation"
-category: Official Information
-tags: Official Information
+categories:
+- Official Information
+category:
+tags:
+- Official Information
 ---
 
+* [Bitcoin Talk Announcement](https://bitcointalk.org/index.php?topic=2499481.0)
 
+* [Official Telegram Discussion Channel](https://t.me/bulwarkcrypto)
 
-Bitcoin Talk Announcement:
+* [Official Telegram Announcement Channel](https://t.me/bulwarkann)
 
-https://bitcointalk.org/index.php?topic=2499481.0
+* [Official Bulwark Website](https://bulwarkcrypto.com/)
 
-Official Telegram Discussion Channel:
+* [Bulwark Roadmap](https://bulwarkcrypto.com/roadmap/)
 
-https://t.me/bulwarkcrypto
+* [Bulwark Whitepaper & Translations](https://bulwarkcrypto.com/whitepaper/)
 
-Official Telegram Announcement Channel:
+* [Official Bulwark Block Explorer](http://explorer.bulwarkcrypto.com/)
 
-https://t.me/bulwarkann
+* Third Party Block Explorers:
 
-Official Bulwark Website:
+  * [Altmix](https://altmix.org/coins/10-Bulwark)
 
-https://bulwarkcrypto.com/
+  * [JABE](http://jabe.network:3001/)
 
-Bulwark Roadmap:
+* [Bulwark Blog](https://bulwarkcrypto.com/blog/)
 
-https://bulwarkcrypto.com/roadmap/
+* [Bulwark Github](https://github.com/bulwark-crypto/Bulwark)
 
-Bulwark Whitepaper & Translations:
+* [Masternode Setup Guide 1.1](https://github.com/bulwark-crypto/Bulwark-MN-Install/blob/master/README.md)
 
-https://bulwarkcrypto.com/whitepaper/
+* [Bulwark Mining Guide 1.0](https://bulwarkcrypto.com/bulwark-mining-guide/)
 
-Official Bulwark Block Explorer:
+* Mining Calculators:
 
-http://explorer.bulwarkcrypto.com/
+  * [Bulwark Calc](http://bulwarkcalc.online/)
 
-Third Party Block Explorers:
+  * [Crypt0 Zone](https://crypt0.zone/calculator)
 
-https://altmix.org/coins/10-Bulwark
-
-http://jabe.network:3001/
-
-Bulwark Blog:
-
-https://bulwarkcrypto.com/blog/
-
-Bulwark Github:
-
-https://github.com/bulwark-crypto/Bulwark
-
-Masternode Setup Guide 1.1:
-
-https://github.com/bulwark-crypto/Bulwark-MN-Install/blob/master/README.md
-
-Bulwark Mining Guide 1.0:
-
-https://bulwarkcrypto.com/bulwark-mining-guide/
-
-Mining Calculators:
-
-http://bulwarkcalc.online/
-
-https://crypt0.zone/calculator
-
-Bulwark CoinMarketCap Page:
-
-https://coinmarketcap.com/currencies/bulwark/
+* [Bulwark CoinMarketCap Page](https://coinmarketcap.com/currencies/bulwark/)
