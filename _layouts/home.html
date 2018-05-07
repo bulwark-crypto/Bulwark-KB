@@ -2,27 +2,50 @@
 layout: default
 ---
 
+<div class="row justify-content-center mb-4">
+  <div class="col-lg-6">
 <form action="/search.html" method="get">
-  <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+<div class="input-group">
+  <input class="form-control" type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+  <span class="input-group-btn">
+    <button class="btn btn-secondary" type="button">Go!</button>
+  </span>
+</div>
 </form>
+</div>
+</div>
 
+<section id="search-results" style="display: none;"> </section>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  <ul class="list-group mb-4">
+  {{#entries}}
+    <li class="list-group-item"><a href="{{url}}">{{title}}</a></li>
+  {{/entries}}
+  </ul>
+</script>
+{% endraw %}
+
+<div class="card-deck">
 {% for category in site.categories %}
-  <div>
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3>
-      <a href="/category/{{ category_name }}">{{ category_name }}</a>
-    </h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article>
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
+  <div class="card">
+    <div class="card-header">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <h5 class="card-title mb-0" id="#{{ category_name | slugize }}">
+        <a class="card-link" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">{{ category_name }}</a>
+      </h5>
+    </div>
+    <ul class="list-group list-group-flush">
+          {% for post in site.categories[category_name] %}
+              <li class="list-group-item">
+                <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+              </li>
+          {% endfor %}
+        </ul>
   </div>
 {% endfor %}
+</div>
 
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -32,7 +55,7 @@ layout: default
       indexUrl  : '/js/index.json',           // url for the .json file containing search index data
       results   : '#search-results',          // selector for containing search results element
       template  : '#search-results-template', // selector for Mustache.js template
-      titleMsg  : '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+      titleMsg  : '<h5>Search results</h5>',   // message attached in front of results (can be empty)
       emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
     });
   });
