@@ -24,7 +24,8 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 
   - Once all addresses are created send 5000 BWK each to them. Ensure that you send exactly 5000 BWK and do it in a single transaction. You can double check where the coins are coming from by checking it via coin control usually, that's not an issue.
 
-* As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer. It should take around 30 minutes if all transaction have 15 confirmations
+As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.  
+It should take around 30 minutes if all transaction have 15 confirmations.
 
 ## Installation & Setting up your Server
 
@@ -66,10 +67,12 @@ masternodename ipaddress:52543 genkey collateralTxID outputID
 An example would be
 
 ```
-mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1sBGLALQZE1Y1K6xiqgX37tGBDQL8Xg 2bcd3c84c84f7ea86e4e56834c2927a07f9e1871810b92e0d0324456a67c 0
 ```
 
-_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`. Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
+_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.  
+
+Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
 
 Restart and unlock your wallet.
 
@@ -79,11 +82,12 @@ SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login as root (**Plea
 bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/install.sh )
 ```
 
-When the script asks, confirm your VPS IP Address and paste your masternode key (You can copy your key and paste into the VPS if connected with Putty by right clicking)
+When the script asks, confirm your VPS IP Address and paste your masternode key.  
+(You can copy your key and paste into the VPS if connected with Putty by right clicking)
 
 The installer will then present you with a few options.
 
-**PLEASE NOTE**: Do not choose the advanced installation option unless you have experience with Linux and know what you are doing - if you do and something goes wrong, the Bulwark team CANNOT help you, and you will have to restart the installation.
+**PLEASE NOTE**: Do not choose the advanced installation option unless you have experience with Linux and know what you are doing. Advanced mode  will install your masternode under a non-root user called "bulwark" instead of root, so you need to know what that means and how to log in as a different user under Linux. If you don't, things will not work as expected and the Bulwark team CANNOT help you - you will have to restart the installation.
 
 Follow the instructions on screen.
 
