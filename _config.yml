@@ -26,6 +26,11 @@ github_username:  bulwark-crypto
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 theme: minima
 plugins:
   - jekyll-paginate

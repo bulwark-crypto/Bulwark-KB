@@ -4,12 +4,9 @@ layout: default
 
 <div class="row justify-content-center mb-4">
   <div class="col-lg-6">
-<form action="/search.html" method="get">
+<form>
 <div class="input-group">
   <input class="form-control" type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-  <span class="input-group-btn">
-    <button class="btn btn-secondary" type="button">Go!</button>
-  </span>
 </div>
 </form>
 </div>
@@ -21,7 +18,7 @@ layout: default
 <script id="search-results-template" type="text/mustache">
   <ul class="list-group mb-4">
   {{#entries}}
-    <li class="list-group-item"><a href="{{url}}">{{title}}</a></li>
+    <a class="list-group-item list-group-item-action" href="{{url}}">{{title}}</a>
   {{/entries}}
   </ul>
 </script>
@@ -37,11 +34,10 @@ layout: default
       </h5>
     </div>
     <ul class="list-group list-group-flush">
-          {% for post in site.categories[category_name] %}
-              <li class="list-group-item">
-                <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-              </li>
+          {% for post in site.categories[category_name] limit:3 %}
+                <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
           {% endfor %}
+            <a class="list-group-item list-group-item-action" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">More articles...</a>
         </ul>
   </div>
 {% endfor %}
@@ -55,7 +51,7 @@ layout: default
       indexUrl  : '/js/index.json',           // url for the .json file containing search index data
       results   : '#search-results',          // selector for containing search results element
       template  : '#search-results-template', // selector for Mustache.js template
-      titleMsg  : '<h5>Search results</h5>',   // message attached in front of results (can be empty)
+      titleMsg  : '<li class="list-group-item"><h5 class="mb-0">Search results</h5></li>',   // message attached in front of results (can be empty)
       emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
     });
   });
