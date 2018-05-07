@@ -6,30 +6,28 @@ tags:
   - Links
 ---
 
-
 #### English
-1. [Twitter](https://twitter.com/BulwarkCoin "Twitter")
-2. [Reddit](https://www.reddit.com/r/BulwarkCoin/ "Reddit")
-3. [FaceBook](https://www.facebook.com/bulwark.coin.IO/ "facebook")
-4. [Gab.Ai](https://gab.ai/BulwarkCrypto "Gab.Ai")
-
+* [Facebook](https://www.facebook.com/bulwark.coin.IO/ "facebook")
+* [Gab.Ai](https://gab.ai/BulwarkCrypto "Gab.Ai")
+* [Reddit](https://www.reddit.com/r/BulwarkCoin/ "Reddit")
+* [Twitter](https://twitter.com/BulwarkCoin "Twitter")
 
 #### German
-https://twitter.com/Bulwark_Germany
-https://www.facebook.com/bulwark.germany/
+* [Facebook](https://www.facebook.com/bulwark.germany/)
+* [Twitter](https://twitter.com/Bulwark_Germany)
 
 #### Spanish
-https://www.facebook.com/bulwark.espanol
+* [Facebook](https://www.facebook.com/bulwark.espanol)
 
 #### Chinese
-WeChat
+* WeChat
 
 #### Turkish
-https://www.facebook.com/bulwark.turkey/
-https://twitter.com/Bulwark_Turkiye
+* [Facebook](https://www.facebook.com/bulwark.turkey/)
+* [Twitter](https://twitter.com/Bulwark_Turkiye)
 
 #### Polish
-https://www.facebook.com/Bulwark-Polska-179759892804627/
+* [Facebook](https://www.facebook.com/Bulwark-Polska-179759892804627/)
 
 #### Japanese
-LINE- http://line.me/R/ti/g/jO-gyHNqN6
+* [LINE](http://line.me/R/ti/g/jO-gyHNqN6)

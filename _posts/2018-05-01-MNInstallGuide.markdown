@@ -48,9 +48,14 @@ Copy both the key and output information to a text file.
 
 Close your wallet and open the Bulwark Appdata folder. Its location depends on your OS.
 
-* **Windows:** Press Windows+R and write %appdata% - there, open the folder Bulwark.
-* **macOS:** Press Command+Space to open Spotlight, write ~/Library/Application Support/Bulwark and press Enter.
-* **Linux:** Open ~/.bulwark/
+* **Windows:** %APPDATA%\\Roaming\\Bulwark  
+_Press Windows+R and write %appdata%_
+
+* **Linux:** ~/.bulwark/  
+_Navigate to the .bulwark folder in your home directory_
+
+* **macOS:** ~/Library/Application Support/Bulwark  
+_Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
 
 In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
 

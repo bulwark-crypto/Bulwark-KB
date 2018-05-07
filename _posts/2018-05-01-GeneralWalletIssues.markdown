@@ -15,8 +15,11 @@ tags:
 
 How to find your Bulwark folder:
 
-**Windows**: Press Windows+R and write %appdata%
+* **Windows:** %APPDATA%\\Roaming\\Bulwark  
+_Press Windows+R and write %appdata%_
 
-**macOS**: Press Command+Space to open Spotlight, write ~/Library/Application Support/Bulwark and press Enter.
+* **Linux:** ~/.bulwark/  
+_Navigate to the .bulwark folder in your home directory_
 
-**Linux**: Open ~/.bulwark/
+* **macOS:** ~/Library/Application Support/Bulwark  
+_Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
