@@ -36,9 +36,12 @@ plugins:
   - jekyll-paginate
   - jekyll-category-pages
   - jekyll-lunr-js-search
+  - jekyll/tagging
 
 permalink: /:categories/:title
 
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
