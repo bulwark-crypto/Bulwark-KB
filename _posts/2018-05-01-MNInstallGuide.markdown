@@ -4,6 +4,7 @@ title:  "Masternode setup guide"
 category: Guides
 tags:
   - Masternode
+toc: true
 ---
 
 ## System requirements
