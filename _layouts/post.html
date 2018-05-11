@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<aside>
+
+{% if page.toc == true %}
   {{ content | toc_only }}
-</aside>
+{% endif %}
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -14,10 +15,6 @@ layout: default
   <div itemprop="articleBody">
     {{ content }}
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <a href="{{ page.url | relative_url }}" hidden></a>
 </article>
