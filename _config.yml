@@ -37,6 +37,7 @@ plugins:
   - jekyll-category-pages
   - jekyll-lunr-js-search
   - jekyll/tagging
+  - jekyll-toc
 
 permalink: /:categories/:title
 
