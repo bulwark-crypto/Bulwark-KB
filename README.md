@@ -1,6 +1,6 @@
 # Bulwark-Docs
 
-Postings are located in `_posts`.  
+Postings are located in `_src/_posts`.  
 File names must follow the `YYYY-MM-DD-title.markdown` format.
 
 [Jekyll](https://jekyllrb.com) needs to be installed.  
