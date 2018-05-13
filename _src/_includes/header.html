@@ -1,6 +1,30 @@
-<header>
-  <div class="jumbotron mb-4 p-4">
-  <h1 class="display-3"><a href="{{ site.url }}" class="card-link">{{ site.title | escape }}</a></h1>
-</div>
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Home</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
 
+<header>
+  <div class="jumbotron jumbotron-fluid mb-4 p-4">
+  	<div class="container">
+    <h1 class="display-4"><a href="{{ site.url }}" class="card-link">{{ site.title | escape }}</a></h1>
+    <p class="lead">Welcome to our Documentation portal.</p>
+  </div>
+</div>
 </header>
