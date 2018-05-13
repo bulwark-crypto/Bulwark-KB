@@ -4,4 +4,6 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap-material-design';
 import './main.scss';
-$('body').bootstrapMaterialDesign();
+$( document ).ready(function() {
+    $('body').bootstrapMaterialDesign();
+});
