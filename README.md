@@ -8,17 +8,17 @@ File names must follow the `YYYY-MM-DD-title.markdown` format.
 
 Before you start, install the dependencies:
 ```
-bundle install
+bundle install && npm install
 ```
 
 To build the site, run
 ```
-jekyll build
+webpack && jekyll build
 ```
 
 To build the site and start a local webserver, run
 ```
-bundle exec jekyll serve
+webpack && bundle exec jekyll serve
 ```
 
 The site can then be previewed locally on http://127.0.0.1:4000/
