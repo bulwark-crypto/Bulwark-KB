@@ -31,18 +31,20 @@ layout: default
 {% else %}
 
   <!-- Pagination is not active -->
+  <di class="category-title">
   <h1>Category index for &ldquo;{{ page.title }}&rdquo;</h1>
+  </div>
 
   <section>
     <!-- Show excerpts for all posts in this category -->
 
-    <ul class="list-group">
-          {% for post in page.posts %}
-              <li class="list-group-item">
-                <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-              </li>
-          {% endfor %}
-        </ul>
-  </section>
+<div class="card border">
+  <ul class="list-group">
+    {% for post in page.posts %}
+      <li class="list-group-item"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+</section>
 
 {% endif %}
