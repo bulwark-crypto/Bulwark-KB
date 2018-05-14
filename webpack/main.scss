@@ -1,10 +1,4 @@
-$body-bg: #fff;
-
-$theme-colors: (
-  "primary": #0074d9,
-  "danger": #ff4136
-);
-
+@import "colors";
 @import "~bootstrap-material-design/scss/bootstrap-material-design.scss";
 
 /* Custom Sass/CSS goes below this line */
@@ -25,28 +19,4 @@ $theme-colors: (
 	padding-left:11%;
 	padding-right:11%;
 	position:flex;
-}
-
-.card {
- border-radius:3px;
-}
-
-.footer {
-  margin: auto;
-  max-width: 1100px;
-}
-
-.jumbotron {
-   background-color: none;
-}
-
-.navbar-brand {
-}
-
-.article-index {
-  float:left;
-}
-
-.article-body{
-  float:right;
 }
