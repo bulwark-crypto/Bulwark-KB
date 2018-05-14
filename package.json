@@ -29,6 +29,7 @@
     "body-parser": "^1.18.2",
     "bootstrap": "^4.1.1",
     "bootstrap-material-design": "^4.1.1",
+    "concurrently": "^3.5.1",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "jekyll": "^3.0.0-beta1",
@@ -52,7 +53,9 @@
     }
   ],
   "scripts": {
-    "test": "echo \"TESTING TESTING\""
+    "dependencies": "bundle install && npm install",
+    "watch": "concurrently -k -s last \"bundle exec jekyll serve\" \"webpack -w\" || true",
+    "build": "webpack && jekyll build"
   },
   "homepage": "https://bulwarkcrypto.com",
   "license": "MIT"
