@@ -19,7 +19,7 @@ layout: default
 <script id="search-results-template" type="text/mustache">
   <ul class="list-group mb-4">
   {{#entries}}
-    <a class="list-group-item list-group-item-action" href="{{url}}">{{title}}</a>
+    <li class="list-group-item list-group-item-action" href="{{url}}">{{title}}</li>
   {{/entries}}
   </ul>
 </script>
@@ -36,9 +36,9 @@ layout: default
     </div>
     <ul class="list-group list-group-flush">
           {% for post in site.categories[category_name] limit:3 %}
-                <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+                <li class="list-group-item list-group-item-action" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</li>
           {% endfor %}
-            <a class="list-group-item list-group-item-action" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">More articles...</a>
+            <li class="list-group-item list-group-item-action" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">More articles...</li>
         </ul>
   </div>
 {% endfor %}
