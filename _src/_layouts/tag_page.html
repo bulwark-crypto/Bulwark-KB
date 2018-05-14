@@ -3,7 +3,7 @@ layout: default
 ---
 <h2>{{ page.tag }}</h2>
 <ul class="list-group">
-{% for post in page.posts %}
-  <li class="list-group-item"><a class="card-link" href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+	{% for post in page.posts %}
+		<li class="list-group-item"><a class="card-link" href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
 </ul>
