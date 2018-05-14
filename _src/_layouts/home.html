@@ -6,7 +6,7 @@ layout: default
   <div class="col-lg-12">
 <form>
 <div class="form-group">
-  <label for="formGroupExampleInput" class="bmd-label-floating">Search</label>
+  <label for="formGroupExampleInput" class="bmd-label-floating">Find a Topic or Guide</label>
   <input class="form-control" type="text" id="search-query" name="q" autocomplete="off">
 </div>
 </form>
@@ -17,7 +17,7 @@ layout: default
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
-  <ul class="list-group mb-4">
+  <ul class="searchcard card card-body list-group mb-4">
   {{#entries}}
     <li class="list-group-item list-group-item-action" href="{{url}}">{{title}}</li>
   {{/entries}}
@@ -27,19 +27,21 @@ layout: default
 
 <div class="card-deck">
 {% for category in site.categories %}
-  <div class="card">
+  <div class="card border-primary">
     <div class="card-header">
       {% capture category_name %}{{ category | first }}{% endcapture %}
       <h5 class="card-title mb-0" id="#{{ category_name | slugize }}">
-        <a class="card-link" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">{{ category_name }}</a>
+        <a class="card-text" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">{{ category_name }}</a>
       </h5>
     </div>
+        <div class="card-body text-primary">
     <ul class="list-group list-group-flush">
           {% for post in site.categories[category_name] limit:3 %}
                 <li class="list-group-item list-group-item-action" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</li>
           {% endfor %}
             <li class="list-group-item list-group-item-action" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">More articles...</li>
         </ul>
+      </div>
   </div>
 {% endfor %}
 </div>

@@ -1,30 +1,49 @@
-<ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Home</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ site.url }}">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://bulwarkcrypto.com">Website</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://explorer.bulwarkcrypto.com/">Block Explorer</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Social Media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://discord.me/bulwarkcrypto">Discord</a>
+          <a class="dropdown-item" href="https://t.me/bulwarkcrypto">Telegram</a>
+          <a class="dropdown-item" href="https://twitter.com/BulwarkCoin">Twitter</a>
+          <a class="dropdown-item" href="http://facebook.com/bulwark.coin.IO/">Facebook</a>
+          <a class="dropdown-item" href="https://www.reddit.com/r/BulwarkCoin/#">Reddit</a>
+          <a class="dropdown-item" href="http://line.me/R/ti/g/jO-gyHNqN6">Line</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn-outline-primary btn my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 <header>
   <div class="jumbotron jumbotron-fluid mb-4 p-4">
-  	<div class="container">
-    <h1 class="display-4"><a href="{{ site.url }}" class="card-link">{{ site.title | escape }}</a></h1>
-    <p class="lead">Welcome to our Documentation portal.</p>
+    <div class="container">
+      <h1 class="display-3"><a href="{{ site.url }}" class="card-link">{{ site.title | escape }}</a></h1>
+      <p class="lead">Welcome to our Documentation portal.</p>
+    </div>
   </div>
-</div>
 </header>
