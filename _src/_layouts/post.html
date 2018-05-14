@@ -3,14 +3,18 @@ layout: default
 ---
 
 {% if page.toc == true %}
-<nav id="navbar" class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Index</a>
+<div class="col-md-3 article-index">
+<nav id="navbar" class="navbar navbar-light article-navbar">
   	<nav class="nav nav-pills flex-column">
   		{{ content | toc_only }}
 	</nav>
 </nav>
+</div>
 {% endif %}
 
+{% if page.toc == true %}
+<div class="col-md-9 article-body">
+{% endif %}
 <article data-spy="scroll" data-target="#navbar" data-offset="0" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -24,3 +28,6 @@ layout: default
   <a href="{{ page.url | relative_url }}" hidden></a>
   
 </article>
+{% if page.toc == true %}
+</div>
+{% endif %}
