@@ -5,12 +5,12 @@ layout: default
 {% if page.toc == true %}
 <div class="row">
 <div id="toc" class="col-md-3 article-index">
-  	{% include toc.html html=content class="sticky-top.navbar.nav.flex-column.article-navbar" item_class="nav-item" link_class="nav-link.p-0" %}
+  	{% include toc.html html=content class="sticky-top.navbar.nav.flex-column.article-navbar" item_class="nav-item" link_class="nav-link.p-0.toc-link" %}
 </div>
 
-<div class="col-md-9 article-body">
+<div class="col-md-9 article-body" style="overflow:hidden;">
 {% endif %}
-<article style="position:relative;height:100%;" data-spy="scroll" data-target="#toc" data-offset="0">
+<article>
 
   <header class="post-header">
     <h1 class="mt-0" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -26,7 +26,4 @@ layout: default
 {% if page.toc == true %}
 </div>
 </div>
-<script type="text/javascript">
-  $('article').scrollspy({ target: '#toc' });
-</script>
 {% endif %}

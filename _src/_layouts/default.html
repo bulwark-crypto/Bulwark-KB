@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
 
     {%- include header.html -%}
 
@@ -15,6 +15,7 @@
 
     {%- include footer.html -%}
 
-  </body>
+  <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
 
 </html>
