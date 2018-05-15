@@ -11,7 +11,7 @@ toc: true
 
 The VPS you plan to install your masternode on needs to have at least 1GB of RAM and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you do not use cloud hosting for your masternode.
 
-## Funding your Masternode
+## Funding your masternode
 
 * First, we will do the initial collateral TX and send exactly 5000 BWK to one of our addresses. To keep things sorted in case we setup more masternodes we will label the addresses we use.
 
@@ -28,7 +28,7 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.  
 It should take around 30 minutes if all transaction have 15 confirmations.
 
-## Installation & Setting up your Server
+## Getting everything ready
 
 Generate your Masternode Private Key
 
@@ -76,6 +76,8 @@ _masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS,
 Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
 
 Restart and unlock your wallet.
+
+## Installation
 
 SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login as root (**Please note:** It's normal that you don't see your password after typing or pasting it) and run the following command:
 
