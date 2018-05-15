@@ -23,7 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-category-pages"
   gem "jekyll-lunr-js-search"
   gem 'jekyll-tagging'
-  gem 'jekyll-toc'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
