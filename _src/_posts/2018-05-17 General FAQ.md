@@ -33,4 +33,4 @@ A: Currently, you can either use a pool like [Mining-Dutch](https://www.mining-d
 or use a Baikal x10 FPGA to mine Bulwark until we switch to Proof of Stake.
 
 Q: "I'm debating on investing in BWK or another coin, why should I choose BWK?"
-A: 
+A:
