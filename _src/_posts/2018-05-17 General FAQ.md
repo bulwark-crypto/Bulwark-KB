@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "General FAQ"
+category: "Official Information"
+tags: "FAQ, Frequently Asked Questions. Official information"
+---
+Q: What is the block time, and how many blocks are there in a day?
+
+A: The target block time is 90 seconds, which puts BWK at about 960 blocks per day.
+
+Q: Is Bulwark just a fork of PIVX?
+
+A: Bulwark is forked off of an older, more stable version of PIVX. We then hand patched it up to PIVX 2.3,
+and then backported code from Bitcoin 0.13 and DASH 12.1. A more detailed explanation is available in the Whitepaper.
+
+Q:  Does Bulwark plan to be listed on <Exchange> any time soon?
+
+A:  The Bulwark team is committed to the long-term health and stability of this project.  Major exchanges want to see novel features
+and longevity from non-ICO coins prior to listing.  Bulwark is focused on  executing in both of those areas, but we are not actively pursuing additional exchange listings at this time.
+
+Q: How many coins for a Masternode, and how do I set one up?
+
+A: 5000 Bulwark, Check out Setup Guide and associated script on our [Official Github](https://github.com/bulwark-crypto/Bulwark-MN-Install)
+
+
+Q: How much does a Bulwark Masternode make?
+
+A: Masternode profits vary on the price of the coin, what percent of rewards the nodes get, and how many are online. You can check out these websites for that information: [Masternodes.pro](https://masternodes.pro/stats/bwk) , [Masternodes.Online](https://masternodes.online/currencies/BWK/) and [MNrank.com](http://mnrank.com/)
+
+
+Q: How can i mine Bulwark?
+A: Currently, you can either use a pool like [Mining-Dutch](https://www.mining-dutch.nl/) and use their auto-convert feature to have whatever you mine paid out in Bulwark,
+or use a Baikal x10 FPGA to mine Bulwark until we switch to Proof of Stake.
+
+Q: "I'm debating on investing in BWK or another coin, why should I choose BWK?"
+A: 
