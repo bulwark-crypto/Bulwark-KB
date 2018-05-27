@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Official link compilation"
-category: Information
+category: Links
 tags:
   - Links
 ---
