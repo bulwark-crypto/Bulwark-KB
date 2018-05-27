@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Social media pages"
-category: Information
+category: Links
 tags:
   - Links
 ---
