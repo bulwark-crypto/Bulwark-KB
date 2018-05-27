@@ -1,10 +1,9 @@
 # Bulwark-Docs
 
-Postings are located in `_src/_posts`.  
+Postings are located in `_src/_posts`.
 File names must follow the `YYYY-MM-DD-title.markdown` format.
 
-[Jekyll](https://jekyllrb.com) needs to be installed.  
-  [Windows Installation Guide](https://jekyllrb.com/docs/windows/) / [Linux & Mac Installation Guide](https://jekyllrb.com/docs/installation/)
+[Node.js](https://nodejs.org/en/) and [Ruby](https://www.ruby-lang.org/de/) need to be installed.  
 
 Before you start, install the dependencies:
 ```
