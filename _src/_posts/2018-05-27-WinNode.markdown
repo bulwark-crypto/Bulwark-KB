@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Running a Masternode on Windows"
+title:  "Masternodes on Windows"
 category: Guides
 tags:
   - Guides
