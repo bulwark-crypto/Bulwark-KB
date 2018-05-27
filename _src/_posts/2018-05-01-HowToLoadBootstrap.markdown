@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Instructions for loading a Bootstrap"
+title:  "Loading a Bootstrap"
 category: Guides
 tags:
   - Wallet
