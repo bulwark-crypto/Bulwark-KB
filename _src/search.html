@@ -6,13 +6,11 @@ layout: default
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
+  <ul class="searchcard card card-body list-group mb-4">
   {{#entries}}
-    <article>
-      <h3>
-        <a href="{{url}}">{{title}}</a>
-      </h3>
-    </article>
+    <li class="list-group-item list-group-item-action"><a href="{{url}}">{{title}}</a></li>
   {{/entries}}
+  </ul>
 </script>
 {% endraw %}
 
