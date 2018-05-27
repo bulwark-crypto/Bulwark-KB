@@ -32,7 +32,7 @@ layout: default
         <div class="card-header">
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <h5 class="card-title mb-2" id="#{{ category_name | slugize }}">
-        <a class="card-text" href="/category/{{ category_name }}" name="{{ category_name | slugize }}">{{ category_name }}</a>
+        <a class="card-text" href="/category/{{ category_name }}/" name="{{ category_name | slugize }}">{{ category_name }}</a>
         </h5>
       </div>
       <div class="card-body text-primary">
