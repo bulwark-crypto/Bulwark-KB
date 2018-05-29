@@ -2,9 +2,7 @@ _site
 _src/assets/bundle.js
 .jekyll-metadata
 .sass-cache
-Gemfile.lock
 node_modules
-package-lock.json
 public
 
 \.DS_Store
