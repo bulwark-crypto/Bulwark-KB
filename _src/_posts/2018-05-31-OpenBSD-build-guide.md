@@ -3,7 +3,7 @@ layout: post
 title:  "OpenBSD build guide"
 category: Guides
 tags:
-	- Build
+  - Build
   - Wallet
   - OpenBSD
 toc: true

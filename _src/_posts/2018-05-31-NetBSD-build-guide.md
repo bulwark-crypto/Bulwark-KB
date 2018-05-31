@@ -3,7 +3,7 @@ layout: post
 title:  "NetBSD build guide"
 category: Guides
 tags:
-	- Build
+  - Build
   - Wallet
   - NetBSD
 toc: true

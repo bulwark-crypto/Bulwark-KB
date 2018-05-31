@@ -3,7 +3,7 @@ layout: post
 title:  "Windows Build Guide"
 category: Guides
 tags:
-	- Build
+  - Build
   - Wallet
   - Windows
 toc: true

@@ -3,7 +3,7 @@ layout: post
 title:  "SwiftTX Technical Information"
 category: Information
 tags:
-	- SwiftTX
+  - SwiftTX
 toc: true
 ---
 
