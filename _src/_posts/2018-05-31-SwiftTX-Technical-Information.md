@@ -7,8 +7,6 @@ tags:
 toc: true
 ---
 
-## SwiftTX Technical Information
-
 SwiftTX has been integrated into the Core Daemon in two ways:
 * "push" notifications (ZMQ and `-swifttxnotify` cmd-line/config option);
 * RPC commands.
@@ -21,10 +19,10 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-Bulwark which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/bulwark-crypto/insight-api-bulwark#web-socket-api](https://github.com/bulwark-crypto/insight-api-bulwark#web-socket-api) 
-* API: [https://github.com/bulwark-crypto/insight-api-bulwark#swifttx-transactions](https://github.com/bulwark-crypto/insight-api-bulwark#swifttx-transactions) 
+* WebSocket: [https://github.com/bulwark-crypto/insight-api-bulwark#web-socket-api](https://github.com/bulwark-crypto/insight-api-bulwark#web-socket-api)
+* API: [https://github.com/bulwark-crypto/insight-api-bulwark#swifttx-transactions](https://github.com/bulwark-crypto/insight-api-bulwark#swifttx-transactions)
 
-####Command line option
+### Command line option
 
 When a wallet SwiftTX transaction is successfully locked a shell command provided in this option is executed (`%s` in `<cmd>` is replaced by TxID):
 

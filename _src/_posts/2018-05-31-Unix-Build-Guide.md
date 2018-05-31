@@ -9,12 +9,8 @@ tags:
 toc: true
 ---
 
-## Unix Build Guide
+### Before you start
 
-Some notes on how to build Bulwark in Unix.
-
-Note
----------------------
 Always use absolute paths to configure and compile bulwark and the dependencies,
 for example, when specifying the the path of the dependency:
 
@@ -23,8 +19,8 @@ for example, when specifying the the path of the dependency:
 Here BDB_PREFIX must absolute path - it is defined using $(pwd) which ensures
 the usage of the absolute path.
 
-To Build
----------------------
+## To Build
+
 
 ```bash
 ./autogen.sh
@@ -56,14 +52,14 @@ Optional dependencies:
 
 For the versions used in the release, see [release-process.md](release-process.md) under *Fetch and build inputs*.
 
-System requirements
---------------------
+## System requirements
+
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
 memory available when compiling Bulwark Core. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
-## Dependency Build Instructions: Ubuntu & Debian
+## Dependency Build Instructions
 
 Build requirements:
 
@@ -90,7 +86,7 @@ Optional:
 
 	sudo apt-get install libminiupnpc-dev (see --with-miniupnpc and --enable-upnp-default)
 
-## Dependencies for the GUI: Ubuntu & Debian
+## Dependencies for the GUI
 
 If you want to build Bulwark-Qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
@@ -108,14 +104,14 @@ libqrencode (optional) can be installed with:
 Once these are installed, they will be found by configure and a bulwark-qt executable will be
 built by default.
 
-Notes
------
+## Notes
+
 The release is built with GCC and then "strip bulwarkd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
-miniupnpc
----------
+### miniupnpc
+
 
 [miniupnpc](http://miniupnp.free.fr/) may be used for UPnP port mapping.  It can be downloaded from [here](
 http://miniupnp.tuxfamily.org/files/).  UPnP support is compiled in and
@@ -134,7 +130,7 @@ To build:
 	make install
 
 
-## Berkeley DB
+### Berkeley DB
 
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
@@ -164,8 +160,8 @@ cd $Bulwark_ROOT
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Boost
------
+### Boost
+
 If you need to build Boost yourself:
 
 	sudo su
@@ -173,13 +169,13 @@ If you need to build Boost yourself:
 	./bjam install
 
 
-## Security
+### Security
 
 To help make your Bulwark installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
-## Hardening Flags:
+### Hardening Flags
 
 	./configure --enable-hardening
 	./configure --disable-hardening

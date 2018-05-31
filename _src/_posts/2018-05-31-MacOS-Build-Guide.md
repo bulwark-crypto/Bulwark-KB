@@ -6,122 +6,83 @@ tags:
   - Build
   - Wallet
   - MacOS
-toc: true
 ---
 
-## MacOS Build Guide
+**BEFORE YOU START:** Please back up your wallet.dat file. While I'm pretty sure that this will in no way affect your wallet, it's always better to have a backup, and I'm not responsible for any loss of Bulwark or sanity on your part.
 
-This guide will show you how to build bulwarkd (headless client) for OSX.
+## How to compile Bulwark
 
-## Notes
+First off, you need to install XCode from the App Store and [Homebrew](https://brew.sh/index_de.html) - we're also gonna use a shell, by default this is in /Applications/Utilities/Terminal.app - everything you do here will run and then return you back to your input prompt - **don't start a new command before the previous one has finished!**
 
-* Tested on OS X 10.7 through 10.10 on 64-bit Intel processors only.
+**Note:** If you already have homebrew installed, make sure you uninstall boost first! We need version 1.57 to compile the wallet. If you don't know what that means, just ignore this sentence and continue on. :)
 
-* All of the commands should be executed in a Terminal application. The
-built-in one is located in `/Applications/Utilities`.
+After you install XCode, start a shell and install Homebrew:
 
-## Preparation
+```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-You need to install XCode with all the options checked so that the compiler
-and everything is available in /usr not just /Developer. XCode should be
-available on your OS X installation media, but if not, you can get the
-current version from https://developer.apple.com/xcode/. If you install
-Xcode 4.3 or later, you'll need to install its command line tools. This can
-be done in `Xcode > Preferences > Downloads > Components` and generally must
-be re-done or updated every time Xcode is updated.
+Homebrew is like an App Store for your command line, and allows us to install various Unix tools that we're going to need. Just follow the instructions on the screen and you'll be good. Once you're done, we need to install some stuff:
 
-There's also an assumption that you already have `git` installed. If
-not, it's the path of least resistance to install [Github for Mac](https://mac.github.com/)
-(OS X 10.7+) or
-[Git for OS X](https://code.google.com/p/git-osx-installer/). It is also
-available via Homebrew.
+```brew install autoconf automake berkeley-db@4 boost@1.57 git libevent libtool miniupnpc openssl pkg-config protobuf qt zeromq librsvg```
 
-You will also need to install [Homebrew](http://brew.sh) in order to install library
-dependencies.
+We need a specific version of boost to build the current Bulwark wallet, and now that it's installed, we need to link it:
 
-The installation of the actual dependencies is covered in the Instructions
-sections below.
+```brew link boost@1.57 --force```
 
-## Instructions: Homebrew
+Now we're going to switch into your Downloads folder:
 
-Install dependencies using Homebrew
+```cd ~/Downloads```
 
-        brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+The next step is to download the current version of the wallet from Github and go into that directory:
 
-Building `bulwarkd`
+```
+git clone https://github.com/bulwark-crypto/Bulwark.git
+cd Bulwark
+```
 
-1. Clone the github tree to get the source code and go into the directory.
+We're in the Bulwark directory now, before we can build our wallet, we need to set some configuration flags:
 
-        git clone https://FIXME_EATBATTERYS
-        cd Bulwark
+```export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include```
 
-2.  Build bulwarkd:
+Then we autogen some additonal files...
 
-        ./autogen.sh
-        ./configure --with-gui=qt5
-        make
+```./autogen.sh```
 
-3.  It is also a good idea to build and run the unit tests:
+...configure everything (*note the dot and slash at the beginning of the line!*)...
 
-        make check
+```./configure```
 
-4.  (Optional) You can also install bulwarkd to your path:
+...and finally build our wallet (this is gonna take a while):
 
-        make install
+```make```
 
-## Use Qt Creator as IDE
+If you want to use Bulwark as a regular macOS app, continue with "How to get a Bulwark-QT App". If, for whatever reason, you prefer to use the command line tools, continue with "How to use the command line tools".
 
-You can use Qt Creator as IDE, for debugging and for manipulating forms, etc.
-Download Qt Creator from http://www.qt.io/download/. Download the "community edition" and only install Qt Creator (uncheck the rest during the installation process).
+## How to get a Bulwark-QT App
 
-1. Make sure you installed everything through homebrew mentioned above
-2. Do a proper ./configure --with-gui=qt5 --enable-debug
-3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "bulwark-qt" as project name, enter src/qt as location
-5. Leave the file selection as it is
-6. Confirm the "summary page"
-7. In the "Projects" tab select "Manage Kits..."
-8. Select the default "Desktop" kit and select "Clang (x86 64bit in /usr/bin)" as compiler
-9. Select LLDB as debugger (you might need to set the path to your installtion)
-10. Start debugging with Qt Creator
+After `make` is finished, you can create an App bundle inside a disk image with:
 
-## Creating a release build
+```make deploy```
 
-You can ignore this section if you are building `bulwarkd` for your own use.
+Once this is done, you'll find `Bulwark-Qt.dmg` inside your Bulwark folder. Open and install as usual.
 
-bulwarkd/bulwark-cli binaries are not included in the bulwark-Qt.app bundle.
+## How to use the command line tools
 
-If you are building `bulwarkd` or `bulwark-qt` for others, your build machine should be set up
-as follows for maximum compatibility:
+Once the build is complete, switch into the *src/qt* subdirectory:
 
-All dependencies should be compiled with these flags:
+```cd src/qt```
 
- -mmacosx-version-min=10.7
- -arch x86_64
- -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+And there you have your wallet - you can start it by running:
 
-Once dependencies are compiled, see release-process.md for how the Bulwark-Qt.app
-bundle is packaged and signed to create the .dmg disk image that is distributed.
+```./bulwark-qt```
 
-## Running
+If you want to start your wallet in the future, open Terminal.app and run this command:
 
-It's now available at `./bulwarkd`, provided that you are still in the `src`
-directory. We have to first create the RPC configuration file, though.
+```~/Downloads/Bulwark/src/qt/bulwark-qt```
 
-Run `./bulwarkd` to get the filename where it should be put, or just try these
-commands:
+## FAQ
 
-    echo -e "rpcuser=bulwarkrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bulwark/bulwark.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Bulwark/bulwark.conf"
+**Q:** I get the error "Assertion failed" ?
 
-The next time you run it, it will start downloading the blockchain, but it won't
-output anything while it's doing this. This process may take several hours;
-you can monitor its process by looking at the debug.log file, like this:
+**A:** You need to start your wallet with -forcestart: `./bulwark-qt -forcestart`
 
-    tail -f $HOME/Library/Application\ Support/Bulwark/debug.log
-
-## Other commands:
-
-    ./bulwarkd -daemon # to start the bulwark daemon.
-    ./bulwark-cli --help  # for a list of command-line options.
-    ./bulwark-cli help    # When the daemon is running, to get a list of RPC commands
+Good luck! - kewagi
