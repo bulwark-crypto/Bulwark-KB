@@ -34,10 +34,7 @@ Now we're going to switch into your Downloads folder:
 
 The next step is to download the current version of the wallet from Github and go into that directory:
 
-```
-git clone https://github.com/bulwark-crypto/Bulwark.git
-cd Bulwark
-```
+```git clone https://github.com/bulwark-crypto/Bulwark.git && cd Bulwark```
 
 We're in the Bulwark directory now, before we can build our wallet, we need to set some configuration flags:
 
