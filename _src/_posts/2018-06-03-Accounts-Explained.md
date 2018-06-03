@@ -7,8 +7,6 @@ tags:
 toc: true
 ---
 
-# Accounts Explained
-
 Think about what happens when you give a bank teller some cash and ask that it be deposited into your account. You tell them your account number, and they credit your account with that amount of money.
 
 The money itself is mixed up with all of the other money in the bank, and is given out to other customers with other account numbers.

@@ -9,8 +9,6 @@ toc: true
 
 The data directory is the location where PIVX's data files are stored, including the wallet data file.
 
-# Default Data Locations
-
 ## Windows 
 
 Go to Start -> Run (or press WinKey+R) and run this:

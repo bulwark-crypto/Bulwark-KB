@@ -7,9 +7,7 @@ tags:
 toc: true
 ---
 
-Bulwark API call list
-
-# Common operations 
+## Common operations 
 
 ## Listing my Bulwark addresses 
 
