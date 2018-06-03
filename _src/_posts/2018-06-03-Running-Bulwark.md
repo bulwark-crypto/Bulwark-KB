@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Running Bulwark"
-category: Guide
+category: Guides
 tags:
   - Wallet
 toc: true

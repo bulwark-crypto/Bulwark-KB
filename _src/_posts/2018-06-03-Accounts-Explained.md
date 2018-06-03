@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Accounts Explained"
-category: Guide
+category: Guides
 tags:
   - Wallet
 toc: true
@@ -15,11 +15,11 @@ With the Bitcoin "accounts" feature, you are the bank. The balance you see is th
 
 When you receive bitcoins, they are always assigned to one of your accounts, and you can change which account is credited based on which bitcoin address receives the coins, just like you tell a bank teller which account to credit when you deposit cash in your bank. However, sending bitcoins is like withdrawing cash from the bank; the coins that are sent out and debited from an account are almost always not the same coins that were deposited into that account.
 
-# Accounts 
+# Accounts
 
 Bitcoin version 0.3.18 and later implements several RPC methods to maintain separate account balances in a single Bitcoin wallet.  The accounts feature makes it easy to keep track of how much money you have received from different sources or to keep track of how much money you have spent on different things.
 
-# Account Weaknesses 
+# Account Weaknesses
 
 Since the accounts feature was introduced, several services have used it to keep track of customer's bitcoin balances and have had the following problems:
 
@@ -27,17 +27,17 @@ Since the accounts feature was introduced, several services have used it to keep
 * The accounts code does not scale up to thousands of accounts with tens of thousands of transactions, because by-account (and by-account-by-time) indices are not implemented. So many operations (like computing an account balance) require accessing every wallet transaction.
 * Most applications already have a customer database, implemented with MySQL or some other relational database technology. It is awkward at best to keep the bitcoin-maintained Berkely DB wallet database and the application database backed up and synchronized at all times.
 
-# Account Names 
+# Account Names
 
 Accounts are named with arbitrary strings; you may use any [JSON](http://www.json.org/) string other than "*" (JSON strings are sent and returned as UTF-8 encoded Unicode).
 
 Bitcoin creates two accounts automatically:  it implicitly creates a default account with the empty string as its name, and it explicitly creates an account named '''Your Address''' when a new wallet is created.
 
-# The Default Account 
+# The Default Account
 
 The default account is named with the empty string ("" in JSON).  Generated coins are always credited to the default account, and the ''sendtoaddress'' method always debits the default account.
 
-# Accounts and Receiving Addresses 
+# Accounts and Receiving Addresses
 
 Each account is associated with zero or more receiving addresses, and every receiving address is associated with exactly one account.  Coins sent to a receiving address in the wallet are credited to the associated account.
 
@@ -51,7 +51,7 @@ Accounts are associated with receiving addresses by using the ''getaccountaddres
 
 Use the ''getaddressesbyaccount'' method to list all addresses associated with an account.
 
-# Sending 
+# Sending
 
 The ''sendfrom'' method sends coins and debits the specified account.  It does     *not    * change Bitcoin's algorithm for selecting which coins in the wallet are sent-- you should think of the coins in the wallet as being mixed together when they are received.  There is no way to ask Bitcoin to "create a payment transaction using the coins received from these previously received transactions" without using the raw transactions API(which is not part of the account system.)
 
@@ -73,7 +73,7 @@ The send will fail if the account has insufficient funds, with two exceptions:
     'foo' contains 10 bitcoins, you ''sendfrom foo 15VjRaDX9zpbA8LVnbrCAFzrVzN7ixHNsC 10'',
     and the transaction costs 0.01, 'foo's balance will be -0.01 bitcoins.
 
-# Account -> Account Transfers 
+# Account -> Account Transfers
 
 Use the ''move'' method to transfer balances from one account to another. Moves are not broadcast to the network, and never incur transaction fees; they just adjust account balances in the wallet.
 
@@ -83,7 +83,7 @@ The ''getbalance'' method returns the bitcoin balance for either the entire wall
 
 The ''listtransactions <account> [method returns the last N (default 10) transactions that affected the account's balance.  "listtransactions '*' [N](N]'')" will return the last N transactions for all accounts.
 
-# Typical Uses 
+# Typical Uses
 
 This section describes how typical web site code running on a web server uses the JSON-RPC API to keep track of customers' accounts.
 
