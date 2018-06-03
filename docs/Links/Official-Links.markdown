@@ -14,9 +14,9 @@
 
 * Third Party Block Explorers:
 
-  * [Altmix](https://altmix.org/coins/10-Bulwark)
+    * [Altmix](https://altmix.org/coins/10-Bulwark)
 
-  * [JABE](http://jabe.network:3001/)
+    * [JABE](http://jabe.network:3001/)
 
 * [Bulwark Blog](https://bulwarkcrypto.com/blog/)
 
@@ -28,8 +28,8 @@
 
 * Mining Calculators:
 
-  * [Bulwark Calc](http://bulwarkcalc.online/)
+    * [Bulwark Calc](http://bulwarkcalc.online/)
 
-  * [Crypt0 Zone](https://crypt0.zone/calculator)
+    * [Crypt0 Zone](https://crypt0.zone/calculator)
 
 * [Bulwark CoinMarketCap Page](https://coinmarketcap.com/currencies/bulwark/)
