@@ -1,8 +1,2 @@
-_site
-_src/assets/bundle.js
-.jekyll-metadata
-.sass-cache
-node_modules
-public
-
 \.DS_Store
+.sass-cache
