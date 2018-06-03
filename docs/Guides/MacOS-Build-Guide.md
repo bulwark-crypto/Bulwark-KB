@@ -68,8 +68,6 @@ If you want to start your wallet in the future, open Terminal.app and run this c
 
 ## FAQ
 
-**Q:** I get the error "Assertion failed" ?
+##### **Q:** I get the error "Assertion failed" ?
 
 **A:** You need to start your wallet with -forcestart: `./bulwark-qt -forcestart`
-
-Good luck! - kewagi
