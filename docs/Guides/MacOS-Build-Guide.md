@@ -2,7 +2,7 @@
 
 ## How to compile Bulwark
 
-First off, you need to install XCode from the App Store and [Homebrew](https://brew.sh/index_de.html) - we're also gonna use a shell, by default this is in /Applications/Utilities/Terminal.app - everything you do here will run and then return you back to your input prompt - **don't start a new command before the previous one has finished!**
+First off, you need to install [Homebrew](https://brew.sh/index_de.html) - we're also gonna use a shell, by default this is in /Applications/Utilities/Terminal.app - everything you do here will run and then return you back to your input prompt - **don't start a new command before the previous one has finished!**
 
 **Note:** If you already have homebrew installed, make sure you uninstall boost first! We need version 1.57 to compile the wallet. If you don't know what that means, just ignore this sentence and continue on. :)
 
