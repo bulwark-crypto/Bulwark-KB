@@ -18,7 +18,7 @@ A: Bulwark is forked off of an older, more stable version of PIVX. We then hand 
 
 ##### Q: What will this coin have that other PIVX/DASH clones don't have?
 
-A: Tool Box, Home Node, Zerocoin, and tox integration. There are quite a few things that the majority of forks don't have that we will and that's only what we've announced to date. We'd like to focus on integrating some of these updates before announcing any additional plans.
+A: Tool Box, Home Node and Zerocoin.  There are quite a few things that the majority of forks don't have that we will and that's only what we've announced to date. We'd like to focus on integrating some of these updates before announcing any additional plans.
 
 ##### Q: What is Obfuscation?
 
