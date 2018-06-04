@@ -55,4 +55,4 @@ Second, open up a “New Issue” and supply as much info as you can. Informatio
 
 ##### Q: My wallet says staking is not active? Is this fixable?
 
-A: Staking will not be available untill block 182,700.
+A: Staking will not be available until block 182,700.
