@@ -6,11 +6,11 @@ To help you with the installation of your Secure Home Node, we have created a vi
 
 [Part 1](https://www.youtube.com/watch?v=GGQz9hNGbKg) explains how to connect your Secure Home node to your network.
 
-[![Bulwark Secure Home Node Guide Part 1](https://img.youtube.com/vi/GGQz9hNGbKg/0.jpg)](https://www.youtube.com/watch?v=GGQz9hNGbKg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GGQz9hNGbKg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [Part 2](https://www.youtube.com/watch?v=zraHnU-Phak) shows you how to install and activate your Secure Home Node.
 
-[![Bulwark Secure Home Node Guide Part 2](https://img.youtube.com/vi/zraHnU-Phak/0.jpg)](https://www.youtube.com/watch?v=zraHnU-Phak)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zraHnU-Phak?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Requirements
 To connect your node, you need either a network router with a free RJ-45 port and an ethernet cable or a router running a 2.4Ghz Wi-fi network. If you want to connect via Wi-fi, you will also need either a monitor that supports HDMI (along with a HDMI cable) and a keyboard, or a microSD card reader that works with your computer.
