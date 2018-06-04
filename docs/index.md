@@ -1,7 +1,7 @@
 Welcome
 ======
 
-![Bulwark Knowledgebase](https://images-na.ssl-images-amazon.com/images/I/91lqqtRNttL._SY355_.jpg "Bulwark Knowledgebase")
+![Bulwark Knowledgebase](assets/images/intro_animated.svg "Bulwark Knowledgebase")
 
 Welcome to the Bulwark Knowledgebase!
 
