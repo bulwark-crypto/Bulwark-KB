@@ -14,7 +14,7 @@ A: One of our discord members set up a [calculator](http://bulwarkcalc.online/) 
 
 ##### Q: What pool should I use?
 
-A: We have a list of mining pools below. It’s up to you on what pool you would like to mine on. (We do not have any recommended pool.)
+A: We have a list of mining pools below. It’s up to you on what pool you would like to mine on. (We do not have a recommended pool.)
 
 
 **Mining Pool List:**
