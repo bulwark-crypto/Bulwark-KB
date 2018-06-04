@@ -14,4 +14,58 @@ A: One of our discord members set up a [calculator](http://bulwarkcalc.online/) 
 
 ##### Q: What pool should I use?
 
-A: We have a list of mining pools in our #mining-info channel. It’s up to you on what pool you would like to mine on.
+A: We have a list of mining pools below. It’s up to you on what pool you would like to mine on. (We do not have a recommended pool.)
+
+
+**Mining Pool List:**
+
+* **EU POOLS:**
+
+http://yiimp.poolofd32th.club/
+
+http://bsod.pw/
+
+https://mining-dutch.nl/
+
+https://www.omegapool.cc/
+
+https://umine.org/
+
+http://antminepool.com/ 
+
+https://fairmine.pro/ 
+
+https://www.lycheebit.com/ 
+
+http://zergpool.com/
+
+https://www.unimining.net/ 
+
+http://poolovich.pro/ 
+
+https://cvmpool.pw/ 
+
+https://ourpool.net/ 
+
+http://clutzykid.com/ 
+
+* **US POOLS:**
+
+https://pool.masterhash.us/ 
+
+https://poolr.io/ 
+
+https://cryptopool.party/ 
+
+http://bsod.pw/ 
+
+https://pool.coin-miners.info/ 
+
+https://titan-mining.net/ 
+
+
+* **ASIA POOLS:**
+
+https://asiapool.trade/ 
+
+http://bsod.pw/ 

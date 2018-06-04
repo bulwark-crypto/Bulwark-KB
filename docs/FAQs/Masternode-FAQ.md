@@ -2,7 +2,7 @@
 
 ##### Q: How many coins for a Masternode, and how do I set one up?
 
-A: 5000 BWK, Check out the pinned messages on #masternodes for a setup guide from our developer Stu.
+A: You will need a total of 5000 BWK. Follow this [Guide](https://github.com/bulwark-crypto/Bulwark-MN-Install) to set one up.
 
 ##### Q: What is a shared Masternode, and how do I get in one?
 
@@ -11,9 +11,9 @@ A: Users can pool their funds to gather up the 5000 BWK required to operate a ma
 ##### Q: How much does a Bulwark Masternode make?
 
 A: Masternode profits vary on the price of the coin, what percent of rewards the nodes get, and how many are online. You can check out these websites for that information:
-* [https://masternodes.pro/stats/bwk](Masternodes Pro)
-* [https://masternodes.online/currencies/BWK/](Masternodes Online)
-* [http://mnrank.com/](MNRank)
+* [Masternodes Pro](https://masternodes.pro/stats/bwk)
+* [Masternodes Online](https://masternodes.online/currencies/BWK/)
+* [MnRank](http://mnrank.com/)
 
 ##### Q: Is my Masternode running?
 
@@ -21,4 +21,4 @@ A: A good way to check to see if your masternode is running is to make sure it s
 
 ##### Q: How long does it take to get your first Masternode reward?
 
-A: It can take upwards of 30 hours to receive your first Masternode reward after it's fully activated, which takes 24 hours. The times will increase overtime, as more Masternodes come online.
+A: The first Masternode reward can take up to 24 plus the average Masternode reward time. The average reward time can be found on Masternode statistic sites such as [Masternodes Online](https://masternodes.online/currencies/BWK/) for example.
