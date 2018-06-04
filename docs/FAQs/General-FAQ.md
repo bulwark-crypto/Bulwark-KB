@@ -34,7 +34,7 @@ A: Masternodes are able to instantaneously validate and confirm transactions bef
 
 ##### Q: 10% community fund!? What is this?!
 
-A: This is a fund that is set aside and starts at the end of Year 1 or block 345,600. Masternode operators will be able to vote on budget proposals and dictate fund allocation. This system is hard-coded and puts the future of Bulwark into the hands of the community and encourages engagement.
+A: This is a fund that will be set aside  after the end of year 1 or block 345,600. Masternode operators will be able to vote on budget proposals and dictate fund allocation. This system is hard-coded and puts the future of Bulwark into the hands of the community and encourages engagement.
 
 ##### Q: How does this “See-Saw” system work?
 
