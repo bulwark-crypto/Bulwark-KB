@@ -2,11 +2,11 @@
 
 ##### Q: What is the block time, and how many blocks are there in a day?
 
-A: The target block time is 90 seconds, which puts BWK at about 960 blocks per day
+A: The target block time is 90 seconds, which puts BWK at about 960 blocks per day.
 
 ##### Q: How long does Proof of Work/Mining last for?
 
-A: This phase lasts for about 1 year, or until block 345,600.
+A: PoW will end with block 182700.
 
 ##### Q: Where can I download the Bulwark wallet?
 
