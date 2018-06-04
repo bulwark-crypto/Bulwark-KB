@@ -14,7 +14,7 @@ A: From the Official [Bulwark Github page](https://github.com/bulwark-crypto/Bul
 
 ##### Q: Is Bulwark just a fork of PIVX?
 
-A: Bulwark is forked off of an older, more stable version of PIVX. We then hand patched it up to PIVX 2.3, and then backported code from Bitcoin 0.13 and DASH 12.1. More information will be available in the Whitepaper.
+A: Bulwark is forked off of an older, more stable version of PIVX. We then hand patched it up to PIVX 2.3, and then backported code from Bitcoin 0.13 and DASH 12.1. More information is available in the [Whitepaper](https://bulwarkcrypto.com/whitepaper).
 
 ##### Q: What will this coin have that other PIVX/DASH clones don't have?
 
@@ -34,7 +34,7 @@ A: Masternodes are able to instantaneously validate and confirm transactions bef
 
 ##### Q: 10% community fund!? What is this?!
 
-A: This is a fund that is set aside as we hit Proof of Stake. Masternode operators will be able to vote on budget proposals and dictate fund allocation. This system is hard-coded and puts the future of Bulwark into the hands of the community and encourages engagement.
+A: This is a fund that is set aside and starts at the end of Year 1 or block 345,600. Masternode operators will be able to vote on budget proposals and dictate fund allocation. This system is hard-coded and puts the future of Bulwark into the hands of the community and encourages engagement.
 
 ##### Q: How does this “See-Saw” system work?
 
