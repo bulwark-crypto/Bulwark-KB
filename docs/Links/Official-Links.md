@@ -19,6 +19,10 @@
     * [Altmix](https://altmix.org/coins/10-Bulwark)
 
     * [JABE](http://jabe.network:3001/)
+    
+    * [CCORE](https://bwk.ccore.online/)
+    
+    * [POOLR](https://poolr.io/explorer/BWK)
 
 * [Bulwark Blog](https://bulwarkcrypto.com/blog/)
 
