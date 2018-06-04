@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Bulwark knowledge base
+site_name: Bulwark Knowledgebase
 site_description: A repository for information regarding the Bulwark Cryptocurrency project.
 site_author: Bulwark Cryptocurrency
 site_url: http://kb.bulwarkcrypto.com
@@ -91,8 +91,8 @@ theme:
     primary: indigo
     accent: indigo
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Source Sans Pro
+    code: Source Code Pro
   favicon: assets/images/favicon.png
   logo: assets/images/bulwark.png
 
