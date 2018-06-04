@@ -1,3 +1,5 @@
+# Masternode Commands
+
 `systemctl start bulwarkd`
 \- Starts the Bulwark Daemon
 

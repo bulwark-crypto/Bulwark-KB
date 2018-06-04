@@ -1,4 +1,4 @@
-## NetBSD build guide
+# NetBSD Build Guide
 
 (updated for NetBSD 7.0)
 

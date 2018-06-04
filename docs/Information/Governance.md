@@ -1,3 +1,5 @@
+# Governance
+
 We will utilize a multi-phase process for creating and submitting proposals. Each step will need to be fully completed. Failure to complete the steps outlined will likely result in a proposal not being activated. A basic outline of these steps are as follows:
 
 * Start in our Discord chat, and talk with some of the seasoned users. Gauge interest and if the response is positive, move to the next phase.

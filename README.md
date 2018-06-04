@@ -54,4 +54,10 @@ INFO    -  Cleaning site directory
 ```
 
 Open up `http://127.0.0.1:8000/` in your browser, and you'll see the default
-home page being displayed:
+home page being displayed.
+
+To grab a list of documents for the page index, run this in the docs directory:
+
+```bash
+for file in `find *`; do if [ -f $file ]; then echo "- '$file': '$file'"; fi; done
+```

@@ -1,3 +1,5 @@
+# macOS Build Guide
+
 **BEFORE YOU START:** Please back up your wallet.dat file. While I'm pretty sure that this will in no way affect your wallet, it's always better to have a backup, and I'm not responsible for any loss of Bulwark or sanity on your part.
 
 ## How to compile Bulwark

@@ -1,3 +1,5 @@
+# Staking FAQ
+
 ##### Q: When does staking begin?
 
 A: Staking begins on block 182700, the 1st block to be rewarded to a staker will be block 182701.

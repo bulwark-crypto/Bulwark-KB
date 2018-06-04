@@ -1,3 +1,5 @@
+# SwiftTX Technological Information
+
 SwiftTX has been integrated into the Core Daemon in two ways:
 * "push" notifications (ZMQ and `-swifttxnotify` cmd-line/config option);
 * RPC commands.

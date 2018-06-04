@@ -1,3 +1,5 @@
+# Masternode FAQ 
+
 ##### Q: How many coins for a Masternode, and how do I set one up?
 
 A: 5000 BWK, Check out the pinned messages on #masternodes for a setup guide from our developer Stu.

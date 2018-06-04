@@ -1,3 +1,5 @@
+# General FAQ
+
 ##### Q: What is the block time, and how many blocks are there in a day?
 
 A: The target block time is 90 seconds, which puts BWK at about 960 blocks per day

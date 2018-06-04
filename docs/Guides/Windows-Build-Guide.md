@@ -1,3 +1,5 @@
+# Windows Build Guide
+
 Below are some notes on how to build Bitcoin Core for Windows.
 
 The options known to work for building Bitcoin Core on Windows are:

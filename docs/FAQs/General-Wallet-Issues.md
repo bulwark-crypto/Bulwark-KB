@@ -1,3 +1,5 @@
+# General Wallet Issues
+
 1. Make sure you are running the latest wallet version from  [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases)  and your wallet is closed.
 2. Now you head over to the Bulwark folder (How to do that is guided below)
 3. Delete all files except `wallet.dat, bulwark.conf, masternode.conf and the backups folder.`

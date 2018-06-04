@@ -1,3 +1,5 @@
+# Masternode Issues
+
 All commands are assuming you are running your Masternode on an Ubuntu Linux 16.04 VPS. Running a MN locally on a Windows or Mac PC, while possible, is not officially supported, mostly for security purposes.
 
 #### To check your masternode is active and working:

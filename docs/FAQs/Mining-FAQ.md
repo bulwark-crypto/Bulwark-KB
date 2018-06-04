@@ -1,3 +1,5 @@
+# Mining FAQ
+
 ##### Q: What Miner do I need for Bulwark?
 
 A: For Nvidia, use [CCMiner Alexis-78](http://ccminer.org/preview/ccminer-hsr-alexis-x86-cuda8.7z). For AMD, use [SGMiner 5.6.1](https://github.com/nicehash/sgminer/releases/tag/5.6.1).

@@ -1,4 +1,6 @@
-### Before you start
+# Linux Build Guide
+
+## Before you start
 
 Always use absolute paths to configure and compile bulwark and the dependencies,
 for example, when specifying the the path of the dependency:

@@ -1,3 +1,5 @@
+# Running Bulwark
+
 There are two variations of the bulwark program available; one with a graphical user interface (usually referred to as just bulwark), and a 'headless' version (called [They are completely compatible with each other, and take the same command-line arguments, read the same configuration file, and read and write the same data files. You can run one copy of either bulwark or bulwarkd on your system at a time (if you accidentally try to launch another, the copy will let you know that bulwark or bulwarkd is already running and will exit).
 
 

@@ -1,3 +1,5 @@
+# Masternode Installation
+
 ## System requirements
 
 The VPS you plan to install your masternode on needs to have at least 1GB of RAM and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you do not use cloud hosting for your masternode.
@@ -16,7 +18,7 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 
   - Once all addresses are created send 5000 BWK each to them. Ensure that you send exactly 5000 BWK and do it in a single transaction. You can double check where the coins are coming from by checking it via coin control usually, that's not an issue.
 
-As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.  
+As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.
 It should take around 30 minutes if all transaction have 15 confirmations.
 
 ## Getting everything ready
@@ -41,13 +43,13 @@ Copy both the key and output information to a text file.
 
 Close your wallet and open the Bulwark Appdata folder. Its location depends on your OS.
 
-* **Windows:** %APPDATA%\\Roaming\\Bulwark  
+* **Windows:** %APPDATA%\\Roaming\\Bulwark
 _Press Windows+R and write %appdata%_
 
-* **Linux:** ~/.bulwark/  
+* **Linux:** ~/.bulwark/
 _Navigate to the .bulwark folder in your home directory_
 
-* **macOS:** ~/Library/Application Support/Bulwark  
+* **macOS:** ~/Library/Application Support/Bulwark
 _Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
 
 In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
@@ -62,7 +64,7 @@ An example would be
 mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1sBGLALQZE1Y1K6xiqgX37tGBDQL8Xg 2bcd3c84c84f7ea86e4e56834c2927a07f9e1871810b92e0d0324456a67c 0
 ```
 
-_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.  
+_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.
 
 Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
 
@@ -76,7 +78,7 @@ SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login as root (**Plea
 bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/install.sh )
 ```
 
-When the script asks, confirm your VPS IP Address and paste your masternode key.  
+When the script asks, confirm your VPS IP Address and paste your masternode key.
 (You can copy your key and paste into the VPS if connected with Putty by right clicking)
 
 The installer will then present you with a few options.

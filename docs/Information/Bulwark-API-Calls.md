@@ -1,14 +1,16 @@
+# Bulwark API Calls
+
 ## Common operations 
 
-## Listing my Bulwark addresses 
+## Listing my Bulwark addresses
 
-Listing the Bulwark in your wallet is easily done via 
+Listing the Bulwark in your wallet is easily done via
 
 ''listreceivedbyaddress''.
 
 It normally lists only addresses which already have received transactions, however you can list all the addresses by setting the first argument to 0, and the second one to true.
 
-# Full list 
+# Full list
 
 Required arguments are denoted inside &lt; and &gt; Optional arguments are inside [and] ().
 

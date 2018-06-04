@@ -1,4 +1,4 @@
-## TOR Support In Bulwark
+# TOR Support In Bulwark
 
 It is possible to run Bulwark as a Tor hidden service, and connect to such services.
 
