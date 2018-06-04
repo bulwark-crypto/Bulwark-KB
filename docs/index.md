@@ -3,7 +3,7 @@ Welcome
 
 ![Bulwark Knowledgebase](assets/images/intro_animated.svg "Bulwark Knowledgebase")
 
-Welcome to the Bulwark knowledge base!
+Welcome to the Bulwark Knowledgebase!
 
 Search or browse the topics in the menu above.
 
