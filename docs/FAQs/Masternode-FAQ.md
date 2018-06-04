@@ -11,9 +11,9 @@ A: Users can pool their funds to gather up the 5000 BWK required to operate a ma
 ##### Q: How much does a Bulwark Masternode make?
 
 A: Masternode profits vary on the price of the coin, what percent of rewards the nodes get, and how many are online. You can check out these websites for that information:
-* https://masternodes.pro/stats/bwk
-* https://masternodes.online/currencies/BWK/
-* http://mnrank.com/
+* [Masternodes Pro](https://masternodes.pro/stats/bwk)
+* [Masternodes Online](https://masternodes.online/currencies/BWK/)
+* [MnRank](http://mnrank.com/)
 
 ##### Q: Is my Masternode running?
 
@@ -21,4 +21,4 @@ A: A good way to check to see if your masternode is running is to make sure it s
 
 ##### Q: How long does it take to get your first Masternode reward?
 
-A: The first Masternode reward can take up to 24 plus the average Masternode reward time. The average reward time can be found on Masternode statistic sites such as https://masternodes.online/currencies/BWK/ for example.
+A: The first Masternode reward can take up to 24 plus the average Masternode reward time. The average reward time can be found on Masternode statistic sites such as [Masternodes Online](https://masternodes.online/currencies/BWK/) for example.
