@@ -2,7 +2,7 @@
 
 ## Video Guide
 
-To help you with the installation of your Secure Home Node, we have created a two-part video guide.
+To help you with the installation of your Secure Home Node, we have created a video guide.
 
 [Part 1](https://www.youtube.com/watch?v=GGQz9hNGbKg) explains how to connect your Secure Home node to your network.
 
