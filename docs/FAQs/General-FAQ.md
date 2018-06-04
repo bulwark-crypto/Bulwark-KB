@@ -6,7 +6,7 @@ A: The target block time is 90 seconds, which puts BWK at about 960 blocks per d
 
 ##### Q: How long does Proof of Work/Mining last for?
 
-A: This phase lasts for about 1 year, or until block 182,700.
+A: PoW lasts until block 182,700.
 
 ##### Q: Where can I download the Bulwark wallet?
 
