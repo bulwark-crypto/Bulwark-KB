@@ -40,7 +40,6 @@ A: This is a fund that is set aside as we hit Proof of Stake. Masternode operato
 
 A: If there are more coins locked up in Masternodes, this means that PoS will get a higher percentage of the coins. The opposite would be if there are more coins being staked than locked up in Masternodes, Masternodes would yield a higher percentage.
 
-
 ##### Q:  Does Bulwark plan to be listed on <Exchange> any time soon?
 
 A:  The Bulwark team is committed to the long-term health and stability of this project.  Major exchanges want to see novel features and longevity from non-ICO coins prior to listing.  Bulwark is focused on  executing in both of those areas and we are not actively pursuing additional exchange listings at this time.
