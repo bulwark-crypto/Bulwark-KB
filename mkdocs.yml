@@ -22,7 +22,7 @@
 site_name: Bulwark Knowledgebase
 site_description: A repository for information regarding the Bulwark Cryptocurrency project.
 site_author: Bulwark Cryptocurrency
-site_url: http://kb.bulwarkcrypto.com
+site_url: https://kb.bulwarkcrypto.com
 
 # Repository
 repo_name: bulwark-crypto/bulwark-kb
