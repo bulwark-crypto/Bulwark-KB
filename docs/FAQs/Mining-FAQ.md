@@ -21,51 +21,50 @@ A: We have a list of mining pools below. It’s up to you on what pool you would
 
 * **EU POOLS:**
 
-http://yiimp.poolofd32th.club/
+[PoolofD32th](http://yiimp.poolofd32th.club/)
 
-http://bsod.pw/
+[Bsod](http://bsod.pw/)
 
-https://mining-dutch.nl/
+[Mining-Dutch](https://mining-dutch.nl/)
 
-https://www.omegapool.cc/
+[Omegapool](https://www.omegapool.cc/)
 
-https://umine.org/
+[Umine](https://umine.org/)
 
-http://antminepool.com/ 
+[Antminepool](http://antminepool.com/)
 
-https://fairmine.pro/ 
+[Fairmine](https://fairmine.pro/)
 
-https://www.lycheebit.com/ 
+[Lycheebit](https://www.lycheebit.com/)
 
-http://zergpool.com/
+[Zergpool](http://zergpool.com/)
 
-https://www.unimining.net/ 
+[Unimining](https://www.unimining.net/)
 
-http://poolovich.pro/ 
+[Poolovich](http://poolovich.pro/)
 
-https://cvmpool.pw/ 
+[cvmpool](https://cvmpool.pw/)
 
-https://ourpool.net/ 
+[ourpool](https://ourpool.net/)
 
-http://clutzykid.com/ 
+[clutzykid](http://clutzykid.com/)
 
 * **US POOLS:**
 
-https://pool.masterhash.us/ 
+[Masterhash](https://pool.masterhash.us/)
 
-https://poolr.io/ 
+[Poolr](https://poolr.io/)
 
-https://cryptopool.party/ 
+[Cryptopool.Party](https://cryptopool.party/)
 
-http://bsod.pw/ 
+[Bsod](http://bsod.pw/)
 
-https://pool.coin-miners.info/ 
+[coin-miners](https://pool.coin-miners.info/)
 
-https://titan-mining.net/ 
-
+[Titan-Mining](https://titan-mining.net/)
 
 * **ASIA POOLS:**
 
-https://asiapool.trade/ 
+[Asiapool](https://asiapool.trade/)
 
-http://bsod.pw/ 
+[Bsod](http://bsod.pw/)
