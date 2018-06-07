@@ -63,7 +63,6 @@ A: We have a list of mining pools below. It’s up to you on what pool you would
 
 [Titan-Mining](https://titan-mining.net/)
 
-
 * **ASIA POOLS:**
 
 [Asiapool](https://asiapool.trade/)
