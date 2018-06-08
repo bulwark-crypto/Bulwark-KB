@@ -24,4 +24,8 @@ Each 1 BWK on top of this increases your chance to find the next block and gain 
 
 ##### Q: Whats the most efficient amount to stake every day?
 
-There is no "most efficient amount" to stake. The reason for this, is much like for mining there isn't a "most efficient" hashrate, the more Bulwark you stake, the more rewards you will receive. Similarly, by staking very few coins (or having a lower hashrate) doesn't mean you are being inefficient, it means it will just take you longer to find blocks. In theory, staking even 1 BWK will get you a reward proportionally to your share of the total number of staked coins over time.
+A: There is no "most efficient amount" to stake. The reason for this, is much like for mining there isn't a "most efficient" hashrate, the more Bulwark you stake, the more rewards you will receive. Similarly, by staking very few coins (or having a lower hashrate) doesn't mean you are being inefficient, it means it will just take you longer to find blocks. In theory, staking even 1 BWK will get you a reward proportionally to your share of the total number of staked coins over time.
+
+##### Q: How long do coins have to mature before they can be staked?
+
+To be eligible for staking, coins must have 66 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes. 
