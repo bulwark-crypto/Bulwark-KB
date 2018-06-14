@@ -52,7 +52,7 @@ pages:
     - 'Linux Build Guide': 'Guides/Linux-Build-Guide.md'
     - 'macOS Build Guide': 'Guides/MacOS-Build-Guide.md'
     - 'Masternode Installation': 'Guides/Masternode-Installation.md'
-    - 'Multisend Setup Guide': 'Multisend-Setup-Guide.md'
+    - 'Multisend Setup Guide': 'Guides/Multisend-Setup-Guide.md'
     - 'NetBSD Build Guide': 'Guides/NetBSD-build-guide.md'
     - 'OpenBSD Build Guide': 'Guides/OpenBSD-build-guide.md'
     - 'Secure Home Node': 'Guides/Secure-Home-Node.md'
