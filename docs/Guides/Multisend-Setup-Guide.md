@@ -22,7 +22,7 @@ Now the address you chose should be visible, as in the screenshot below, before 
 You should now see the "MultiSend Status" change to "Enabled for Staking and Masternodes" as in the screenshot above. Next we want to configure where the awards sent to the address on-screen will be forwarded to,
 for this, we need to click "CONFIGURE" to bring up the screen shown below.
 
-![Bulwark Knowledgebase](assets/images/MultisendScreenshot5.png "MultisendScreenshot5.png")
+![Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/assets/images/MultisendScreenshot5.png "MultisendScreenshot5.png")
 
 Finally, you want to choose the send addresses. Click the "+" button in the top right corner to add as many addresses as you need. Then, you can either paste the address in to the large box shown above, or you can use the address
 book again (1st button to the right of the text boxes) to add addresses. These addresses are where the rewards sent to the previously selected address are sent. You can then select a percentage amount, that percentage of received
