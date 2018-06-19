@@ -14,7 +14,7 @@ A: Yes, your wallet will need to be opened and unlocked in order to be able to r
 
 ##### Q: Do I need to put anything in my Bulwark.conf to enable staking?
 
-A: No, the wallet v1.3.0 has a "Enable Staking" button on the button, which you will need to press to enable staking.
+A: No, the wallet v1.3.0 has a "Enable Staking" button on the bottom, which you will need to press to enable staking.
 
 ##### Q: How much BWK do I need to stake?
 
