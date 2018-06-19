@@ -6,11 +6,11 @@ A: Staking begins on block 182700, the 1st block to be rewarded to a staker will
 
 This is estimated to be on the 20th of June, around 8pm (UTC+2), but this time can change dependent on development decisions or block times.
 
-To calculate to estimated time to POS: ((182701-<current block height>)*1.5)/60=hours to POS
+To calculate the estimated time to POS: ((182701-<current block height>)*1.5)/60=hours to POS
 
-##### Q: Does my wallet need to be open in order to receive staking rewards?
+##### Q: Does my wallet need to be opened in order to receive staking rewards?
 
-A: Yes, your wallet will need to be opened and unlocked in order to be able to receive staking rewards.
+A: Yes, your wallet needs to be opened and unlocked in order to be able to receive staking rewards.
 
 ##### Q: Do I need to put anything in my Bulwark.conf to enable staking?
 
