@@ -10,7 +10,7 @@ To calculate the estimated time to POS: ((182701-<current block height>)*1.5)/60
 
 ##### Q: Does my wallet need to be opened in order to receive staking rewards?
 
-A: Yes, your wallet needs to be opened and unlocked in order to be able to receive staking rewards.
+A: Yes, your wallet needs to be opened and unlocked for staking.
 
 ##### Q: Do I need to put anything in my Bulwark.conf to enable staking?
 
@@ -18,9 +18,7 @@ A: No, the wallet v1.3.0 has a "Enable Staking" button on the bottom, which you 
 
 ##### Q: How much BWK do I need to stake?
 
-A: The minimum denomination of BWK you can submit to stake is 1 BWK.
-
-Each 1 BWK on top of this increases your chance to find the next block and gain the reward + fees.
+A: The minimum denomination of BWK you can submit to stake is 1 BWK. Each BWK on top of this increases your chance to find the next block and gain the reward + fees.
 
 ##### Q: Whats the most efficient amount to stake every day?
 
@@ -28,4 +26,4 @@ A: There is no "most efficient amount" to stake. The reason for this, is much li
 
 ##### Q: How long do coins have to mature before they can be staked?
 
-To be eligible for staking, coins must have 66 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes. 
+To be eligible for staking, coins must have 66 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes.
