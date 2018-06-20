@@ -66,6 +66,7 @@ pages:
     - 'Default Data Locations': 'Information/Default-Data-Locations.md'
     - 'Governance': 'Information/Governance.md'
     - 'Masternode Commands': 'Information/Masternode-Commands.md'
+    - 'Masternode RPC Changes': 'Information/Masternode-RPC-Changes.md'
     - 'Reduce Traffic In Bulwark Core': 'Information/Reduce-Traffic-in-Bulwark-Core.md'
     - 'Running Bulwark': 'Information/Running-Bulwark.md'
     - 'SeeSaw': 'Information/SeeSaw.md'
