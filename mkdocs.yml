@@ -56,6 +56,7 @@ pages:
     - 'NetBSD Build Guide': 'Guides/NetBSD-build-guide.md'
     - 'OpenBSD Build Guide': 'Guides/OpenBSD-build-guide.md'
     - 'Secure Home Node': 'Guides/Secure-Home-Node.md'
+    - 'Staking Troubleshooting': 'Guides/Staking-Troubleshooting.md'
     - 'Windows Build Guide': 'Guides/Windows-Build-Guide.md'
     - 'Windows Masternode': 'Guides/Windows-Masternode.md'
   - 'Information':
