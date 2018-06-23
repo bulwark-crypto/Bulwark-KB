@@ -48,7 +48,7 @@ This is asking if your transaction is old enough to be staked. It takes 60 minut
 
 This is making sure you have more than 1 BWK in the wallet. If this is appearing false there are a wide number of potential problems. It's best to come ask us in Discord or Telegram linked on our website (<https://bulwarkcrypto.com/>) if you have issues with this.
 
-## Mnsync
+## mnsync
 
 This just makes sure your wallet is fully synced, if you appear to be fully synced I'd recomment typing:
 
@@ -65,6 +65,8 @@ After this, wait a minute, then open it again with:
 then wait 10 minutes more, before unlocking the wallet with the command:
 
 `bulwark-cli walletpassphrase '<YOUR PASSWORD>' 99999999 true`
+
+On a local wallet, try restarting it, if that doesn't help, resync your chain.
 
 ## staking status
 
