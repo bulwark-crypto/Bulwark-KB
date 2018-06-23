@@ -103,7 +103,7 @@ How many blocks to check at startup (default: 500, 0 = all)
 -conf=&lt;file&gt;
 </td>
 <td>
-Specify configuration file (default: pivx.conf)
+Specify configuration file (default: bulwark.conf)
 </td>
 </tr>
 <tr>
@@ -180,7 +180,7 @@ Set the number of script verification threads (-8 to 16, 0 = auto, &lt;0 = leave
 -pid=&lt;file&gt;
 </td>
 <td>
-Specify pid file (default: pivxd.pid)
+Specify pid file (default: bulwarkd.pid)
 </td>
 </tr>
 <tr>
@@ -213,7 +213,7 @@ Reindex the accumulator database on startup
 -reindexmoneysupply
 </td>
 <td>
-Reindex the PIV and zPIV money supply statistics on startup
+Reindex the BWK and zBWK money supply statistics on startup
 </td>
 </tr>
 <tr>
@@ -626,7 +626,7 @@ Set key pool size to &lt;n&gt;&lt;/n&gt; (default: 1000)
 -paytxfee=&lt;amt&gt;
 </td>
 <td>
-Fee (in PIV/kB) to add to transactions you send (default: 0.0001)
+Fee (in BWK/kB) to add to transactions you send (default: 0.0001)
 </td>
 </tr>
 <tr>
@@ -841,7 +841,7 @@ Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;
 -debug=&lt;category&gt;
 </td>
 <td>
-Output debugging information (default: 0, supplying &lt;category&gt; is optional). If &lt;category&gt; is not supplied, output all debugging information.&lt;category&gt; can be: addrman, alert, bench, coindb, db, lock, rand, rpc, selectcoins, tor, mempool, net, proxy, pivx, (obfuscation, swiftx, masternode, mnpayments, mnbudget, zero), qt.
+Output debugging information (default: 0, supplying &lt;category&gt; is optional). If &lt;category&gt; is not supplied, output all debugging information.&lt;category&gt; can be: addrman, alert, bench, coindb, db, lock, rand, rpc, selectcoins, tor, mempool, net, proxy, bulwark, (obfuscation, swiftx, masternode, mnpayments, mnbudget, zero), qt.
 </td>
 </tr>
 <tr>
@@ -907,7 +907,7 @@ Prepend debug output with timestamp (default: 1)
 -minrelaytxfee=&lt;amt&gt;
 </td>
 <td>
-Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: 0.0001)
+Fees (in BWK/Kb) smaller than this are considered zero fee for relaying (default: 0.0001)
 </td>
 </tr>
 <tr>
@@ -951,7 +951,7 @@ Use the test network
 -litemode=&lt;n&gt;
 </td>
 <td>
-Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: 0)
+Disable all Bulwark specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: 0)
 </td>
 </tr>
 <tr><td colspan="3">
@@ -1312,7 +1312,7 @@ An empty configuration file is automatically created on first run. By default, b
 Operating System
 </th>
 <th>
-Default PIVX datadir
+Default Bulwark datadir
 </th>
 <th>
 Typical path to configuration file
@@ -1323,10 +1323,10 @@ Typical path to configuration file
 Windows
 </td>
 <td>
-%APPDATA%\PIVX\
+%APPDATA%\Bulwark\
 </td>
 <td>
-C:\Users\username\AppData\Roaming\PIVX\pivx.conf
+C:\Users\username\AppData\Roaming\Bulwark\bulwark.conf
 </td>
 </tr>
 <tr>
@@ -1334,10 +1334,10 @@ C:\Users\username\AppData\Roaming\PIVX\pivx.conf
 Linux
 </td>
 <td>
-$HOME/.pivx/
+$HOME/.bulwark/
 </td>
 <td>
-/home/username/.pivx/pivx.conf
+/home/username/.bulwark/bulwark.conf
 </td>
 </tr>
 <tr>
@@ -1345,10 +1345,10 @@ $HOME/.pivx/
 Mac OSX
 </td>
 <td>
-$HOME/Library/Application Support/PIVX/
+$HOME/Library/Application Support/Bulwark/
 </td>
 <td>
-/Users/username/Library/Application Support/PIVX/pivx.conf
+/Users/username/Library/Application Support/Bulwark/bulwark.conf
 </td>
 </tr>
 </tbody></table>
