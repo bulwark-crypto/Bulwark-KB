@@ -28,10 +28,10 @@ A: There is no "most efficient amount" to stake. The reason for this, is much li
 
 A: To be eligible for staking, coins must have 66 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes.
 
-#### Q: What is `Stakesplit` and what does it do?
+##### Q: What is `Stakesplit` and what does it do?
 
 A: Your `Stakesplit` value, which you can find by running `getstakesplitthreshold` in your local wallets debug console, is the quantity limit of coins at which your wallet will automatically split them up in to two smaller inputs. The default value is 2000, meaning that if you have an input of 2000 BWK or more it will automatically be split into two inputs of 1000 BWK when it receives a staking reward.
 
-#### Q: How can I change the default `stakesplitthreshold`?
+##### Q: How can I change the default `stakesplitthreshold`?
 
 A: You can change it via the debug console in your local wallets debug console with the command `setstakesplitthreshold x`, where x is the value you would like your new `stakesplitthreshold` to be.
