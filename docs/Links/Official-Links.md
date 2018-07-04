@@ -30,6 +30,10 @@
 
 * [Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/)
 
+* [Bulwark Discord](https://discord.me/bulwarkcrypto)
+
+* [Bulwark Telegram](https://t.me/bulwarkcrypto)
+
 * [Masternode Setup Guide 1.1](https://github.com/bulwark-crypto/Bulwark-MN-Install/blob/master/README.md)
 
 * [Unofficial Windows Masternode Setup Guide](https://steemit.com/masternode/@alao/bulwark-bwk-windows-masternode-setup-guide)
