@@ -45,7 +45,6 @@ pages:
     - 'General Wallet Issues': 'FAQs/General-Wallet-Issues.md'
     - 'Masternode FAQ': 'FAQs/Masternode-FAQ.md'
     - 'Masternode Issues': 'FAQs/Masternode-Issues.md'
-    - 'Mining FAQ': 'FAQs/Mining-FAQ.md'
     - 'Staking FAQ': 'FAQs/Staking-FAQ.md'
   - 'Guides':
     - 'Home': 'Guides/index.md'
@@ -65,12 +64,12 @@ pages:
     - 'Bootstrap': 'Information/Bootstrap.md'
     - 'Bulwark API Calls': 'Information/Bulwark-API-Calls.md'
     - 'Default Data Locations': 'Information/Default-Data-Locations.md'
+    - 'Discord Commands': 'Information/Discord-Commands.md'
     - 'Governance': 'Information/Governance.md'
     - 'Masternode Commands': 'Information/Masternode-Commands.md'
     - 'Masternode RPC Changes': 'Information/Masternode-RPC-Changes.md'
     - 'Reduce Traffic In Bulwark Core': 'Information/Reduce-Traffic-in-Bulwark-Core.md'
     - 'Running Bulwark': 'Information/Running-Bulwark.md'
-    - 'SeeSaw': 'Information/SeeSaw.md'
     - 'SwiftTX Technical Information': 'Information/SwiftTX-Technical-Information.md'
     - 'TOR Support In Bulwark': 'Information/TOR-Support-In-Bulwark.md'
   - 'Links':
