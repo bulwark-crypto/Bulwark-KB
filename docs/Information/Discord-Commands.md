@@ -1,6 +1,6 @@
 # Discord Commands
 
-**Sites:**
+## **Sites:**
 
 `!bulwark`
 \- Links to the Official Bulwark Homepage
@@ -33,7 +33,7 @@
 \- Links to the Lightpaper
 
 
-**General:**
+## **General:**
 
 `!appdata`
 \- Shows a guide on how to find your Bulwark Folder
