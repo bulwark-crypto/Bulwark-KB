@@ -8,4 +8,3 @@
 6. As soon as it's done flashing, create a empty file called "ssh" in the root directory of the SD Card and make sure that it's not called ssh.txt or ssh.doc or anything else - just "ssh".
 7. Then eject the SD Card and put it back into your raspberrypi and give it power.
 
-Now you are done.
