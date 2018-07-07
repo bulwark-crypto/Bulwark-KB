@@ -1,4 +1,4 @@
-# Masternode FAQ 
+# Masternode FAQ
 
 ##### Q: How many coins for a Masternode, and how do I set one up?
 
@@ -17,7 +17,8 @@ A: Masternode profits vary on the price of the coin, what percent of rewards the
 
 ##### Q: Is my Masternode running?
 
-A: A good way to check to see if your masternode is running is to make sure it says “Enabled” in the wallet, and then checking the Masternodes list on the block explorer to see if you are on it.
+A: A good way to check to see if your masternode is running is to make sure it says “Enabled” in the wallet, and that the Active timer is increasing.
+Run `bulwark-cli masternode status`on your VPS. It should say "Masternode successfully started". If everything works as it should, it's running!
 
 ##### Q: How long does it take to get your first Masternode reward?
 
