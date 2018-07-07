@@ -58,6 +58,7 @@ pages:
     - 'NetBSD Build Guide': 'Guides/NetBSD-build-guide.md'
     - 'OpenBSD Build Guide': 'Guides/OpenBSD-build-guide.md'
     - 'Secure Home Node': 'Guides/Secure-Home-Node.md'
+    - 'Flash SD Card Guide': 'Guides/FlashSD-Card-Guide.md'
     - 'Staking Guide': 'Guides/Staking-Guide.md'
     - 'Staking Troubleshooting': 'Guides/Staking-Troubleshooting.md'
     - 'Windows Build Guide': 'Guides/Windows-Build-Guide.md'
