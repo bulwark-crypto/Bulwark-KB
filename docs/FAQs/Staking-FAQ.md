@@ -1,12 +1,10 @@
 # Staking FAQ
 
-##### Q: When does staking begin?
+##### Q: When did Staking/PoS(Proof of Stake) start?
 
-A: Staking begins on block 182700, the 1st block to be rewarded to a staker will be block 182701.
+A: Staking began on block 182700, the 1st block to be rewarded to a staker was block 182701.
 
-This is estimated to be on the 20th of June, around 8pm (UTC+2), but this time can change dependent on development decisions or block times.
-
-To calculate the estimated time to POS: ((182701-<current block height>)*1.5)/60=hours to POS
+The transition to Proof of Stake happened on the 20th of June at 11:49 PM (UTC).
 
 ##### Q: Does my wallet need to be opened in order to receive staking rewards?
 
@@ -14,7 +12,7 @@ A: Yes, your wallet needs to be opened and unlocked for staking.
 
 ##### Q: Do I need to put anything in my Bulwark.conf to enable staking?
 
-A: No, the wallet v1.3.0 has a "Enable Staking" button on the bottom, which you will need to press to enable staking.
+A: No, the wallet has a "Enable Staking" button on the bottom, which you will need to press to enable staking.
 
 ##### Q: How much BWK do I need to stake?
 
@@ -26,7 +24,7 @@ A: There is no "most efficient amount" to stake. The reason for this, is much li
 
 ##### Q: How long do coins have to mature before they can be staked?
 
-A: To be eligible for staking, coins must have 66 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes.
+A: To be eligible for staking, coins must have 67 confirmations, which takes roughly 100 minutes. Also, the transaction that sent them must be older than 60 minutes.
 
 #### Q: What is `Stakesplit` and what does it do?
 

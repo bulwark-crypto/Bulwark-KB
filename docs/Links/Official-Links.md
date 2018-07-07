@@ -14,26 +14,30 @@
 
 * [Bulwark Whitepaper & Translations](https://bulwarkcrypto.com/whitepaper/)
 
+* [Bulwark Lightpaper & Translations](https://bulwarkcrypto.com/whitepaper/)
+
 * [Official Bulwark Block Explorer](http://explorer.bulwarkcrypto.com/)
+
+* [Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/)
 
 * Third Party Block Explorers:
 
     * [Altmix](https://altmix.org/coins/10-Bulwark)
 
     * [JABE](http://jabe.network:3001/)
-    
+
     * [CCORE](https://bwk.ccore.online/)
-    
+
     * [POOLR](https://poolr.io/explorer/BWK)
 
 * [Bulwark Blog](https://bulwarkcrypto.com/blog/)
 
 * [Bulwark Github](https://github.com/bulwark-crypto/Bulwark)
 
-* [Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/)
-
 * [Masternode Setup Guide 1.1](https://github.com/bulwark-crypto/Bulwark-MN-Install/blob/master/README.md)
 
 * [Unofficial Windows Masternode Setup Guide](https://steemit.com/masternode/@alao/bulwark-bwk-windows-masternode-setup-guide)
 
 * [Bulwark CoinMarketCap Page](https://coinmarketcap.com/currencies/bulwark/)
+
+* [Social Media Accounts](https://kb.bulwarkcrypto.com/Links/Social-Media-Pages/)
