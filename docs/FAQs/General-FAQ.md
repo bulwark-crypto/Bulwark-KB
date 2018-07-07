@@ -19,7 +19,7 @@ A: From the Official [Bulwark Github page](https://github.com/bulwark-crypto/Bul
 
 ##### Q: Is Bulwark just a fork of PIVX?
 
-A: Bulwark is forked off of an older, more stable version of PIVX. We then hand patched it up to PIVX 2.3, and then backported code from Bitcoin 0.13 and DASH 12.1. More information is available in the [Whitepaper](https://bulwarkcrypto.com/whitepaper).
+A: Bulwark is forked off of an older, more stable version of PIVX. We then hand patched it up to PIVX 2.3, and then backported code from Bitcoin 0.13 and DASH 12.1. More information is available in the [Whitepaper and Lightpaper](https://bulwarkcrypto.com/whitepaper).
 
 ##### Q: What will this coin have that other PIVX/DASH clones don't have?
 

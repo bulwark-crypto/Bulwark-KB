@@ -7,13 +7,20 @@ To make sure your wallet is staking, the 1st step is to use the following comman
 This should hopefully look like this:
 
 `{
-    "validtime" : true,
-    "haveconnections" : true,
-    "walletunlocked" : true,
-    "mintablecoins" : true,
-    "enoughcoins" : true,
-    "mnsync" : true,
-    "staking status" : true
+
+    "validtime": true,
+
+    "haveconnections": true,
+
+    "walletunlocked": true,
+
+    "mintablecoins": true,
+
+    "enoughcoins": true,
+
+    "mnsync": true,
+
+    "staking status": true,
 }`
 
 But let's go through how to fix each line.
@@ -34,7 +41,7 @@ and then running:
 
 ## walletunlocked
 
-This means your wallet isn't unlocked, just run the below:
+This means your wallet isn't unlocked, just run the command below:
 
 `bulwark-cli walletpassphrase '<YOUR PASSWORD>' 99999999 true`
 
@@ -42,15 +49,15 @@ This will unlock your wallet for staking only for a long time period. Unlocking 
 
 ## mintablecoins
 
-This is asking if your transaction is old enough to be staked. It takes 60 minutes for a transaction to be able to be staked. Just wait and this should correct to true.
+This is asking if your transaction is old enough to be staked. It takes 60 minutes or 67 confirmations for a transaction to be able to be staked. Just wait and this should correct to true.
 
 ## enoughcoins
 
-This is making sure you have more than 1 BWK in the wallet. If this is appearing false there are a wide number of potential problems. It's best to come ask us in Discord or Telegram linked on our website (<https://bulwarkcrypto.com/>) if you have issues with this.
+This is making sure you have more than 1 BWK in the wallet. If this is appearing false there are a wide number of potential problems. It's best to come ask us in [Discord](https://discord.me/bulwarkcrypto) or [Telegram](https://t.me/bulwarkcrypto) if you have issues with this.
 
 ## mnsync
 
-This just makes sure your wallet is fully synced, if you appear to be fully synced I'd recomment typing:
+This just makes sure your wallet is fully synced, if you appear to be fully synced I'd recommend typing:
 
 `bulwark-cli mnsync reset`
 
