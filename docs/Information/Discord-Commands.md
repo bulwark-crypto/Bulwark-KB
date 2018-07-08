@@ -35,6 +35,32 @@
 `!mno`
 \- Links to the Bulwark page of Masternodes.online.
 
+`!socialmedia`
+\- Links to the Bulwark Knowledgebase - Social Media Page list.
+
+`!twitter`
+\- Links to the Official Bulwark Twitter Page.
+
+`!facebook`
+\- Links to the Official Bulwark Facebook Page.
+
+`!gab`
+\- Links to the Official Bulwark Gab.Ai Page.
+
+`!youtube`
+\- Links to the Official Bulwark YouTube Channel.
+
+`!blog`
+\- Links to the Official Bulwark Blog.
+
+`!cmc`
+\- Links to the Bulwark page of Coinmarketcap.
+
+`!mnpro`
+\- Links to the Bulwark page of MasterNodes.pro.
+
+`!mnrank`
+\- Links to the Mnrank page.
 
 ## General:
 
