@@ -11,8 +11,8 @@
 `!explorer`
 \-  Links to the Official Bulwark Block Explorer.
 
-`!bitcointalk`
-\- Links to the Official Bulwark ANN on BCT.
+`!bct`
+\- Links to the Official Bulwark ANN on Bitcointalk.
 
 `!gab`
 \- Links to the Official Bulwark Profile on Gab.
@@ -31,6 +31,9 @@
 
 `!lightpaper`
 \- Links to the Lightpaper.
+
+`!mno`
+\- Links to the Bulwark page of Masternodes.online.
 
 
 ## General:
