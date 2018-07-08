@@ -41,9 +41,6 @@
 `!sync`
 \- Shows a guide that fixes general syncing problems.
 
-`!issues`
-\- Shows a guide that fixes general issues.
-
 `!refresh`
 \- Shows a guide on how to refresh your Masternode.
 
