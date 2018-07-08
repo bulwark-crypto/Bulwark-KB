@@ -2,7 +2,7 @@
 
 ## System requirements
 
-The VPS you plan to install your masternode on needs to have at least 1GB of RAM and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you do not use cloud hosting for your masternode.
+The VPS you plan to install your masternode on needs to have at least 1GB of RAM and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you to not use cloud hosting for your masternode.
 
 ## Funding your masternode
 
