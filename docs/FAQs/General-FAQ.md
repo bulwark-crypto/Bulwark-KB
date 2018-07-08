@@ -8,7 +8,7 @@ A: The target block time is 90 seconds, which puts BWK at about 960 blocks per d
 
 A: Proof of Work is over and lasted till Block 182700.
 
-##### Q: When did Staking/PoS(Proof of Stake) start?
+##### Q: When did Staking/Proof of Stake begin?
 
 A: Staking began on block 182700, the 1st block to be rewarded to a staker was block 182701.
 The transition to Proof of Stake happened on the 20th of June at 11:49 PM (UTC).
