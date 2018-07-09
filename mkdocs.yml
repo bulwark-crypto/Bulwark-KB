@@ -81,6 +81,7 @@ pages:
     - 'Home': 'Links/index.md'
     - 'Official Links': 'Links/Official-Links.md'
     - 'Social Media Pages': 'Links/Social-Media-Pages.md'
+    - 'Exchange List': 'Links/Exchanges.md'
 
 # Configuration
 theme:
