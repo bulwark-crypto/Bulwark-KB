@@ -5,6 +5,9 @@
 `!bulwark`
 \- Links to the Official Bulwark Homepage.
 
+`!github`
+\- Links to the Official Bulwark Github.
+
 `!kb`
 \- Links to the Official Bulwark Knowledgebase.
 
@@ -23,7 +26,7 @@
 `!telegram`
 \- Gives an invitation Link to the Oficial Bulwark Telegram Channel.
 
-`!download`
+`!wallet`
 \- Links to the latest Wallet release.
 
 `!whitepaper`
