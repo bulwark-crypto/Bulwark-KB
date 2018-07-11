@@ -5,14 +5,17 @@
 `!bulwark`
 \- Links to the Official Bulwark Homepage.
 
+`!github`
+\- Links to the Official Bulwark Github.
+
 `!kb`
 \- Links to the Official Bulwark Knowledgebase.
 
 `!explorer`
 \-  Links to the Official Bulwark Block Explorer.
 
-`!bitcointalk`
-\- Links to the Official Bulwark ANN on BCT.
+`!bct`
+\- Links to the Official Bulwark ANN on Bitcointalk.
 
 `!gab`
 \- Links to the Official Bulwark Profile on Gab.
@@ -23,7 +26,7 @@
 `!telegram`
 \- Gives an invitation Link to the Oficial Bulwark Telegram Channel.
 
-`!download`
+`!wallet`
 \- Links to the latest Wallet release.
 
 `!whitepaper`
@@ -32,6 +35,35 @@
 `!lightpaper`
 \- Links to the Lightpaper.
 
+`!mno`
+\- Links to the Bulwark page of Masternodes.online.
+
+`!socialmedia`
+\- Links to the Bulwark Knowledgebase - Social Media Page list.
+
+`!twitter`
+\- Links to the Official Bulwark Twitter Page.
+
+`!facebook`
+\- Links to the Official Bulwark Facebook Page.
+
+`!gab`
+\- Links to the Official Bulwark Gab.Ai Page.
+
+`!youtube`
+\- Links to the Official Bulwark YouTube Channel.
+
+`!blog`
+\- Links to the Official Bulwark Blog.
+
+`!cmc`
+\- Links to the Bulwark page of Coinmarketcap.
+
+`!mnpro`
+\- Links to the Bulwark page of MasterNodes.pro.
+
+`!mnrank`
+\- Links to the Mnrank page.
 
 ## General:
 
@@ -40,9 +72,6 @@
 
 `!sync`
 \- Shows a guide that fixes general syncing problems.
-
-`!issues`
-\- Shows a guide that fixes general issues.
 
 `!refresh`
 \- Shows a guide on how to refresh your Masternode.

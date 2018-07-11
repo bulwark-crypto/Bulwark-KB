@@ -11,8 +11,11 @@ A: Users can pool their funds to gather up the 5000 BWK required to operate a ma
 ##### Q: How much does a Bulwark Masternode make?
 
 A: Masternode profits vary on the price of the coin, what percent of rewards the nodes get, and how many are online. You can check out these websites for that information:
+
 * [Masternodes Pro](https://masternodes.pro/stats/bwk)
+
 * [Masternodes Online](https://masternodes.online/currencies/BWK/)
+
 * [MnRank](http://mnrank.com/)
 
 ##### Q: Is my Masternode running?
