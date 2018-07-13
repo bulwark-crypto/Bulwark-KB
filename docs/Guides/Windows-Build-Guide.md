@@ -82,7 +82,7 @@ This means you cannot use a directory that located directly on the host Windows 
 
 Acquire the source in the usual way:
 
-    https://github.com/bulwark-crypto/Bulwark
+    git clone https://github.com/bulwark-crypto/Bulwark
 
 Once the source code is ready the build steps are below.
 
