@@ -13,8 +13,8 @@
 * [Facebook](https://www.facebook.com/bulwark.germany/)
 
 #### Turkish
-* [Facebook](https://www.facebook.com/bulwark.turkey/)
 * [Twitter](https://twitter.com/Bulwark_Turkiye)
+* [Facebook](https://www.facebook.com/bulwark.turkey/)
 
 #### Spanish
 * [Facebook](https://www.facebook.com/bulwark.espanol)
