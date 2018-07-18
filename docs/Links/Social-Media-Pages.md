@@ -1,19 +1,20 @@
 # Social Media Pages
 
 ### English
+* [Twitter](https://twitter.com/BulwarkCoin "Twitter")
+* [Medium](https://medium.com/@bulwarktube)
+* [Reddit](https://www.reddit.com/r/BulwarkCoin/ "Reddit")
 * [Facebook](https://www.facebook.com/bulwark.coin.IO/ "facebook")
 * [Gab.Ai](https://gab.ai/BulwarkCrypto "Gab.Ai")
-* [Reddit](https://www.reddit.com/r/BulwarkCoin/ "Reddit")
-* [Twitter](https://twitter.com/BulwarkCoin "Twitter")
 * [YouTube](https://www.youtube.com/channel/UCHO3e3jv2fEJSmBh7JfQ2iA)
 
 #### German
-* [Facebook](https://www.facebook.com/bulwark.germany/)
 * [Twitter](https://twitter.com/Bulwark_Germany)
+* [Facebook](https://www.facebook.com/bulwark.germany/)
 
 #### Turkish
-* [Facebook](https://www.facebook.com/bulwark.turkey/)
 * [Twitter](https://twitter.com/Bulwark_Turkiye)
+* [Facebook](https://www.facebook.com/bulwark.turkey/)
 
 #### Spanish
 * [Facebook](https://www.facebook.com/bulwark.espanol)
