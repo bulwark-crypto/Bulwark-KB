@@ -1,4 +1,4 @@
-# Is my Masternode working? Guide
+# Is my Masternode working?
 
 ## To check if your Masternode is active and working:
 
