@@ -52,7 +52,7 @@ pages:
     - 'Linux Build Guide': 'Guides/Linux-Build-Guide.md'
     - 'macOS Build Guide': 'Guides/MacOS-Build-Guide.md'
     - 'Masternode Installation': 'Guides/Masternode-Installation.md'
-    - 'Is my Masternode working? Guide': 'Guides/Is-my-Masternode-working-Guide.md'
+    - 'Is my Masternode working?': 'Guides/Is-My-Masternode-Working.md'
     - 'Masternode Refresh Guide': 'Guides/Refresh-Guide.md'
     - 'Multisend Setup Guide': 'Guides/Multisend-Setup-Guide.md'
     - 'NetBSD Build Guide': 'Guides/NetBSD-build-guide.md'
