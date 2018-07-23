@@ -1,4 +1,4 @@
-# Staking Troubleshooting
+# Staking Troubleshooting for CLI wallets
 
 To make sure your wallet is staking, the 1st step is to use the following command:
 
