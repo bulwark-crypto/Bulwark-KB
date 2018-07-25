@@ -60,7 +60,8 @@ pages:
     - 'Secure Home Node': 'Guides/Secure-Home-Node.md'
     - 'Flash SD Card Guide': 'Guides/FlashSD-Card-Guide.md'
     - 'Staking Guide': 'Guides/Staking-Guide.md'
-    - 'Staking Troubleshooting': 'Guides/Staking-Troubleshooting.md'
+    - 'Staking Troubleshooting - CLI': 'Guides/Staking-Troubleshooting-CLI.md'
+    - 'Staking Troubleshooting - GUI': 'Guides/Staking-Troubleshooting-GUI.md'
     - 'Windows Build Guide': 'Guides/Windows-Build-Guide.md'
     - 'Windows Masternode': 'Guides/Windows-Masternode.md'
   - 'Information':

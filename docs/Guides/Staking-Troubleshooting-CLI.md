@@ -1,4 +1,7 @@
-# Staking Troubleshooting for CLI wallets
+# Staking Troubleshooting - CLI
+
+**This guide is for the Windows, Linux, Mac and Raspbian CLI wallets.**  
+**The commands specificed will not work as listed for GUI interfaces**
 
 To make sure your wallet is staking, the 1st step is to use the following command:
 

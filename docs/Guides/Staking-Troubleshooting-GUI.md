@@ -1,6 +1,7 @@
-# Staking Troubleshooting
+# Staking Troubleshooting - GUI
 
-**This guide is for th Windows, Linux, Mac and Raspbian GUI wallets, the commands specificed will not work as listed for CLI interfaces**
+**This guide is for the Windows, Linux and Mac GUI wallets.**  
+**The commands specificed will not work as listed for CLI interfaces**
 
 To make sure your wallet is staking, the 1st step is to use the following command in your debug console:
 
@@ -34,7 +35,6 @@ This should always be true, this just shows that the POS period is active for th
 ## haveconnections
 
 This makes sure you have valid peers, if this is showing as false I'd recommend following the instructions listed in: [Wallet and Syncing Issues](https://kb.bulwarkcrypto.com/FAQs/Wallet-Syncing-and-Launching-Issues/)
-
 
 ## walletunlocked
 
