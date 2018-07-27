@@ -61,7 +61,7 @@ pages:
     - 'Staking Guide': 'Guides/Staking-Guide.md'
     - 'Staking Troubleshooting - CLI': 'Guides/Staking-Troubleshooting-CLI.md'
     - 'Staking Troubleshooting - GUI': 'Guides/Staking-Troubleshooting-GUI.md'
-    - 'Wallet Syncing Issues': 'FAQs/Wallet-Syncing-Issues.md'
+    - 'Wallet Syncing Issues': 'Guides/Wallet-Syncing-Issues.md'
     - 'Windows Build Guide': 'Guides/Windows-Build-Guide.md'
     - 'Windows Masternode': 'Guides/Windows-Masternode.md'
   - 'Information':
