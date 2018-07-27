@@ -1,4 +1,4 @@
-# Wallet Syncing and Launching Issues
+# Wallet Syncing Issues
 
 * Make sure you are running the latest wallet version from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and your wallet is closed.
 * Now you head over to the Bulwark folder (How to do that is explained below).
