@@ -14,6 +14,9 @@
 `!explorer`
 \-  Links to the Official Bulwark Block Explorer.
 
+`!forum`
+\-  Links to the Official Bulwark Community Forum.
+
 `!bct`
 \- Links to the Official Bulwark ANN on Bitcointalk.
 
@@ -43,6 +46,9 @@
 
 `!twitter`
 \- Links to the Official Bulwark Twitter Page.
+
+`!medium`
+\-  Links to the Official Bulwark Medium Page.
 
 `!facebook`
 \- Links to the Official Bulwark Facebook Page.
@@ -85,7 +91,7 @@
 `!nodewurk`
 \- Shows a guide on how to check if your masternode is active and working.
 
-`!masternode`
+`!mninstall`
 \- Links to the Masternode Install Guide.
 
 `!winnode`
