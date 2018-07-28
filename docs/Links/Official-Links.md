@@ -10,6 +10,8 @@
 
 * [Official Bulwark Website](https://bulwarkcrypto.com/)
 
+* [Official Bulwark Community Forum](https://community.bulwarkcrypto.com/)
+
 * [Bulwark Roadmap](https://bulwarkcrypto.com/roadmap/)
 
 * [Bulwark Whitepaper & Translations](https://bulwarkcrypto.com/whitepaper/)
