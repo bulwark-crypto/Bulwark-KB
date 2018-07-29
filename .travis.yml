@@ -1,12 +1,5 @@
-language: node_js
-dist: trusty
-node_js:
-  - "node"
-cache:
-  directories:
-    - "node_modules"
-os: linux
+language: python
 before_install:
-  - npm install mkdocs
-install:
-  - mkdocs build
+  - pip install mkdocs
+  - pip install mkdocs-material
+script: mkdocs build --verbose --clean --strict
