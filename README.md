@@ -1,6 +1,16 @@
-# Bulwark Knowledgebase
+Bulwark Knowledgebase
+&middot;
+[![GitHub license](https://img.shields.io/github/license/bulwark-crypto/Bulwark-KB.svg)](https://github.com/bulwark-crypto/Bulwark-KB/blob/master/COPYING) [![Build Status](https://travis-ci.org/bulwark-crypto/Bulwark-KB.svg?branch=master)](https://travis-ci.org/bulwark-crypto/Bulwark-KB) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/bulwarkcrypto) ![powered by MkDocs](https://img.shields.io/badge/powered_by-MkDocs-pink.svg)
+=====
+![Example of a Knowledgebase Article](https://i.imgur.com/JUbNCTb.png "Example of a Knowledgebase Article")
+Example of a Knowledgebase Article
 
-How to run
+
+![Example of Knowledgebase Search](https://i.imgur.com/8aRpG1F.png "Example of Knowledgebase Search")
+Example of Knowledgebase Search
+
+
+## How to run
 
 #### Installing Python
 
