@@ -1,0 +1,12 @@
+language: node_js
+dist: trusty
+node_js:
+  - "node"
+cache:
+  directories:
+    - "node_modules"
+os: linux
+before_install:
+  - npm install mkdocs
+install:
+  - mkdocs build
