@@ -41,7 +41,7 @@ A: Masternodes are able to instantaneously validate and confirm transactions bef
 
 A: This is a fund that will be set aside. After the end of year 1 or block 345,600. Masternode operators will be able to vote on budget proposals and dictate fund allocation. This system is hard-coded and puts the future of Bulwark into the hands of the community and encourages engagement.
 
-##### Q: Does Bulwark plan to be listed on <Exchange> any time soon?
+##### Q: Does Bulwark plan to be listed on **X Exchange** any time soon?
 
 A: The Bulwark team is committed to the long-term health and stability of this project. Major exchanges want to see novel features and longevity from non-ICO coins prior to listing. Bulwark is focused on executing in both of those areas and we are not actively pursuing additional exchange listings at this time.
 
