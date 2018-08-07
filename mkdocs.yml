@@ -33,12 +33,8 @@ edit_uri: ""
 copyright: 'Copyright &copy; 2016 - 2018 Bulwark Cryptocurrency'
 
 # Pages
-pages:
+nav:
   - 'Home': 'index.md'
-  - 'FAQs': 'FAQs/index.md'
-  - 'Guides': 'Guides/index.md'
-  - 'Information': 'Information/index.md'
-  - 'Links': 'Links/index.md'
   - 'FAQs':
     - 'Home': 'FAQs/index.md'
     - 'General FAQ': 'FAQs/General-FAQ.md'
@@ -86,7 +82,7 @@ pages:
 
 # Configuration
 theme:
-  name: null
+  name: 'material'
   custom_dir: material
 
   # 404 page
