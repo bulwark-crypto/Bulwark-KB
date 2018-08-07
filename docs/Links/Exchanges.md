@@ -6,4 +6,3 @@
 
 * [Blocknet](https://www.blocknet.co/)
 
-* [Stocks.Exchange](https://app.stocks.exchange/en/basic-trade/pair/BTC/BWK/1D)
