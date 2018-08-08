@@ -20,7 +20,8 @@
 
 # Project information
 site_name: Bulwark Knowledgebase
-site_description: A repository for information regarding the Bulwark Cryptocurrency project.
+site_description:
+  A repository for information regarding the Bulwark Cryptocurrency project.
 site_author: Bulwark Cryptocurrency
 site_url: https://kb.bulwarkcrypto.com
 
@@ -30,59 +31,61 @@ repo_url: https://github.com/bulwark-crypto/bulwark-kb
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2018 Bulwark Cryptocurrency'
+copyright: "Copyright &copy; 2016 - 2018 Bulwark Cryptocurrency"
 
 # Pages
 nav:
-  - 'Home': 'index.md'
-  - 'FAQs':
-    - 'Home': 'FAQs/index.md'
-    - 'General FAQ': 'FAQs/General-FAQ.md'
-    - 'Masternode FAQ': 'FAQs/Masternode-FAQ.md'
-    - 'Masternode Issues': 'FAQs/Masternode-Issues.md'
-    - 'Staking FAQ': 'FAQs/Staking-FAQ.md'
-  - 'Guides':
-    - 'Home': 'Guides/index.md'
-    - 'AppData Guide': 'Guides/AppData-Guide.md'
-    - 'Flash SD Card Guide': 'Guides/FlashSD-Card-Guide.md'
-    - 'Is my Masternode working?': 'Guides/Is-My-Masternode-Working.md'
-    - 'Linux Build Guide': 'Guides/Linux-Build-Guide.md'
-    - 'macOS Build Guide': 'Guides/MacOS-Build-Guide.md'
-    - 'Masternode Installation': 'Guides/Masternode-Installation.md'
-    - 'Masternode Refresh Guide': 'Guides/Refresh-Guide.md'
-    - 'Multisend Setup Guide': 'Guides/Multisend-Setup-Guide.md'
-    - 'NetBSD Build Guide': 'Guides/NetBSD-build-guide.md'
-    - 'OpenBSD Build Guide': 'Guides/OpenBSD-build-guide.md'
-    - 'Secure Home Node': 'Guides/Secure-Home-Node.md'
-    - 'Staking Guide': 'Guides/Staking-Guide.md'
-    - 'Staking Troubleshooting - CLI': 'Guides/Staking-Troubleshooting-CLI.md'
-    - 'Staking Troubleshooting - GUI': 'Guides/Staking-Troubleshooting-GUI.md'
-    - 'Wallet Syncing Issues': 'Guides/Wallet-Syncing-Issues.md'
-    - 'Windows Build Guide': 'Guides/Windows-Build-Guide.md'
-    - 'Windows Masternode': 'Guides/Windows-Masternode.md'
-  - 'Information':
-    - 'Home': 'Information/index.md'
-    - 'Accounts Explained': 'Information/Accounts-Explained.md'
-    - 'Bootstrap': 'Information/Bootstrap.md'
-    - 'Bulwark API Calls': 'Information/Bulwark-API-Calls.md'
-    - 'Default Data Locations': 'Information/Default-Data-Locations.md'
-    - 'Discord Commands': 'Information/Discord-Commands.md'
-    - 'Governance': 'Information/Governance.md'
-    - 'Masternode Commands': 'Information/Masternode-Commands.md'
-    - 'Masternode RPC Changes': 'Information/Masternode-RPC-Changes.md'
-    - 'Reduce Traffic In Bulwark Core': 'Information/Reduce-Traffic-in-Bulwark-Core.md'
-    - 'Running Bulwark': 'Information/Running-Bulwark.md'
-    - 'SwiftTX Technical Information': 'Information/SwiftTX-Technical-Information.md'
-    - 'TOR Support In Bulwark': 'Information/TOR-Support-In-Bulwark.md'
-  - 'Links':
-    - 'Home': 'Links/index.md'
-    - 'Official Links': 'Links/Official-Links.md'
-    - 'Social Media Pages': 'Links/Social-Media-Pages.md'
-    - 'Exchange List': 'Links/Exchanges.md'
+  - "Home": "index.md"
+  - "FAQs":
+      - "Home": "FAQs/index.md"
+      - "General FAQ": "FAQs/General-FAQ.md"
+      - "Masternode FAQ": "FAQs/Masternode-FAQ.md"
+      - "Masternode Issues": "FAQs/Masternode-Issues.md"
+      - "Staking FAQ": "FAQs/Staking-FAQ.md"
+  - "Guides":
+      - "Home": "Guides/index.md"
+      - "AppData Guide": "Guides/AppData-Guide.md"
+      - "Flash SD Card Guide": "Guides/FlashSD-Card-Guide.md"
+      - "Is my Masternode working?": "Guides/Is-My-Masternode-Working.md"
+      - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
+      - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
+      - "Masternode Installation": "Guides/Masternode-Installation.md"
+      - "Masternode Refresh Guide": "Guides/Refresh-Guide.md"
+      - "Multisend Setup Guide": "Guides/Multisend-Setup-Guide.md"
+      - "NetBSD Build Guide": "Guides/NetBSD-build-guide.md"
+      - "OpenBSD Build Guide": "Guides/OpenBSD-build-guide.md"
+      - "Secure Home Node": "Guides/Secure-Home-Node.md"
+      - "Staking Guide": "Guides/Staking-Guide.md"
+      - "Staking Troubleshooting - CLI": "Guides/Staking-Troubleshooting-CLI.md"
+      - "Staking Troubleshooting - GUI": "Guides/Staking-Troubleshooting-GUI.md"
+      - "Wallet Syncing Issues": "Guides/Wallet-Syncing-Issues.md"
+      - "Windows Build Guide": "Guides/Windows-Build-Guide.md"
+      - "Windows Masternode": "Guides/Windows-Masternode.md"
+  - "Information":
+      - "Home": "Information/index.md"
+      - "Accounts Explained": "Information/Accounts-Explained.md"
+      - "Bootstrap": "Information/Bootstrap.md"
+      - "Bulwark API Calls": "Information/Bulwark-API-Calls.md"
+      - "Default Data Locations": "Information/Default-Data-Locations.md"
+      - "Discord Commands": "Information/Discord-Commands.md"
+      - "Governance": "Information/Governance.md"
+      - "Masternode Commands": "Information/Masternode-Commands.md"
+      - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
+      - "Reduce Traffic In Bulwark Core":
+          "Information/Reduce-Traffic-in-Bulwark-Core.md"
+      - "Running Bulwark": "Information/Running-Bulwark.md"
+      - "SwiftTX Technical Information":
+          "Information/SwiftTX-Technical-Information.md"
+      - "TOR Support In Bulwark": "Information/TOR-Support-In-Bulwark.md"
+  - "Links":
+      - "Home": "Links/index.md"
+      - "Official Links": "Links/Official-Links.md"
+      - "Social Media Pages": "Links/Social-Media-Pages.md"
+      - "Exchange List": "Links/Exchanges.md"
 
 # Configuration
 theme:
-  name: 'material'
+  name: "material"
   custom_dir: material
 
   # 404 page
@@ -132,8 +135,6 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink
@@ -146,5 +147,5 @@ markdown_extensions:
 
 # Google Analytics
 google_analytics:
-  - 'UA-117434807-2'
-  - 'auto'
+  - "UA-117434807-2"
+  - "auto"
