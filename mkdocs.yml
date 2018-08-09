@@ -67,7 +67,6 @@ nav:
       - "Bootstrap": "Information/Bootstrap.md"
       - "Bulwark API Calls": "Information/Bulwark-API-Calls.md"
       - "Default Data Locations": "Information/Default-Data-Locations.md"
-      - "Discord Commands": "Information/Discord-Commands.md"
       - "Governance": "Information/Governance.md"
       - "Masternode Commands": "Information/Masternode-Commands.md"
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
