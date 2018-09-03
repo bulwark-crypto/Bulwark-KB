@@ -1,6 +1,6 @@
 # Masternode FAQ
 
-##### Q: How many coins for a Masternode, and how do I set one up?
+##### Q: How many coins do I need for a Masternode, and how do I set one up?
 
 A: You will need a total of 5000 BWK. Follow this [Guide](https://github.com/bulwark-crypto/Bulwark-MN-Install) to set one up.
 
