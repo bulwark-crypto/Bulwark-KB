@@ -1,0 +1,35 @@
+# Wallet Syncing Issues
+
+##### Why is my wallet not syncing? 
+
+1. Make sure you are running the latest wallet version from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and your wallet is closed.
+2. Head over to the Bulwark folder (How to do that is explained below).
+3. Delete all files except wallet.dat, bulwark.conf, masternode.conf and the backups folder.
+4. Open your wallet
+
+##### My wallet is taking a very long time to sync, what can I do?
+
+* You can attempt to sync using the officially supplied bootstrap, instructions for which can be found in [The Bootstrap Atricle](https://kb.bulwarkcrypto.com/Information/Bootstrap/)
+    * Unzip the bootstrap and place it in your Appdata folder for Bulwark
+* You can enable UPnP Port Mapping to help with possible networking issue
+    1. Open the *Settings* tab
+    2. Click the *Network* tab
+    3. Click the checkbox that says "Map port using UPnP"
+
+
+##### Q: I am getting weird errors/crashes when opening up my wallet. What can I do?
+
+A: First, check out the [Bulwark Knowledgebase Guide](http://kb.bulwarkcrypto.site/FAQs/General-Wallet-Issues/) and see if this fixes your problem. If it doesn't, head to our [Discord](https://discord.me/bulwarkcrypto) and ask for help there.
+
+
+
+
+**How to find your Bulwark folder**
+
+**Windows:** Press `Windows+R` and write `%appdata%`
+
+**macOS:** Press `Command+Space` to open Spotlight, write `~/Library/Application Support/Bulwark` and press Enter.
+
+**Linux:** Open `~/.bulwark/`
+
+For an expanded explanation on what is contained in the *Bulwark* folder, please read the article titled [Default Data Locations](https://kb.bulwarkcrypto.com/Information/Default-Data-Locations/)
