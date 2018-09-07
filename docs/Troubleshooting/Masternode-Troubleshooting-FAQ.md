@@ -22,3 +22,5 @@
 * It has likely crashed for some reason and simply needs to be re-started using `systemctl start bulwarkd`
 * Follow that up by re-starting your node in your local wallet with `startmasternode alias false yourmnalias` where `yourmnalias` is the name of your masternode as defined in your masternode.conf.
 * If you would like to see if it crashed due to low system memory, run `dmesg | egrep -i 'killed process'` on your VPS.
+
+##### My wallet says my masternode is active, but the node itself still returns `

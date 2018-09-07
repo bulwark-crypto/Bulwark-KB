@@ -21,10 +21,16 @@
 
 A: First, check out the [Bulwark Knowledgebase Guide](http://kb.bulwarkcrypto.site/FAQs/General-Wallet-Issues/) and see if this fixes your problem. If it doesn't, head to our [Discord](https://discord.me/bulwarkcrypto) and ask for help there.
 
+##### Q: I'm getting `Failed reading from database. pcoinsTip best block is not correct` when I try to start my wallet, what do I do?
 
+A: Like most other wallet errors, the best way to proceed is to resync your wallet.
 
+* Make sure you are running the latest wallet version from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and your wallet is closed.
+* Now you head over to the Bulwark folder (How to do that is explained below).
+* Delete all files except wallet.dat, bulwark.conf, masternode.conf and the backups folder.
+* Open your wallet
 
-**How to find your Bulwark folder**
+#### How to find your Bulwark folder:
 
 **Windows:** Press `Windows+R` and write `%appdata%`
 
