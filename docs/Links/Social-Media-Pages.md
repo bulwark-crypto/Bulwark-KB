@@ -24,6 +24,3 @@
 
 ##### Japanese
 * [LINE](http://line.me/R/ti/g/jO-gyHNqN6)
-
-##### Chinese
-* WeChat
