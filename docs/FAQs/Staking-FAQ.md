@@ -46,3 +46,7 @@ A: `autocombinerewards true x` will enable a feature that will automatically com
 
 A: For the most part, yes. You would be able to set a range using the two of them that will keep your inputs inside of that range.
 For example: `autocombinerewards true 750` and `stakesplitthreshold 1000` will combine all your inputs for a given address that are actively staking below 750 Bulwark until they are over 750 Bulwark, but will split them in to two separate inputs when the inputs reach 2000 Bulwark. Your wallet **MUST** be unlocked when a reward is received for this to take effect.
+
+##### "What is an orphan Block?" Or, "Why do I have a gray staking/masternode reward that isn't getting confirmations?"
+
+A: An orphan block is what happens when two parties find a block at the same time

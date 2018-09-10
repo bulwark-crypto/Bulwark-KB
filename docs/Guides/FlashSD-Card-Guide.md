@@ -1,4 +1,4 @@
-# How to flash your SD
+# How to flash your SD Card
 
 1. Go to [etcher](https://etcher.io/) and download the version for your OS.
 2. Go to [raspberrypi.org](https://www.raspberrypi.org/downloads/raspbian/) and download "Raspian Stretch Lite".
