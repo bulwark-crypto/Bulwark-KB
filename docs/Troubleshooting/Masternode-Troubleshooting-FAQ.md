@@ -23,4 +23,7 @@
 * Follow that up by re-starting your node in your local wallet with `startmasternode alias false yourmnalias` where `yourmnalias` is the name of your masternode as defined in your masternode.conf.
 * If you would like to see if it crashed due to low system memory, run `dmesg | egrep -i 'killed process'` on your VPS.
 
-##### My wallet says my masternode is active, but the node itself still returns `
+##### My wallet says my masternode is active, but the node itself still returns `Waiting for Remote Activation` errors and the active timer is not moving. What do I do?
+There are several things that can cause this, but the most common is an error in your local masternode.conf.
+* Ensure that there are no extra spaces or line breaks in your configuration file.
+* Ensure that the IP address you have specified is correct

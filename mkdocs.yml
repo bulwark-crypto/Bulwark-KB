@@ -56,6 +56,7 @@ nav:
       - "OpenBSD Build Guide": "Guides/OpenBSD-build-guide.md"
       - "Secure Home Node": "Guides/Secure-Home-Node.md"
       - "Staking Guide": "Guides/Staking-Guide.md"
+      - "Staking Script": "Guides/Staking-Script.md"
       - "Staking Troubleshooting - CLI": "Guides/Staking-Troubleshooting-CLI.md"
       - "Staking Troubleshooting - GUI": "Guides/Staking-Troubleshooting-GUI.md"
       - "Wallet Syncing Issues": "Guides/Wallet-Syncing-Issues.md"

@@ -103,3 +103,13 @@ startmasternode alias false <mymnalias>
 where _<mymnalias\>_ is the name of your masternode, TORNODE by default.
 
 Congratulations, you're done!
+
+
+## Proper Shutdown
+
+In the event that you need to shut down your Secure Home Node to move it or something similar, you want to smoothly shut it down to avoid any issues like corruption of chaindata.
+To shut down your Secure Home Node, run the following command.
+
+```
+sudo shutdown now
+```

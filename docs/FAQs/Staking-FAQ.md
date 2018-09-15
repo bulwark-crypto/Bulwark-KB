@@ -49,4 +49,4 @@ For example: `autocombinerewards true 750` and `stakesplitthreshold 1000` will c
 
 ##### "What is an orphan Block?" Or, "Why do I have a gray staking/masternode reward that isn't getting confirmations?"
 
-A: An orphan block is what happens when two parties find a block at the same time
+A: An orphan block is what happens when two parties solve a block at the same time. The network then comes to consensus about who solved the block first. That party recieves the block reward as if nothing had happened, and the other party is shown that they did not recieve the reward in the form of a greyed out transaction that never recieves confirmations.
