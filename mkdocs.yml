@@ -42,6 +42,7 @@ nav:
       - "Masternode FAQ": "FAQs/Masternode-FAQ.md"
       - "Masternode Issues": "FAQs/Masternode-Issues.md"
       - "Staking FAQ": "FAQs/Staking-FAQ.md"
+      - "Zerocoin FAQ": "FAQs/Zerocoin-FAQ.md"
   - "Guides":
       - "Home": "Guides/index.md"
       - "AppData Guide": "Guides/AppData-Guide.md"
