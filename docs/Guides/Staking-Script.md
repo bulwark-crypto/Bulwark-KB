@@ -77,7 +77,7 @@ While this looks alarming, it is not dangerous (in this case). Here's how to get
 
 Most issues with the wallet can be resolved by running the below:
 
-`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-Staking-Install/master/refresh.sh )`
+`curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-Staking-Install/master/refresh.sh | sudo bash`
 
 This is like a "factory reset" button.
 
@@ -85,7 +85,7 @@ This is like a "factory reset" button.
 
 To update your wallet to the latest version of Bulwark, please run the below:
 
-`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-Staking-Install/master/update.sh )`
+`curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-Staking-Install/master/update.sh | sudo bash`
 
 ## Troubleshooting
 
