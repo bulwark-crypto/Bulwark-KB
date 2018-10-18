@@ -27,3 +27,7 @@
 There are several things that can cause this, but the most common is an error in your local masternode.conf.
 * Ensure that there are no extra spaces or line breaks in your configuration file.
 * Ensure that the IP address you have specified is correct
+
+##### My Masternode is going missing after an update or spork but not giving me an error code.
+Your node likely needs to be refreshed. If it was installed using out setup script, run the following command;
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
