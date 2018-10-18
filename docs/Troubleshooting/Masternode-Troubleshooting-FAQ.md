@@ -27,3 +27,13 @@
 There are several things that can cause this, but the most common is an error in your local masternode.conf.
 * Ensure that there are no extra spaces or line breaks in your configuration file.
 * Ensure that the IP address you have specified is correct
+
+##### My Masternode is going missing after an update or spork but not giving me an error code.
+Your node likely needs to be refreshed. If it was installed using out setup script, run the following command;
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
+* For more information on the refresh process, please refer to the [Article on refreshing](https://kb.bulwarkcrypto.com/Guides/Refresh-Guide/) for more information
+
+##### I'm getting a "Block height out of range" error, what do I do?
+* Your node needs to be refreshed. If it was installed using the Bulwark Masternode Setup script, please run the following command;
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
+* For more information on the refresh process, please refer to the [Article on refreshing](https://kb.bulwarkcrypto.com/Guides/Refresh-Guide/) for more information
