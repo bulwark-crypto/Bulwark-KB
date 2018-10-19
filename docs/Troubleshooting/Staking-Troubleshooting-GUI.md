@@ -44,11 +44,11 @@ This will prompt you to unlock your wallet, and you can check the box that says 
 
 ## mintablecoins
 
-This is asking if your transaction is old enough to be staked. It takes 60 minutes or 67 confirmations for a transaction to be able to be staked. Just wait and this should correct to true.
+This is asking if your transaction is old enough to be staked. It takes 475 confirmations, or roughly 12 hours, for a transaction to be able to be staked. Just wait and this should correct to true.
 
 ## enoughcoins
 
-This is making sure you have more than 1 BWK in the wallet. If this is appearing false there are a wide number of potential problems. It's best to come ask us in [Discord](https://discord.me/bulwarkcrypto) or [Telegram](https://t.me/bulwarkcrypto) if you have issues with this.
+This is making sure you have more than 100 BWK in the wallet. If this is appearing false there are a wide number of potential problems. It's best to come ask us in [Discord](https://discord.me/bulwarkcrypto) or [Telegram](https://t.me/bulwarkcrypto) if you have issues with this.
 
 ## mnsync
 
