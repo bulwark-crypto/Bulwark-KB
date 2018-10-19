@@ -22,6 +22,10 @@ A: No, the wallet has a "Enable Staking" button on the bottom, which you will ne
 
 A: The minimum input size to stake is 100 BWK
 
+##### Q: Whats an Input?
+
+A: An input is a transaction in which you recieved coins as it is represented on the blockchain. Every time you recieve coins, regardless of wether or not you have recieved coins with that address before, a new input is created.
+
 ##### Q: How long do coins have to mature before they can be staked?
 
 A: To be eligible for staking, coins must have 475 confirmations, which takes roughly 12 hours.
