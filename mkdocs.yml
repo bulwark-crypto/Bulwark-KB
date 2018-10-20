@@ -20,8 +20,7 @@
 
 # Project information
 site_name: Bulwark Knowledgebase
-site_description:
-  A repository for information regarding the Bulwark Cryptocurrency project.
+site_description: A repository for information regarding the Bulwark Cryptocurrency project.
 site_author: Bulwark Cryptocurrency
 site_url: https://kb.bulwarkcrypto.com
 
@@ -47,7 +46,6 @@ nav:
       - "Home": "Guides/index.md"
       - "AppData Guide": "Guides/AppData-Guide.md"
       - "Flash SD Card Guide": "Guides/FlashSD-Card-Guide.md"
-      - "Is my Masternode working?": "Guides/Is-My-Masternode-Working.md"
       - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
       - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
       - "Masternode Installation": "Guides/Masternode-Installation.md"
@@ -72,11 +70,9 @@ nav:
       - "Governance": "Information/Governance.md"
       - "Masternode Commands": "Information/Masternode-Commands.md"
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
-      - "Reduce Traffic In Bulwark Core":
-          "Information/Reduce-Traffic-in-Bulwark-Core.md"
+      - "Reduce Traffic In Bulwark Core": "Information/Reduce-Traffic-in-Bulwark-Core.md"
       - "Running Bulwark": "Information/Running-Bulwark.md"
-      - "SwiftTX Technical Information":
-          "Information/SwiftTX-Technical-Information.md"
+      - "SwiftTX Technical Information": "Information/SwiftTX-Technical-Information.md"
       - "TOR Support In Bulwark": "Information/TOR-Support-In-Bulwark.md"
   - "Links":
       - "Home": "Links/index.md"
