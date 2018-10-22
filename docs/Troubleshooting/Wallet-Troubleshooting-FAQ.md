@@ -9,7 +9,7 @@
 
 ##### My wallet is taking a very long time to sync, what can I do?
 
-* You can attempt to sync using the officially supplied bootstrap, instructions for which can be found in [The Bootstrap Atricle](https://kb.bulwarkcrypto.com/Information/Bootstrap/)
+* You can attempt to sync using the officially supplied bootstrap, instructions for which can be found in [The Bootstrap Article](https://kb.bulwarkcrypto.com/Information/Bootstrap/)
     * Unzip the bootstrap and place it in your Appdata folder for Bulwark
 * You can enable UPnP Port Mapping to help with possible networking issue
     1. Open the *Settings* tab
@@ -30,10 +30,6 @@ A: Like most other wallet errors, the best way to proceed is to resync your wall
 * Delete all files except wallet.dat, bulwark.conf, masternode.conf and the backups folder.
 * Open your wallet
 
-##### Q: I am getting a unusually high amount of Staking or Masternode rewards. Is this normal?
-
-A: An outdated wallet version is usually the cause of this. Make sure that your wallet is up to date and fully synchronized to the block height of [the Official Bulwark Block Explorer](https://explorer.bulwarkcrypto.com/).
-
 #### How to find your Bulwark folder:
 
 **Windows:** Press `Windows+R` and write `%appdata%`
@@ -43,3 +39,11 @@ A: An outdated wallet version is usually the cause of this. Make sure that your 
 **Linux:** Open `~/.bulwark/`
 
 For an expanded explanation on what is contained in the *Bulwark* folder, please read the article titled [Default Data Locations](https://kb.bulwarkcrypto.com/Information/Default-Data-Locations/)
+
+##### How do I enable coin control?
+
+In the *settings* tab, option the *options* menu, and go to the *wallet* tab. Check the box next to *enable coin control features.* There will now be a button in the *send* tab that says *open coin control*.
+
+##### How do I update my local wallet?
+
+Simply download and unzip the latest wallet from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and replace the previous versions executable files with the updated ones. 

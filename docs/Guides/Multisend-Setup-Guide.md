@@ -2,7 +2,7 @@
 
 Multisend is a very easy to use tool, that makes managing staking and masternode rewards easy.
 
-The 1st step to setting up MultiSend is to head to the multisend tool, this is available under Settings>MultiSend as shown below.
+The 1st step to setting up MultiSend is to head to the Multisend tool, this is available under Settings>MultiSend as shown below.
 
 ![Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/assets/images/MultisendScreenshot1.png "MultisendScreenshot1.png")
 

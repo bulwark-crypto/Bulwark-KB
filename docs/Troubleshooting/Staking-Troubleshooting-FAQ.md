@@ -9,4 +9,4 @@ Nothing is wrong. In the interest of making your new wallet as secure as possibl
 
 ##### Every status except "staking status" is true, why?
 A simple restart of your wallet could fix this. You have to wait for the wallet to fully synchronize before unlocking to stake.
-Another reason could be, that you have no inputs with atleast 100 BWK (You can check your inputs via Coin Control in the "Send" tab. You activate the coin control features by going to Settings>Options>Wallet>Enable coin control features.) or your inputs don't have 475 confirmations.
+Another reason could be, that you have no inputs with at least 100 BWK (You can check your inputs via Coin Control in the "Send" tab. You activate the coin control features by going to Settings>Options>Wallet>Enable coin control features.) or your inputs don't have 475 confirmations.

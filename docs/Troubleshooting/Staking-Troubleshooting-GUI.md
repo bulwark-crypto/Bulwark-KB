@@ -1,7 +1,7 @@
 # Staking Troubleshooting - GUI
 
 **This guide is for the Windows, Linux and Mac GUI wallets.**  
-**The commands specificed will not work as listed for CLI interfaces**
+**The commands specified will not work as listed for CLI interfaces**
 
 To make sure your wallet is staking, the 1st step is to use the following command in your debug console:
 
