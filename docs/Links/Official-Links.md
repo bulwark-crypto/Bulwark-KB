@@ -32,7 +32,7 @@
 
     * [POOLR](https://poolr.io/explorer/BWK)
 
-* [Bulwark Blog](https://bulwarkcrypto.com/blog/)
+* [Bulwark Blog](https://medium.com/bulwark-cryptocurrency)
 
 * [Bulwark Github](https://github.com/bulwark-crypto/Bulwark)
 
