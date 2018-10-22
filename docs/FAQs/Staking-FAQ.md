@@ -4,7 +4,7 @@
 
 A: Staking began on block 182700, the 1st block to be rewarded to a staker was block 182701.
 
-The transition to Proof of Stake happened on the 20th of June at 11:49 PM (UTC).
+The transition to Proof of Stake took place on the 20th of June at 11:49 PM (UTC).
 
 ##### Q: Does my wallet need to be opened in order to receive staking rewards?
 
@@ -16,7 +16,7 @@ A: Yes, it needs to be fully on and awake in order to be staking. Turning it off
 
 ##### Q: Do I need to put anything in my Bulwark.conf to enable staking?
 
-A: No, the wallet has a "Enable Staking" button on the bottom, which you will need to press to enable staking.
+A: No, you just need to unlock the wallet for staking only (by ticking the box right next to your password field and typing in your password.).
 
 ##### Q: How much Bulwark do I need to stake?
 
@@ -24,7 +24,7 @@ A: The minimum input size to stake is 100 BWK
 
 ##### Q: Whats an Input?
 
-A: An input is a transaction in which you recieved coins as it is represented on the blockchain. Every time you recieve coins, regardless of wether or not you have recieved coins with that address before, a new input is created.
+A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you recieve coins, regardless of wether or not you have received coins with that address before, a new input is created.
 
 ##### Q: How long do coins have to mature before they can be staked?
 
