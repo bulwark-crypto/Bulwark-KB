@@ -34,13 +34,13 @@ This should always be true, this just shows that the POS period is active for th
 
 ## haveconnections
 
-This makes sure you have valid peers, if this is showing as false I'd recommend following the instructions listed in: [Wallet and Syncing Issues](https://kb.bulwarkcrypto.com/FAQs/Wallet-Syncing-and-Launching-Issues/)
+This makes sure you have valid peers, if this is showing as false I'd recommend following the instructions listed in: [Wallet and Syncing Issues](https://kb.bulwarkcrypto.com/Guides/Wallet-Syncing-Issues/)
 
 ## walletunlocked
 
-This means your wallet isn't unlocked, just click the **Enable Staking** button on your overview screen
+This means your wallet isn't unlocked, just unlock the wallet with your passphrase.
 
-This will prompt you to unlock your wallet, and you can check the box that says "for staking and anonymization only". Unlocking for staking only means your funds are safe even if a malicious entity got access to your PC.
+You can check the box that says "for staking and anonymization only". Unlocking for staking only means your funds are safe even if a malicious entity got access to your PC.
 
 ## mintablecoins
 
@@ -52,8 +52,8 @@ This is making sure you have more than 100 BWK in the wallet. If this is appeari
 
 ## mnsync
 
-This just makes sure your wallet is fully synced, if you appear to be fully synced I'd recommend following the steps listed in: [Wallet and Syncing Issues](https://kb.bulwarkcrypto.com/FAQs/Wallet-Syncing-and-Launching-Issues/)
+This just makes sure your wallet is fully synced, if you appear to be fully synced I'd recommend following the steps listed in: [Wallet and Syncing Issues](https://kb.bulwarkcrypto.com/Guides/Wallet-Syncing-Issues/)
 
 ## staking status
 
-Staking status should be true if everything above is listed as true. If it is still listed as False, close your wallet, re-open it, wait for it to fully sync, and then click **Enable Staking** again.
+Staking status should be true if everything above is listed as true. If it is still listed as False, close your wallet, re-open it, wait for it to fully sync, and then unlock your wallet for staking only again.
