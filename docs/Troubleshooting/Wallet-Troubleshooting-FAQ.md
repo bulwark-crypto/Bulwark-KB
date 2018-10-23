@@ -17,7 +17,7 @@
     3. Click the checkbox that says "Map port using UPnP"
 
 
-##### Q: I am getting weird errors/crashes when opening up my wallet. What can I do?
+##### Q: I am getting strange errors/crashes when opening up my wallet. What can I do?
 
 A: First, check out the [Bulwark Knowledgebase Guide](http://kb.bulwarkcrypto.site/FAQs/General-Wallet-Issues/) and see if this fixes your problem. If it doesn't, head to our [Discord](https://discord.me/bulwarkcrypto) and ask for help there.
 
