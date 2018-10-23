@@ -24,7 +24,7 @@ A: The minimum input size to stake is 100 BWK
 
 ##### Q: Whats an Input?
 
-A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you recieve coins, regardless of wether or not you have received coins with that address before, a new input is created.
+A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you receive coins, regardless of wether or not you have received coins with that address before, a new input is created.
 
 ##### Q: How long do coins have to mature before they can be staked?
 
@@ -53,4 +53,4 @@ For example: `autocombinerewards true 750` and `stakesplitthreshold 1000` will c
 
 ##### "What is an orphan Block?" Or, "Why do I have a gray staking/masternode reward that isn't getting confirmations?"
 
-A: An orphan block is what happens when two parties solve a block at the same time. The network then comes to consensus about who solved the block first. That party recieves the block reward as if nothing had happened, and the other party is shown that they did not recieve the reward in the form of a greyed out transaction that never recieves confirmations.
+A: An orphan block is what happens when two parties solve a block at the same time. The network then comes to consensus about who solved the block first. That party receives the block reward as if nothing had happened, and the other party is shown that they did not receive the reward in the form of a greyed out transaction that never receives confirmations.

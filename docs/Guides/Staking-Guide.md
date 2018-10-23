@@ -5,6 +5,6 @@
 3. If everything worked, the Staking-Icon on the bottom right should turn dark blue and say "Staking status: true".
 
 Please keep in mind, that it can take up to a few minutes for the Staking-Icon to turn dark blue and display "Staking Status:true".
-Also every other Satus except "multisend" needs to be true aswell in order to stake.
+Also every other status except "multisend" needs to be true as well in order to stake.
 
 If it still doesn't work after following these steps, please join our [Discord](https://discord.me/bulwarkcrypto) for further help.
