@@ -15,7 +15,7 @@ A: A Security Level of 1, for example, would take all of the minted coins in the
 
 ##### Q: What are denominations, and why can I only mint zBWK in specific amounts?
 
-A: Specific denominations are used to decrease the time it takes to approve your mint on the blockchain. Since every mint needs to have 2 more mints come after it before it is verified, allowing people to mint any amount they like would potentiall lock coins in a perpetual state of "confirming". Utilizing specified denominations nearly eliminates the risk that minted coins will never be confirmed. The denominations used by zBWK are: 1, 5, 10, 50, 100, 500, and 1000. We made the decision to remove the 5000 denomination that PIVX utilizes to increase liquidity at the expense of large zBWK transactions requiring more spends. We feel that the benefit to users with smaller balances outweighs the potential downside to extremely large users. 
+A: Specific denominations are used to decrease the time it takes to approve your mint on the blockchain. Since every mint needs to have 2 more mints come after it before it is verified, allowing people to mint any amount they like would potential lock coins in a perpetual state of "confirming". Utilizing specified denominations nearly eliminates the risk that minted coins will never be confirmed. The denominations used by zBWK are: 1, 5, 10, 50, 100, 500, and 1000. We made the decision to remove the 5000 denomination that PIVX utilizes to increase liquidity at the expense of large zBWK transactions requiring more spends. We feel that the benefit to users with smaller balances outweighs the potential downside to extremely large users. 
 
 ##### Q: How is this better than Obfuscation or CoinJoin?
 

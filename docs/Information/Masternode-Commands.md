@@ -39,6 +39,10 @@
 `bulwark-cli getmasternodecount`
 \- Displays count of all masternodes
 
+`curl --upload-file ~/.bulwark/debug.log https://transfer.sh/debug.log`
+
+Outputs a link to the debug log of your VPS, extremely useful in troubleshooting issues that aren't fixed by refreshing
+
 `bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
 
 Refreshes your node by clearing the chaindata

@@ -64,7 +64,7 @@ An example would be
 mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1sBGLALQZE1Y1K6xiqgX37tGBDQL8Xg 2bcd3c84c84f7ea86e4e56834c2927a07f9e1871810b92e0d0324456a67c 0
 ```
 
-_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.
+_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, _genkey_ is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.
 
 Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
 
