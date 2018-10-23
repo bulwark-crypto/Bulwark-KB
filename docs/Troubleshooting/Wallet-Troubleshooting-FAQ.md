@@ -30,6 +30,10 @@ A: Like most other wallet errors, the best way to proceed is to resync your wall
 * Delete all files except wallet.dat, bulwark.conf, masternode.conf and the backups folder.
 * Open your wallet
 
+##### Q: I am getting a unusually high amount of Staking or Masternode rewards. Is this normal?
+
+A: An outdated wallet version is usually the cause of this. Make sure that your wallet is up to date and fully synchronized to the block height of [the Official Bulwark Block Explorer](https://explorer.bulwarkcrypto.com/).
+
 #### How to find your Bulwark folder:
 
 **Windows:** Press `Windows+R` and write `%appdata%`
