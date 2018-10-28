@@ -26,6 +26,14 @@ A: The minimum input size to stake is 100 BWK
 
 A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you receive coins, regardless of wether or not you have received coins with that address before, a new input is created.
 
+##### Q: Where can I see my Input size?
+
+A: You can see your input size by opening coin control.
+
+##### Q: Where can I find coin control?
+
+A: First of all you have to activate coin control. You can do that by going to your wallet, pressing on settings (which is on the top left of your wallet) and then on options, after that you have to check "enable coin control". After these steps you will be able to see the coin control button in the "send" tab.
+
 ##### Q: How long do coins have to mature before they can be staked?
 
 A: To be eligible for staking, coins must have 475 confirmations, which takes roughly 12 hours.
