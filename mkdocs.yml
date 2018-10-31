@@ -77,6 +77,7 @@ nav:
       - "Official Links": "Links/Official-Links.md"
       - "Social Media Pages": "Links/Social-Media-Pages.md"
       - "Exchange List": "Links/Exchanges.md"
+      - "Downloads": "Links/Downloads.md"
   - "Troubleshooting":
       - "Home": "Troubleshooting/Index.md"
       - "The Bulwark Folder": "Troubleshooting/Find-Bulwark-Folder.md"
@@ -86,6 +87,7 @@ nav:
       - "Troubleshooting Staking on GUI": "Troubleshooting/Staking-Troubleshooting-GUI.md"
       - "Staking Troubleshooting FAQ": "Troubleshooting/Staking-Troubleshooting-FAQ.md"
       - "Wallet Issues": "Troubleshooting/Wallet-Troubleshooting-FAQ.md"
+      - "Debug Window issues": "Troubleshooting/Debug-window-issues.md"
 
 # Configuration
 theme:
