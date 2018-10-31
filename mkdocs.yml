@@ -155,3 +155,6 @@ markdown_extensions:
 google_analytics:
   - "UA-117434807-2"
   - "auto"
+
+extra_css:
+  - CSS/video.css
