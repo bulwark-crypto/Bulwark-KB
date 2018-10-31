@@ -29,3 +29,9 @@ book again (1st button to the right of the text boxes) to add addresses. These a
 rewards will be forwarded to the chosen address. If the percentages chosen are less than 100%, remaining rewards will stay in the original address.
 
 Once you have decided where the rewards will go, and how much of them will go, click the save button below the "+" and then click "ACTIVATE". You can then close the MultiSend window and it will manage rewards automatically.
+
+## Video Guide
+
+<div class="video-wrapper">
+<iframe width="740" height="416" src="https://www.youtube.com/embed/ulPv_mXSrlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

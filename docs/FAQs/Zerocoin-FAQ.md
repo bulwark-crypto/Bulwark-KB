@@ -7,11 +7,13 @@ A: The Zerocoin Protocol is a privacy protocol that can be applied to cryptocurr
 
 ##### Q: How does it work?
 
-A: In simple terms, the Zerocoin Protocol combines all the zBWK that has been minted from their BWK balance into set denominations and uses them to send when a spend is initiated. When you want to initiate a spend, your wallet sends a zero-knowledge proof to the blockchain that allows the zBWK to be converted back to BWK and sent to the target address all in a single step. 
+A: In simple terms, the Zerocoin Protocol allows users to burn their BWK, and in return be provided with zBWK, which is an I.O.U on the network that is can be spent later to get their BWK back. When you want to initiate a spend, your wallet sends a zero-knowledge proof to the blockchain that allows fresh BWK to be created by the network which replaces the burnt BWK, but as it is freshly made it has no transaction history. You can even instruct the network to send the redeemed BWK to a 3rd party address, to completely hide who sent the BWK to the recipient!
 
 ##### Q: Security Levels? What are these?
 
-A: A Security Level of 1, for example, would take all of the minted coins in the block chain before your mint was added to the block chain, and would then add any coins that were minted within the next 10 blocks as well. A Security Level of 3 would do the same thing, except add the next 30 blocks worth of mints. A Security Level of 100 will add the maximum amount of mints up to the current end of the block chain.
+A: The security level is a balancing act between being able to spend zBWK quicker, and better hiding your denominations amongst others. A Security Level of 1, for example, would take all of the minted coins in the block chain before your mint was added to the block chain, and would then add any coins that were minted within the next 10 blocks as well. A Security Level of 3 would do the same thing, except add the next 30 blocks worth of mints. A Security Level of 100 will add the maximum amount of mints up to the current end of the block chain.
+
+Therefore, you should adjust the security level accordingly with the level of anonymity requires. The default for our wallet is 42, and this provides a good balance that should be fast and secure.
 
 ##### Q: What are denominations, and why can I only mint zBWK in specific amounts?
 
@@ -27,6 +29,14 @@ Another core problem is recent research results with regards to how safe CoinJoi
 
 A: Its very easy. Simply go to the `privacy` tab in your wallet, enter an amount in the `mint zerocoin` text box, click `mint zerocoin` and the minting process will begin.
 
-##### Q: How do I send zBWK?
+##### Q: How do I spend zBWK?
 
-A: Same as you would any other transaction. Enter the address you'd like to send coins to and your wallet will handle the rest.
+A: The process is very similar to sending a normal transaction. In the privacy tab, you will find a familiar field in the bottom-left which lets you choose denominations to spend, enter an amount, and choose an address. Then you can click send to either receive cleaned BWK yourself, or send BWK anonymously to someone else.
+
+##### Q: Do you have a video guide for all this?
+
+A: We do indeed!
+
+<div class="video-wrapper">
+<iframe width="740" height="416" src="https://www.youtube.com/embed/yiNgXjDewR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

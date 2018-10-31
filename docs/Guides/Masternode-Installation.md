@@ -21,6 +21,12 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.
 It should take around 30 minutes if all transaction have 15 confirmations.
 
+## Video Guide
+
+<div class="video-wrapper">
+<iframe width="740" height="416" src="https://www.youtube.com/embed/W1284pD1gTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Getting everything ready
 
 Generate your Masternode Private Key

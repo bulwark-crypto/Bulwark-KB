@@ -4,7 +4,7 @@
 
 1. Make sure you are running the latest wallet version from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and your wallet is closed.
 2. Head over to the Bulwark folder (How to do that is explained below).
-3. Delete all files except wallet.dat, bulwark.conf, masternode.conf and the backups folder.
+3. Delete all files except wallet.dat, masternode.conf, the backups folder, and the Zerocoin folder.
 4. Open your wallet
 
 ##### My wallet is taking a very long time to sync, what can I do?
