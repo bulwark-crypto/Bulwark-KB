@@ -37,6 +37,7 @@ nav:
   - "Home": "index.md"
   - "FAQs":
       - "Home": "FAQs/index.md"
+      - "Docker FAQ": "FAQs/Docker-FAQ.md"
       - "General FAQ": "FAQs/General-FAQ.md"
       - "Masternode FAQ": "FAQs/Masternode-FAQ.md"
       - "Masternode Issues": "FAQs/Masternode-Issues.md"
@@ -45,6 +46,7 @@ nav:
   - "Guides":
       - "Home": "Guides/index.md"
       - "AppData Guide": "Guides/AppData-Guide.md"
+      - "Docker Masternode": "Guides/Docker-Masternode-Installation.md"
       - "Flash SD Card Guide": "Guides/FlashSD-Card-Guide.md"
       - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
       - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
