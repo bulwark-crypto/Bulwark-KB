@@ -4,7 +4,7 @@ This guide will show you the simplest way to install and run a Bulwark masternod
 
 - Server or KVM VPS running Ubuntu 16.04 or newer
 - At least 1GB RAM and 10GB HDD/SSD per masternode
-- One IPv4 or IPv6 address per masternoder
+- One IPv4 or IPv6 address per masternode
 
 For in-depth information about using Bulwark with Docker, please see [this article](/FAQs/Docker-FAQ/).
 
