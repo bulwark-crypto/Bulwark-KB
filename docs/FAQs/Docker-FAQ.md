@@ -131,3 +131,7 @@ docker-compose up -d
 ```
 
 Run these commands inside the directory containing the docker-compose.yml file.
+
+##### Q: Can I use the Bulwark Docker node on my Raspberry Pi?
+
+A: Yes, but you will have to use a different image because of the processor architecture used - _bulwarkcrypto/bulwark-arm_ instead of _bulwarkcrypto/bulwark_.
