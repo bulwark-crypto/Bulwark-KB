@@ -65,7 +65,7 @@ Please note that _masternodename_ must not contain any spaces, and should not co
 To start the installation process, run this line on your VPS:
 
 ```text
-bash <(wget -qO- https://raw.githubusercontent.com/kewagi/Bulwark-Docker/master/bulwark-node/scripts/ubuntu-docker-mn.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/kewagi/Bulwark-Docker/master/bulwark/scripts/ubuntu-docker-mn.sh)
 ```
 
 The script will first ask you to confirm that you want to install, then set up Docker and all additional tools. After that is done, it will create a special configuration file called `docker-compose.yml` that you can use to start, stop and update your masternode. To create this file, the script will ask for
