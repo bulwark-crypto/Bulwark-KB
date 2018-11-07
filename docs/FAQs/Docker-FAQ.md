@@ -51,7 +51,7 @@ A: The entrypoint script passes anything you add to the docker run statement as 
 A: Yes, every container comes with the nano text editor pre-installed. You can run it via `docker container exec`:
 
 ```text
-docker container exec -it NAME nano /home/bulwark/.bulwark/bulwark.conf
+docker container exec -it CONTAINERNAME nano /home/bulwark/.bulwark/bulwark.conf
 ```
 
 Please remember you need to restart the container for any changes to take effect.
