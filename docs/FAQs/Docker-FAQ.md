@@ -35,7 +35,7 @@ A: Yes, provided you have enough RAM (assume 1GB per node). However, every singl
 A: We have a stand-alone tool that just creates the docker-compose.yml file for you. Here's how you run it:
 
 ```text
-bash <(wget -qO- https://raw.githubusercontent.com/kewagi/Bulwark-Docker/master/bulwark/scripts/compose-gen.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/bulwark-crypto/Bulwark-Docker/master/bulwark/scripts/compose-gen.sh)
 ```
 
 ##### Q: Which image should I use to run Bulwark nodes with Docker?
