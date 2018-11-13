@@ -37,6 +37,7 @@ nav:
   - "Home": "index.md"
   - "FAQs":
       - "Home": "FAQs/index.md"
+      - "Docker FAQ": "FAQs/Docker-FAQ.md"
       - "General FAQ": "FAQs/General-FAQ.md"
       - "Masternode FAQ": "FAQs/Masternode-FAQ.md"
       - "Masternode Issues": "FAQs/Masternode-Issues.md"
@@ -45,6 +46,7 @@ nav:
   - "Guides":
       - "Home": "Guides/index.md"
       - "AppData Guide": "Guides/AppData-Guide.md"
+      - "Docker Masternode": "Guides/Docker-Masternode-Installation.md"
       - "Flash SD Card Guide": "Guides/FlashSD-Card-Guide.md"
       - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
       - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
@@ -77,6 +79,7 @@ nav:
       - "Official Links": "Links/Official-Links.md"
       - "Social Media Pages": "Links/Social-Media-Pages.md"
       - "Exchange List": "Links/Exchanges.md"
+      - "Downloads": "Links/Downloads.md"
   - "Troubleshooting":
       - "Home": "Troubleshooting/Index.md"
       - "The Bulwark Folder": "Troubleshooting/Find-Bulwark-Folder.md"
@@ -86,6 +89,7 @@ nav:
       - "Troubleshooting Staking on GUI": "Troubleshooting/Staking-Troubleshooting-GUI.md"
       - "Staking Troubleshooting FAQ": "Troubleshooting/Staking-Troubleshooting-FAQ.md"
       - "Wallet Issues": "Troubleshooting/Wallet-Troubleshooting-FAQ.md"
+      - "Debug Window issues": "Troubleshooting/Debug-window-issues.md"
 
 # Configuration
 theme:
@@ -153,3 +157,6 @@ markdown_extensions:
 google_analytics:
   - "UA-117434807-2"
   - "auto"
+
+extra_css:
+  - CSS/video.css
