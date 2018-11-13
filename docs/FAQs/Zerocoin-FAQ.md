@@ -7,7 +7,17 @@ A: The Zerocoin Protocol is a privacy protocol that can be applied to cryptocurr
 
 ##### Q: How does it work?
 
-A: In simple terms, the Zerocoin Protocol allows users to burn their BWK, and in return be provided with zBWK, which is an I.O.U on the network that is can be spent later to get their BWK back. When you want to initiate a spend, your wallet sends a zero-knowledge proof to the blockchain that allows fresh BWK to be created by the network which replaces the burnt BWK, but as it is freshly made it has no transaction history. You can even instruct the network to send the redeemed BWK to a 3rd party address, to completely hide who sent the BWK to the recipient!
+A: The simplest explanation is that the Zerocoin Protocol allows users to burn their BWK and get zBWK in exchange. zBWK is an I.O.U on the network that can be spent as normal BWK.  
+When you want to initiate a spend, your wallet sends a zero-knowledge proof to the blockchain that allows fresh BWK to be created by the network which replaces the burnt BWK, but with no transaction history, essentially "washing" the coins.  
+You can even instruct the network to send the redeemed BWK to a 3rd party address, to completely hide who sent the BWK to the recipient!
+
+##### Q: So how do I convert BWK to zBWK?
+
+A: Its very easy. Simply go to the `privacy` tab in your wallet, enter an amount in the `mint zerocoin` text box, click `mint zerocoin` and your coins will be in the que, waiting for confirmations. When it is in this que, it is waiting for confirmations and maturity, 20 confirmations on the network, and at least one other mint in the same denomination or denominations.
+
+##### Q: How do I spend zBWK?
+
+A: The process is very similar to sending a normal transaction. In the privacy tab, you will find a familiar field in the bottom-left which lets you choose denominations to spend, enter an amount, and choose an address. Then you can click send to either receive zBWK as BWK yourself, or send BWK anonymously to someone else.
 
 ##### Q: Security Levels? What are these?
 
@@ -17,21 +27,13 @@ Therefore, you should adjust the security level accordingly with the level of an
 
 ##### Q: What are denominations, and why can I only mint zBWK in specific amounts?
 
-A: Specific denominations are used to decrease the time it takes to approve your mint on the blockchain. Since every mint needs to have 2 more mints come after it before it is verified, allowing people to mint any amount they like would potential lock coins in a perpetual state of "confirming". Utilizing specified denominations nearly eliminates the risk that minted coins will never be confirmed. The denominations used by zBWK are: 1, 5, 10, 50, 100, 500, and 1000. We made the decision to remove the 5000 denomination that PIVX utilizes to increase liquidity at the expense of large zBWK transactions requiring more spends. We feel that the benefit to users with smaller balances outweighs the potential downside to extremely large users. 
+A: Specific denominations are used to decrease the time it takes to approve your mint on the blockchain. Since every mint needs to have one more mint come after it before it is verified, allowing people to mint any amount they like would potential lock coins in a perpetual state of "confirming". Utilizing specified denominations nearly eliminates the risk that minted coins will never be confirmed. The denominations used by zBWK are: 1, 5, 10, 50, 100, 500, and 1000. We made the decision to remove the 5000 denomination that PIVX utilizes to increase liquidity at the expense of large zBWK transactions requiring more mints. We feel that the benefit to users with smaller balances outweighs the potential downside to extremely large users. 
 
 ##### Q: How is this better than Obfuscation or CoinJoin?
 
-A: To quote our blog post on our release of Zerocoin; "Firstly, the effectiveness of PrivateSend is dictated by how many people are currently taking part in the obfuscation process, therefore it can take weeks to obfuscate large balances depending on the liquidity at the time. Zerocoin massively cuts down on this time by not requiring there to be multiple people taking part in the mixing process."
+A: To quote our blog post on our release of Zerocoin; "Firstly, the effectiveness of PrivateSend is dictated by how many people are currently taking part in the obfuscation process, therefore it can take weeks to obfuscate large balances depending on the liquidity at the time. Zerocoin massively cuts down on this time by not requiring there to be multiple people taking part in the mixing process.
 
 Another core problem is recent research results with regards to how safe CoinJoin-based systems (such as PrivateSend) actually are. Studies have revealed that merchant cookies and cluster intersection attacks when combined can actually reveal the identity of who purchased X item online, and can even result in unidentified people linking your person to your public key. One of the 1st points we make in our whitepaper is that we intend to adopt best-practices to ensure Bulwark is as good if not better than all other privacy offerings on the market, and implementing Zerocoin is in perfect alignment with this."
-
-##### Q: So how do I convert BWK to zBWK?
-
-A: Its very easy. Simply go to the `privacy` tab in your wallet, enter an amount in the `mint zerocoin` text box, click `mint zerocoin` and the minting process will begin.
-
-##### Q: How do I spend zBWK?
-
-A: The process is very similar to sending a normal transaction. In the privacy tab, you will find a familiar field in the bottom-left which lets you choose denominations to spend, enter an amount, and choose an address. Then you can click send to either receive cleaned BWK yourself, or send BWK anonymously to someone else.
 
 ##### Q: Do you have a video guide for all this?
 

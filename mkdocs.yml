@@ -72,6 +72,7 @@ nav:
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
       - "Reduce Traffic In Bulwark Core": "Information/Reduce-Traffic-in-Bulwark-Core.md"
       - "Running Bulwark": "Information/Running-Bulwark.md"
+      - "SHN Commands": "Information/SHN-Commands.md"
       - "SwiftTX Technical Information": "Information/SwiftTX-Technical-Information.md"
       - "TOR Support In Bulwark": "Information/TOR-Support-In-Bulwark.md"
   - "Links":
