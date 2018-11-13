@@ -25,14 +25,6 @@ A: Bulwark is forked off of an older, more stable version of PIVX. We then hand 
 
 A: The Bulwark Secure Home Node, Citadel Home Router, Aegis Hardware Wallet and Zerocoin. There are quite a few things that the majority of forks don't have that we will and that's only what we've announced to date. We'd like to focus on integrating some of these updates before announcing any additional plans.
 
-##### Q: What is Obfuscation?
-
-A: Obfuscation is a privacy feature of Bulwark. Obfuscation works by mixing transactions, as directed by masternodes, and makes BWK fungible - washing coins of prior transaction history before securely and anonymously sending them onto their destination.
-
-##### Q: Does it cost something to “Start Obfuscation”?
-
-A: It may cost a few cents worth of transaction fees, however, helping to obfuscate improves the privacy of our whole network for those who wish to use it and we highly encourage obfuscating your wallet.
-
 ##### Q: What is SwiftTX?
 
 A: Masternodes are able to instantaneously validate and confirm transactions before they are added onto the blockchain. This allows for extremely fast transactions that do not require additional confirmations.
