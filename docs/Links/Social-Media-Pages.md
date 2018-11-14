@@ -4,7 +4,7 @@
 * [Twitter](https://twitter.com/BulwarkCoin "Twitter")
 * [Medium](https://medium.com/@bulwarktube)
 * [Reddit](https://www.reddit.com/r/BulwarkCoin/ "Reddit")
-* [Facebook](https://www.facebook.com/bulwark.coin.IO/ "facebook")
+* [Facebook](https://www.facebook.com/BulwarkCrypto/ "facebook")
 * [Gab.Ai](https://gab.ai/BulwarkCrypto "Gab.Ai")
 * [YouTube](https://www.youtube.com/channel/UCHO3e3jv2fEJSmBh7JfQ2iA)
 
