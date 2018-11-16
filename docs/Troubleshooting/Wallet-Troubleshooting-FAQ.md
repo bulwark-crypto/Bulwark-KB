@@ -7,6 +7,15 @@
 3. Delete all files except wallet.dat, masternode.conf, the backups folder, and the Zerocoin folder.
 4. Open your wallet
 
+#### How to find your Bulwark folder:
+
+**Windows:** Press `Windows+R` and write `%appdata%`
+
+**macOS:** Press `Command+Space` to open Spotlight, write `~/Library/Application Support/Bulwark` and press Enter.
+
+**Linux:** Open `~/.bulwark/`
+
+
 ##### My wallet is taking a very long time to sync, what can I do?
 
 * You can attempt to sync using the officially supplied bootstrap, instructions for which can be found in [The Bootstrap Article](https://kb.bulwarkcrypto.com/Information/Bootstrap/)

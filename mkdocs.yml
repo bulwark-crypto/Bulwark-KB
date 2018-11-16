@@ -55,6 +55,7 @@ nav:
       - "Multisend Setup Guide": "Guides/Multisend-Setup-Guide.md"
       - "NetBSD Build Guide": "Guides/NetBSD-build-guide.md"
       - "OpenBSD Build Guide": "Guides/OpenBSD-build-guide.md"
+      - "Masternode Shutdown Guide": "Guides/Shutdown-Masternode.md"
       - "Secure Home Node": "Guides/Secure-Home-Node.md"
       - "Staking Guide": "Guides/Staking-Guide.md"
       - "Staking Script": "Guides/Staking-Script.md"
