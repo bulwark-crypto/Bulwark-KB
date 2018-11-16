@@ -30,6 +30,16 @@ A: An input is a transaction in which you received coins as it is represented on
 
 A: You can see your input size by opening coin control.
 
+##### Q: How do I create an input?
+
+A: Creating an input is as simple as sending a transaction to yourself.
+    1. Open coin control and select the coins you wish to combine by checking the box found on the left of the menu.
+        a. Please make sure that the total amount of coins is over 100 BWK if you wish to enable this input for staking.
+    2. Paste the address you wish to send the coins to in the "Pay To" field
+    3. Copy the amount of coins found in the "After Fee" field in to the "Amount" field under "Pay To" and "Label"
+    4. Confirm the information and send the transaction.
+    5. When the coins reach 475 confirmations, they will be eligible for staking.
+
 ##### Q: Where can I find coin control?
 
 A: First of all you have to activate coin control. You can do that by going to your wallet, pressing on settings (which is on the top left of your wallet) and then on options, after that you have to check "enable coin control". After these steps you will be able to see the coin control button in the "send" tab.
