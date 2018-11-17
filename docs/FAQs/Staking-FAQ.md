@@ -26,6 +26,15 @@ A: The minimum input size to stake is 100 BWK
 
 A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you receive coins, regardless of wether or not you have received coins with that address before, a new input is created.
 
+##### Q: How do I create an input?
+
+A: Creating an input is as simple as sending a transaction to yourself.  
+    1. Open coin control and select the coins you wish to combine by checking the box found on the left of the menu. Please note that the total amount of coins in the input must be over 100 BWK if you wish to enable this input for staking.  
+    2. Paste the address you wish to send the coins to in the "Pay To" field.  
+    3. Copy the amount of coins found in the "After Fee" field in to the "Amount" field under "Pay To" and "Label".  
+    4. Confirm the information and send the transaction.  
+    5. When the coins reach 475 confirmations, they will be eligible for staking.  
+
 ##### Q: Where can I see my Input size?
 
 A: You can see your input size by opening coin control.
