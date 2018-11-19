@@ -53,18 +53,18 @@ inside [ and ].
 | `submitblock` |  [jsonparamatersobject] | **PoW Only** Attempts to submit new block to network. | N |
 | Network |
 | `addnode` |   | Attempts add or remove a node from the addnode list. Or try a connection to a node once. | N |
-| `clearbanned` |   | **version 3.1.0** Clear all banned IPs. | N |
-| `disconnectnode` |  | **version 3.1.0** Immediately disconnects from the specified node. | N |
+| `clearbanned` |   | **version 2.0.0** Clear all banned IPs. | N |
+| `disconnectnode` |  | **version 2.0.0** Immediately disconnects from the specified node. | N |
 | `getaddednodeinfo` |  [node] | Returns information about the given added node, or all added nodes. (note that onetry addnodes are not listed here) If dns is false, only a list of added nodes will be provided, otherwise connected information will also be available. | N |
 | `getconnectioncount` |   | Returns the number of connections to other nodes. | N |
 | `getnettotals` |   | Returns information about network traffic, including bytes in, bytes out, and current time. | N |
 | `getnetworkinfo` |   | Returns an object containing various state info regarding P2P networking. | N |
 | `getpeerinfo` |   | Returns data about each connected network node as a json array of objects. | N |
-| `listbanned` |   | **version 3.1.0** List all banned IPs/Subnets. | N |
+| `listbanned` |   | **version 2.0.0** List all banned IPs/Subnets. | N |
 | `ping` |   | Requests that a ping be sent to all other nodes, to measure ping time. | N |
-| `setban` |   [bantime] [absolute] | **version 3.1.0** Attempts add or remove a IP/Subnet from the banned list. | N |
+| `setban` |   [bantime] [absolute] | **version 2.0.0** Attempts add or remove a IP/Subnet from the banned list. | N |
 | Bulwark |
-| `checkbudgets` |   | Initiates a buddget check cycle manually. | N |
+| `checkbudgets` |   | Initiates a budget check cycle manually. | N |
 | `createmasternodekey` |   | Create a new masternode private key. | N |
 | `getbudgetinfo` | [proposal] | Show current masternode budgets with optional filter by proposal name. | N |
 | `getbudgetprojection` |   | Show the projection of which proposals will be paid the next cycle. | N |
@@ -75,14 +75,14 @@ inside [ and ].
 | `getmasternodestatus` |   | Print masternode status. | N |
 | `getmasternodewinners` | [blocks=10] [filter] | Print the masternode winners for the last _n_ blocks | N |
 | `getnextsuperblock` |   | Print the next super block height | N |
-| `getpoolinfo` |   | **Depreciated in version 3.0.0** Returns anonymous pool-related information | N |
+| `getpoolinfo` |   | **deprecated in version 2.0.0** Returns anonymous pool-related information | N |
 | `listmasternodeconf` | [filter] | Print masternode.conf in JSON format. | N |
 | `listmasternodes` | [filter] | Get a ranked list of masternodes. Optional filter by txhash, status, or payment address. | N |
-| `masternode` |  | **Depreciated in version 2.3.1** Set of commands to execute masternode related actions. | Y/N |
+| `masternode` |  | **deprecated in version 2.0.0** Set of commands to execute masternode related actions. | Y/N |
 | `masternodeconnect` |  | Attempts to connect to specified masternode address. | N |
 | `masternodecurrent` |   | Get current masternode winner. | N |
 | `masternodedebug` |   | Print masternode status. | N |
-| `mnbudget` |  [passphrase] | **Depreciated in version 2.3.1** Vote or show current budgets. | N |
+| `mnbudget` |  [passphrase] | **deprecated in version 2.0.0** Vote or show current budgets. | N |
 | `mnbudgetrawvote` |       | Compile and relay a proposal vote with provided external signature instead of signing vote internally. | N |
 | `mnbudgetvote` |    [alias] | Vote on a budget proposal. | N |
 | `mnfinalbudget` |  [passphrase] | Vote or show current budgets. | Y/N |
@@ -161,7 +161,7 @@ If [account] is specified, returns the balance in the account. | N |
 | `listmintedzerocoins` |   | Return an array of zerocoin mints. | Y |
 | `listspentzerocoins` |   | Return an array of spent zerocoins. | Y |
 | `listzerocoinamounts` |   | List the denomination amounts held in this wallet. | Y |
-| `mintzerocoin` |  | Mint given amount from PIV to zBWK. | Y |
+| `mintzerocoin` |  | Mint given amount from BWK to zBWK. | Y |
 | `reconsiderzerocoins` |   | Check archived zBWK list to see if any mints were added to the blockchain.. | Y |
 | `resetmintzerocoin` | [extended_search] | Scan the blockchain for all of the zerocoins that are held in the wallet.dat. Update any meta-data that is incorrect. | Y |
 | `resetspentzerocoin` |   | Scan the blockchain for all of the zerocoins that are held in the wallet.dat. Reset mints that are considered spent that did not make it into the blockchain. | Y |
