@@ -55,6 +55,7 @@ nav:
       - "Multisend Setup Guide": "Guides/Multisend-Setup-Guide.md"
       - "NetBSD Build Guide": "Guides/NetBSD-build-guide.md"
       - "OpenBSD Build Guide": "Guides/OpenBSD-build-guide.md"
+      - "Masternode Shutdown Guide": "Guides/Shutdown-Masternode.md"
       - "Secure Home Node": "Guides/Secure-Home-Node.md"
       - "Staking Guide": "Guides/Staking-Guide.md"
       - "Staking Script": "Guides/Staking-Script.md"
@@ -72,6 +73,7 @@ nav:
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
       - "Reduce Traffic In Bulwark Core": "Information/Reduce-Traffic-in-Bulwark-Core.md"
       - "Running Bulwark": "Information/Running-Bulwark.md"
+      - "SHN Commands": "Information/SHN-Commands.md"
       - "SwiftTX Technical Information": "Information/SwiftTX-Technical-Information.md"
       - "TOR Support In Bulwark": "Information/TOR-Support-In-Bulwark.md"
   - "Links":
