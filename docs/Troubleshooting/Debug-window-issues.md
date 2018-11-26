@@ -2,7 +2,7 @@
 
 ### These steps will fix issues caused by going from a 2 monitor setup to a 1 monitor setup.
 
-##### 1. Download our [RegFix.zip](https://kb.bulwarkcrypto.com/assets/Downloads/regfix.zip) file and unzip it.
+##### 1. Download our [regfix.zip](https://kb.bulwarkcrypto.com/assets/Downloads/regfix.zip) file and unzip it.
 
 #####   1a. Verify that it has the following lines, nothing more and nothing less, by right clicking the script and opening it in a text editor such as Notepad on Windows.
 
