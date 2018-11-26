@@ -40,4 +40,4 @@ Your node likely needs to be refreshed. If it was installed using out setup scri
 
 ##### My Masternode keeps crashing, what do I need to do?
 * Please consult the following flowchart to try and find your answer. If you cannot fix your issue, please join us on either the [Official Bulwark Discord](https://discord.me/bulwarkcrypto) or the [Official Telegram Channel](https://t.me/bulwarkcrypto) for further help  
-![Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/assets/images/Nodecrash.png "Nodecrash.png")
+![Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/assets/images/nodecrash.png "nodecrash.png")
