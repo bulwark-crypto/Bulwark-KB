@@ -24,7 +24,7 @@ A: The minimum input size to stake is 100 BWK
 
 ##### Q: Whats an Input?
 
-A: An input is a transaction in which you received coins as it is represented on the blockchain. Every time you receive coins, regardless of wether or not you have received coins with that address before, a new input is created.
+A: An input is a transaction in which you received coins as it is represented on the blockchain, also called a UTXO or Unspent Transaction Output. Every time you receive coins, regardless of wether or not you have received coins with that address before, a new input is created.
 
 ##### Q: How do I create an input?
 
