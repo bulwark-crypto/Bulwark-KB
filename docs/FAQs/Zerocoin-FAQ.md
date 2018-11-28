@@ -40,5 +40,5 @@ Another core problem is recent research results with regards to how safe CoinJoi
 A: We do indeed!
 
 <div class="video-wrapper">
-<iframe width="740" height="416" src="https://www.youtube.com/embed/yiNgXjDewR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="740" height="416" src="https://www.youtube.com/watch?v=iU6jD22_kqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
