@@ -10,6 +10,8 @@
 
 * [Official Bulwark Website](https://bulwarkcrypto.com/)
 
+* [Official Bulwark Store](https://store.bulwarkcrypto.com/)
+
 * [Official Bulwark Community Forum](https://community.bulwarkcrypto.com/)
 
 * [Bulwark Roadmap](https://bulwarkcrypto.com/roadmap/)
@@ -26,11 +28,7 @@
 
     * [Altmix](https://altmix.org/coins/10-Bulwark)
 
-    * [JABE](http://jabe.network:3001/)
-
     * [CCORE](https://bwk.ccore.online/)
-
-    * [POOLR](https://poolr.io/explorer/BWK)
 
 * [Bulwark Blog](https://medium.com/bulwark-cryptocurrency)
 
