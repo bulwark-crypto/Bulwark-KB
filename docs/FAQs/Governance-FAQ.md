@@ -25,3 +25,7 @@ An example, if we assume that there are 1000 active masternodes on the network.
 A proposal would need at least 100 more `yea` than `nay` votes to pass.  
 A passing vote would be something like `200 yea` and `90 nay`, bringing the effective total of `yea` votes to 110. In this example, the proposal had both the minimum number of votes met, and has a total number of `yea` votes above the minimum
 A failing vote would be something like `150 yea` and `75 nay`, bringing the effective total of `yea` votes to 75. In this example, the proposal does not meet the minimum number of `yea` votes and would not pass.
+
+##### Q: What stops someone from taking the same collateral, making a node, voting, and shutting it down to make a new one, and spam voting for or against a specific proposal?
+
+A: Every 14 blocks all of the votes are checked for each proposal and in the process it checks to see if the masternode is currently in the list of active masternodes. If it is not in the list at the time then the vote is marked as invalid and is not counted. If the masternode then comes back online, the next 14th block check will move the vote to valid.  There is not a direct removal of invalid votes with missing masternodes, but over time the vote is left out of the incremental sync that happens every 960 blocks and new nodes that sync budgets should not receive invalid votes.
