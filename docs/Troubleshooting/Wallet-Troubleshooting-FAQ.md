@@ -43,20 +43,10 @@ A: Like most other wallet errors, the best way to proceed is to resync your wall
 
 A: An outdated wallet version is usually the cause of this. Make sure that your wallet is up to date and fully synchronized to the block height of [the Official Bulwark Block Explorer](https://explorer.bulwarkcrypto.com/).
 
-#### How to find your Bulwark folder:
+##### Q: How do I enable coin control?
 
-**Windows:** Press `Windows+R` and write `%appdata%`
+A: In the *settings* tab, option the *options* menu, and go to the *wallet* tab. Check the box next to *enable coin control features.* There will now be a button in the *send* tab that says *open coin control*.
 
-**macOS:** Press `Command+Space` to open Spotlight, write `~/Library/Application Support/Bulwark` and press Enter.
+##### Q: How do I update my local wallet?
 
-**Linux:** Open `~/.bulwark/`
-
-For an expanded explanation on what is contained in the *Bulwark* folder, please read the article titled [Default Data Locations](https://kb.bulwarkcrypto.com/Information/Default-Data-Locations/)
-
-##### How do I enable coin control?
-
-In the *settings* tab, option the *options* menu, and go to the *wallet* tab. Check the box next to *enable coin control features.* There will now be a button in the *send* tab that says *open coin control*.
-
-##### How do I update my local wallet?
-
-Simply download and unzip the latest wallet from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and replace the previous versions executable files with the updated ones. 
+A: Simply download and unzip the latest wallet from [the Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark/releases) and replace the previous versions executable files with the updated ones. 
