@@ -8,7 +8,7 @@ The transition to Proof of Stake took place on the 20th of June at 11:49 PM (UTC
 
 ##### Q: Does my wallet need to be opened in order to receive staking rewards?
 
-A: Yes, your wallet needs to be opened and unlocked for staking.
+A: Yes, your wallet needs to be opened and unlocked for staking. We recommend checking the "unlock for staking and anonymization only" box, so that your wallet will be able to stake, but transactions cannot be initiated. This lowers the chances of an attacker being able to empty your staking wallet if they gain access to it while its staking.
 
 ##### Q: Does my computer need to be on in order to stake?
 
