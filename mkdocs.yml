@@ -70,6 +70,7 @@ nav:
       - "Bootstrap": "Information/Bootstrap.md"
       - "Bulwark API Calls": "Information/Bulwark-API-Calls.md"
       - "Default Data Locations": "Information/Default-Data-Locations.md"
+      - "How to identify Scams": "Information/howtonotgetscammed.md"
       - "Masternode Commands": "Information/Masternode-Commands.md"
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
       - "Reduce Traffic In Bulwark Core": "Information/Reduce-Traffic-in-Bulwark-Core.md"
