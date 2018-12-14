@@ -11,6 +11,6 @@ If it still doesn't work after following these steps, please join our [Discord](
 
 ## Video Guide
 <div class="video-wrapper">
-<iframe width="740" height="416" src="https://www.youtube.com/embed/YUkNO-Vt3ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fv_kPhDjeBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
