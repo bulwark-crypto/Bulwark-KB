@@ -61,7 +61,7 @@ A: You can change it via the debug console in your local wallets debug console w
 
 ##### Q: What about `autocombinerewards`?
 
-A: `autocombinerewards true x` will enable a feature that will automatically combine all masternode rewards you receive in to one input, up to the amount that you specify with `x`. So, if you want your minimum input size to be 1000 Bulwark, then you would want to run the command in your debug console as follows: `autocombinerewards true 1000`. Your wallet **MUST** be unlocked when a reward is received for this to take effect.
+A: `autocombinerewards true x` will enable a feature that will automatically combine all masternode rewards you receive in to one input within the address they are received with, up to the amount that you specify with `x`. So, if you want your minimum input size to be 1000 Bulwark, then you would want to run the command in your debug console as follows: `autocombinerewards true 1000`. Your wallet **MUST** be unlocked when a reward is received for this to take effect. Please note, if you run more than one masternode with more than one address, this will not combine the rewards between them.
 
 ##### Q: Can i use both `autocombinerewards` and `setstakesplitthreshold` together to automate my input sizes?
 
