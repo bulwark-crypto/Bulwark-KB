@@ -61,6 +61,7 @@ nav:
       - "Secure Home Node": "Guides/Secure-Home-Node.md"
       - "Staking Guide": "Guides/Staking-Guide.md"
       - "Staking Script": "Guides/Staking-Script.md"
+      - "Submit Github Issues": "Guides/Submit-GitHub-Issue.md"
       - "Wallet Syncing Issues": "Guides/Wallet-Syncing-Issues.md"
       - "Windows Build Guide": "Guides/Windows-Build-Guide.md"
       - "Windows Masternode": "Guides/Windows-Masternode.md"
