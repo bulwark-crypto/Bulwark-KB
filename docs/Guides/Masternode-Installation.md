@@ -91,7 +91,7 @@ The installer will then present you with a few options.
 
 **PLEASE NOTE**: Do not choose the advanced installation option unless you have experience with Linux and know what you are doing. Advanced mode  will install your masternode under a non-root user called "bulwark" instead of root, so you need to know what that means and how to log in as a different user under Linux. If you don't, things will not work as expected and the Bulwark team CANNOT help you - you will have to restart the installation.
 
-Follow the instructions on screen.
+Follow the instructions the script presents you with.
 
 After the basic installation is done, the wallet will sync. You will see the following message:
 
@@ -99,5 +99,6 @@ After the basic installation is done, the wallet will sync. You will see the fol
 Your masternode is syncing. Please wait for this process to finish.
 This can take up to a few hours. Do not close this window.
 ```
+Continue following the instructions as presented.
 
 Once you see "Masternode setup completed." on screen, you are done.

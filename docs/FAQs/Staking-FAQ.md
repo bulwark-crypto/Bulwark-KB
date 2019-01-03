@@ -53,11 +53,11 @@ A: Currently you need roughly 6000 Bulwark to receive a staking reward daily, ac
 
 ##### Q: What is `stakesplit` and what does it do?
 
-A: Your `stakesplit` value, which you can find by running `getstakesplitthreshold` in your local wallets debug console, is the quantity limit of coins at which your wallet will automatically split them up in to two smaller inputs. The default value is 2000, meaning that if you have an input of 4000 BWK or more it will automatically be split into two inputs of 2000 BWK when it receives a staking reward. Your wallet **MUST** be unlocked when a reward is received for this to take effect.
+A: Your `stakesplit` value, which you can find by running `getstakesplitthreshold` in your local wallets debug console, is the quantity of coins which your wallet will automatically split inputs down to. The default value is 2000, meaning that if you have an input of 4000 BWK or more it will automatically be split into two inputs of 2000 BWK when it receives a staking reward. Your wallet **MUST** be unlocked when a reward is received for this to take effect.
 
 ##### Q: How can I change the default `stakesplitthreshold`?
 
-A: You can change it via the debug console in your local wallets debug console with the command `setstakesplitthreshold x`, where x is the value you would like your new `stakesplitthreshold` to be.Your wallet **MUST** be unlocked when a reward is received for this to take effect.
+A: You can change it via the debug console in your local wallets debug console with the command `setstakesplitthreshold x`, where x is the value you would like your new `stakesplitthreshold` to be.Your wallet **MUST** be unlocked when a reward is received for `stakesplit` or `autocombine` to take effect.
 
 ##### Q: What about `autocombinerewards`?
 
