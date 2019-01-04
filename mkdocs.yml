@@ -52,7 +52,7 @@ nav:
       - "Governance": "Guides/Governance.md"
       - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
       - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
-      - "Masternode Installation": "Guides/Masternode-Installation.md"
+      - "Masternodes": "Guides/Masternodes.md"
       - "Masternode Refresh Guide": "Guides/Refresh-Guide.md"
       - "Multisend Setup Guide": "Guides/Multisend-Setup-Guide.md"
       - "NetBSD Build Guide": "Guides/NetBSD-build-guide.md"

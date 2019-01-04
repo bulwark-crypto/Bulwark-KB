@@ -102,3 +102,16 @@ This can take up to a few hours. Do not close this window.
 Continue following the instructions as presented.
 
 Once you see "Masternode setup completed." on screen, you are done.
+
+
+## Updating your Masternode  
+
+To update your node please run this command and follow the instructions. Please note that this script must be run as root.  
+
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/update_node.sh )`
+
+## Refreshing your Masternode  
+
+If your masternode is stuck on a block or behaving badly, you can refresh it. Please note that this script must be run as root.
+
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
