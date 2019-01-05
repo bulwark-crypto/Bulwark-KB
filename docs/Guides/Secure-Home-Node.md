@@ -104,6 +104,25 @@ where _<mymnalias\>_ is the name of your masternode, TORNODE by default.
 
 Congratulations, you're done!
 
+## Refreshing your Secure Home Node
+
+1. Connect to your Secure Home Node your Masternode is hosted on.
+2. Run this command: `bash <( curl https://raw.githubusercontent.com/bulwark-crypto/shn/master/refresh_node.sh )`.
+3. Wait for syncing to complete.
+4. Return to your local wallet and run `startmasternode alias false mnalias`
+
+## Updating your Secure Home Node
+
+1. Connect to your Secure Home Node your Masternode is hosted on.
+2. Run this command: `bash <( curl https://raw.githubusercontent.com/bulwark-crypto/shn/master/update.sh )`.
+3. Wait for syncing to complete.
+4. Return to your local wallet and run `startmasternode alias false mnalias`
+
+
+
+
+
+
 
 ## Proper Shutdown
 

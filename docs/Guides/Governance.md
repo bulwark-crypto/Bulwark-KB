@@ -27,7 +27,7 @@ submitbudget <Proposal-name><URL><payment-count><Block-start><Bulwark-address><M
 
 4. Record the hash given to you after running `submitbudget` and store it somewhere safe, this will be needed for others to vote on your proposal. This string is known as the "Vote Hash"
 
-5. Piece together the string needed to vote on your proposal.
+5. After waiting 6 confirmations for the proposal submission fee to confirm, piece together the string needed to vote on your proposal.
 ```
 mnbudgetvote many <vote hash> yes
 ```
