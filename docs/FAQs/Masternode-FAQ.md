@@ -27,3 +27,8 @@ A: The first Masternode reward can take up to 24 plus the average Masternode rew
 ##### Q: Is my Masternode Private Key something people can steal my coins with?
 
 A: No, they cannot directly steal your coins with it. However they can use it to turn your masternode off, effectively cutting off the flow of coins.
+
+##### Q: What does a Masternode do for the network?
+
+A: Masternodes act as trusted peers on the network, allowing for easier network propagation and faster transmission of transaction information as well as enabling features like SwiftTX which allows for transactions to be executed with only 1 confirmation, whereas a normal transaction requires 6.
+

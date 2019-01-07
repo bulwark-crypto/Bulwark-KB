@@ -29,3 +29,13 @@ A failing vote would be something like `150 yea` and `75 nay`, bringing the effe
 ##### Q: What stops someone from taking the same collateral, making a node, voting, and shutting it down to make a new one, and spam voting for or against a specific proposal?
 
 A: Every 14 blocks all of the votes are checked for each proposal and in the process it checks to see if the masternode is currently in the list of active masternodes. If it is not in the list at the time then the vote is marked as invalid and is not counted. If the masternode then comes back online, the next 14th block check will move the vote to valid.  There is not a direct removal of invalid votes with missing masternodes, but over time the vote is left out of the incremental sync that happens every 960 blocks and new nodes that sync budgets should not receive invalid votes.
+
+##### Q: How many times can one masternode vote in a round of governance?
+
+A: A Masternode gets one vote per proposal, and the vote can be changed at any time up to the finalization period of 1920 blocks before the end block.
+
+##### Q: In the GUI, how do I tell what proposals are up for voting?
+
+A: The reference points you will want to look at are the `start block` and `end block` fields.  
+![startblockendblock](https://kb.bulwarkcrypto.com/assets/images/governance/startend.png "startend.png")  
+If the end block has already passed, the voting period for that proposal is over. In the example above, the middle two proposals are up for voting in this round while the top and bottom proposals have ended.

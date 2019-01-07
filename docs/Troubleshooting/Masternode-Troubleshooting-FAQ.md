@@ -7,6 +7,11 @@
 1. In your local wallet: Verify that you see the status "ENABLED" in your Masternode tab, and that the Active timer is increasing.
 2. On your VPS: Run `bulwark-cli masternode status`, it should say "Masternode successfully started".
 
+##### I'm already running one Masternode in my local wallet, how do I set up a second?
+
+* Through the GUI available in wallet version 2.1.0 and onward, you can simply fill out the information as you would with any other node and the configurator will take care of formatting for you.  
+* If you would like to build the masternode.conf manually, you simply need to move to a new line and fill it out following the same formatting as the first masternode.
+
 ##### My Masternode has stopped syncing, what can I do?
 
 1. The recommended course of action is to run the refresh script we supply on [The Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark-MN-Install#refreshing-node) 
