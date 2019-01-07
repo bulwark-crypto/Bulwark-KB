@@ -1,8 +1,8 @@
-# Masternode Installation
+# Bulwark Masternode Installation
 
 ## System requirements
 
-The VPS you plan to install your masternode on needs to have at least 1GB of RAM and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you do not use cloud hosting for your masternode.
+The VPS you plan to install your masternode on needs to have at least 1GB of RAM (2GB for I2P) and 10GB of free disk space. We do not recommend using servers who do not meet those criteria, and your masternode will not be stable. We also recommend you do not use elastic cloud services like AWS or Google Cloud for your masternode - to use your node with such a service would require some networking knowledge and manual configuration.
 
 ## Funding your masternode
 
@@ -40,7 +40,7 @@ After waiting 15 confirmations for the collateral transaction to mature, go to t
 
 SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login as root (**Please note:** It's normal that you don't see your password after typing or pasting it) and run the following command:
 
-```bash
+```
 bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/install.sh )
 ```
 
@@ -69,7 +69,49 @@ Once you see "Masternode setup completed." on screen, you are done.
 <iframe width="740" height="416" src="https://www.youtube.com/embed/W1284pD1gTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Manually generate information for masternode.conf
+
+
+## Updating your Masternode  
+
+To update your node please run this command and follow the instructions. Please note that this script must be run as root.  
+
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/update_node.sh )`
+
+## Refreshing your Masternode  
+
+If your masternode is stuck on a block or behaving badly, you can refresh it. Please note that this script must be run as root.
+
+`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
+
+## Non-interactive installation
+
+You can use the installer in a non-interactive mode by using command line arguments - for example, if you want to automate the installation. This requires that you download the installer and run it locally. Here are the arguments you can pass to `install.sh`:
+
+```text
+    -n --normal               : Run installer in normal mode
+    -a --advanced             : Run installer in advanced mode
+    -i --externalip <address> : Public IP address of VPS
+    --bindip <address>        : Internal bind IP to use
+    -k --privatekey <key>     : Private key to use
+    -f --fail2ban             : Install Fail2Ban
+    --no-fail2ban             : Do nott install Fail2Ban
+    -u --ufw                  : Install UFW
+    --no-ufw                  : Do not install UFW
+    -b --bootstrap            : Sync node using Bootstrap
+    --no-bootstrap            : Do not use Bootstrap
+    -h --help                 : Display this help text.
+    --no-interaction          : Do not wait for wallet activation.
+    --tor                     : Install TOR and configure bulwarkd to use it
+    --i2p                     : Install I2P (Requires 2GB of RAM)
+```
+
+If you want to make the installation process fully non-interactive, you need to provide Bulwark with arguments for the mode to use, the external IP, private key, and wether to use fail2ban, UFW and the bootstrap, and then also add the `--no-interaction` parameter. Please not that this will not tell you to activate your masternode from your wallet after the node has finished syncing, so it will not run until you do.
+
+## Installing a masternode with TOR or I2P
+
+During installation, the script will ask you if you want to run your masternode on the TOR or I2P network. If you say "Y" to this, you need to change the IP address in your masternode conf from the IP address of your VPS server to its TOR/I2P hostname. This hostname will be shown to you during the syincing progress. Everything else works just the same as during a normal installation.
+
+## Manually generating information for masternode.conf
 
 Generate your Masternode Private Key
 
@@ -116,16 +158,4 @@ _masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS,
 
 Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
 
-Restart and unlock your wallet.
-
-## Updating your Masternode  
-
-To update your node please run this command and follow the instructions. Please note that this script must be run as root.  
-
-`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/update_node.sh )`
-
-## Refreshing your Masternode  
-
-If your masternode is stuck on a block or behaving badly, you can refresh it. Please note that this script must be run as root.
-
-`bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
+Restart and unlock your wallet, then continue with the installation guide above.
