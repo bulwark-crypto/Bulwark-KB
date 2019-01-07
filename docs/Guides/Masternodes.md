@@ -21,60 +21,20 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer.
 It should take around 30 minutes if all transaction have 15 confirmations.
 
-## Video Guide
 
-<div class="video-wrapper">
-<iframe width="740" height="416" src="https://www.youtube.com/embed/W1284pD1gTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+## Masternode.conf generation
 
-## Getting everything ready
+After waiting 15 confirmations for the collateral transaction to mature, go to the `Masternodes` tab in your wallet. There you will see a button on the bottom of the wallet that says "configure", click that button to bring up the masternode.conf configuration menu.  
+  - Type in the alias you would like to name your masternode in the `Alias Name` field  
 
-Generate your Masternode Private Key
+  - Paste your VPS IP address in the `VPS Address` field  
 
-In your wallet, open Tools -> Debug console and run the following command to get your masternode key:
+  - Then click on `Autofill Privkey` and `Autofill Outputs` to fill in the Privkey, Output and Output ID.  
 
-```bash
-masternode genkey
-```
+  - Then click `OK` to automatically enter this information in to your Masternode.conf.
 
-Please note: If you plan to set up more than one masternode, you need to create a key with the above command for each one.
+  - Please restart your wallet after you have completed these steps to finalize your masternode.conf
 
-Run this command to get your output information:
-
-```bash
-masternode outputs
-```
-
-Copy both the key and output information to a text file.
-
-Close your wallet and open the Bulwark Appdata folder. Its location depends on your OS.
-
-* **Windows:** %APPDATA%\\Roaming\\Bulwark
-_Press Windows+R and write %appdata%_
-
-* **Linux:** ~/.bulwark/
-_Navigate to the .bulwark folder in your home directory_
-
-* **macOS:** ~/Library/Application Support/Bulwark
-_Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
-
-In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
-
-```bash
-masternodename ipaddress:52543 genkey collateralTxID outputID
-```
-
-An example would be
-
-```
-mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1sBGLALQZE1Y1K6xiqgX37tGBDQL8Xg 2bcd3c84c84f7ea86e4e56834c2927a07f9e1871810b92e0d0324456a67c 0
-```
-
-_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, _genkey_ is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.
-
-Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
-
-Restart and unlock your wallet.
 
 ## Installation
 
@@ -103,6 +63,60 @@ Continue following the instructions as presented.
 
 Once you see "Masternode setup completed." on screen, you are done.
 
+## Video Guide
+
+<div class="video-wrapper">
+<iframe width="740" height="416" src="https://www.youtube.com/embed/W1284pD1gTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## Manually generate information for masternode.conf
+
+Generate your Masternode Private Key
+
+In your wallet, open Tools -> Debug console and run the following command to get your masternode key:
+
+```
+masternode genkey
+```
+
+Please note: If you plan to set up more than one masternode, you need to create a key with the above command for each one.
+
+Run this command to get your output information:
+
+```
+masternode outputs
+```
+
+Copy both the key and output information to a text file.
+
+Close your wallet and open the Bulwark Appdata folder. Its location depends on your OS.
+
+* **Windows:** %APPDATA%\\Roaming\\Bulwark
+_Press Windows+R and write %appdata%_
+
+* **Linux:** ~/.bulwark/
+_Navigate to the .bulwark folder in your home directory_
+
+* **macOS:** ~/Library/Application Support/Bulwark
+_Press Cmd+Space, type ~/Library/Application Support/Bulwark and press Enter._
+
+In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
+
+```
+masternodename ipaddress:52543 genkey collateralTxID outputID
+```
+
+An example would be
+
+```
+mn1 127.0.0.2:52543 93HaYBVUCYjEMeeH1sBGLALQZE1Y1K6xiqgX37tGBDQL8Xg 2bcd3c84c84f7ea86e4e56834c2927a07f9e1871810b92e0d0324456a67c 0
+```
+
+_masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, _genkey_ is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`.
+
+Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
+
+Restart and unlock your wallet.
 
 ## Updating your Masternode  
 
