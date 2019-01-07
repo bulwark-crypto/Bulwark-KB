@@ -15,9 +15,9 @@ To begin the submission process, you'll need to gather the following information
 
 After gathering the information listed above, you'll want to navigate to the `Proposals` tab shown in the screenshot below.  
 Click the `Create` button. Please make sure that you have at least 5 BWK in your wallet to pay the proposal creation fee.
-![proptab](https://kb.bulwarkcrypto.com/assets/images/governancemultisendscreenshot1.png "multisendscreenshot1.png")  
+![proptab](https://kb.bulwarkcrypto.com/assets/images/governance/proptab.png "proptab.png")  
 After you have filled out the fields shown in the screenshot below with the appropriate information, click `Submit Proposal`
-![propfields](https://kb.bulwarkcrypto.com/assets/images/multisendscreenshot1.png "multisendscreenshot1.png")
+![propfields](https://kb.bulwarkcrypto.com/assets/images/propfields.png "propfields.png")  
 Your proposal is now submitted! Now, get out there and gather support for it!
 
 ## Submitting a proposal through the debug terminal
@@ -51,7 +51,7 @@ Congratulations! Your proposal is now ready to be spread to the community! Happy
 
 ## Voting on a proposal through the GUI
 Voting through the new GUI is quite simple, simply click on the proposal you would like to vote on and then click one of the three buttons at the bottom of the interface, `Vote Yes` `Vote No` or `Vote Abstain`
-![proptab](https://kb.bulwarkcrypto.com/assets/images/governancemultisendscreenshot1.png "multisendscreenshot1.png") 
+![proptab](https://kb.bulwarkcrypto.com/assets/images/governance/proptab.png "proptab.png") 
 If you would like to learn more about a specific proposal, you can right click on it to copy the URL that the creator supplied which will ideally be a link to a more detailed source of information on the proposal. If it is not a relevant link, then you may want to be wary of voting yes on it.
 As with all things in crypto; verify, don't trust
 
