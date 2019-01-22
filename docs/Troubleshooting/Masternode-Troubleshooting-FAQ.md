@@ -43,6 +43,9 @@ Your node likely needs to be refreshed. If it was installed using out setup scri
 `bash <( curl https://raw.githubusercontent.com/bulwark-crypto/Bulwark-MN-Install/master/refresh_node.sh )`
 * For more information on the refresh process, please refer to the [Article on refreshing](https://kb.bulwarkcrypto.com/Guides/Refresh-Guide/) for more information
 
+##### My masternode says that I have an "Incorrect RPC user or password"
+* An error of some kind occurred while running the script. Please run the [Refresh Script](https://kb.bulwarkcrypto.com/Guides/Refresh-Guide/) for your device  
+
 ##### My Masternode keeps crashing, what do I need to do?
 * Please consult the following flowchart to try and find your answer. If you cannot fix your issue, please join us on either the [Official Bulwark Discord](https://discord.me/bulwarkcrypto) or the [Official Telegram Channel](https://t.me/bulwarkcrypto) for further help  
 ![Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/assets/images/nodecrash.png "nodecrash.png")
