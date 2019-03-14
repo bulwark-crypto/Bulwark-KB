@@ -13,6 +13,6 @@ All commands are assuming you are running your Masternode on an Ubuntu Linux 16.
 
 #### If your masternode has stopped syncing during setup or update
 * CTRL+C to get back to the command line
-* Run `bulwark-cli getinfo` to ensure that you have successfully updated to version 1030100
+* Run `bulwark-cli getinfo` to ensure that you have successfully updated to version 2020000
     * If you are on the correct version, run the refresh command found on [The Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark-MN-Install)
     * If you are not, run the update command found on  [The Official Bulwark Github](https://github.com/bulwark-crypto/Bulwark-MN-Install)
