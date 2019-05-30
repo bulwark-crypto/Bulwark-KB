@@ -8,9 +8,3 @@ Please keep in mind, that it can take up to a few minutes for the Staking-Icon t
 Also every other status except "multisend" needs to be true as well in order to stake.
 
 If it still doesn't work after following these steps, please join our [Discord](https://discord.me/bulwarkcrypto) for further help.
-
-## Video Guide
-<div class="video-wrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fv_kPhDjeBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
