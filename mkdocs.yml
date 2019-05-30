@@ -20,8 +20,7 @@
 
 # Project information
 site_name: Bulwark Knowledgebase
-site_description:
-  A repository for information regarding the Bulwark Cryptocurrency project.
+site_description: A repository for information regarding the Bulwark Cryptocurrency project.
 site_author: Bulwark Cryptocurrency
 site_url: https://kb.bulwarkcrypto.com
 
@@ -31,33 +30,38 @@ repo_url: https://github.com/bulwark-crypto/bulwark-kb
 edit_uri: ""
 
 # Copyright
-copyright: "Copyright &copy; 2016 - 2018 Bulwark Cryptocurrency"
+copyright: "Copyright &copy; 2016 - 2019 Bulwark Cryptocurrency"
 
 # Pages
 nav:
   - "Home": "index.md"
   - "FAQs":
       - "Home": "FAQs/index.md"
+      - "Docker FAQ": "FAQs/Docker-FAQ.md"
       - "General FAQ": "FAQs/General-FAQ.md"
+      - "Governance FAQ": "FAQs/Governance-FAQ.md"
       - "Masternode FAQ": "FAQs/Masternode-FAQ.md"
       - "Masternode Issues": "FAQs/Masternode-Issues.md"
       - "Staking FAQ": "FAQs/Staking-FAQ.md"
+      - "Zerocoin FAQ": "FAQs/Zerocoin-FAQ.md"
   - "Guides":
       - "Home": "Guides/index.md"
       - "AppData Guide": "Guides/AppData-Guide.md"
+      - "Docker Masternode": "Guides/Docker-Masternode-Installation.md"
       - "Flash SD Card Guide": "Guides/FlashSD-Card-Guide.md"
-      - "Is my Masternode working?": "Guides/Is-My-Masternode-Working.md"
+      - "Governance": "Guides/Governance.md"
       - "Linux Build Guide": "Guides/Linux-Build-Guide.md"
       - "macOS Build Guide": "Guides/MacOS-Build-Guide.md"
-      - "Masternode Installation": "Guides/Masternode-Installation.md"
+      - "Masternodes": "Guides/Masternodes.md"
       - "Masternode Refresh Guide": "Guides/Refresh-Guide.md"
       - "Multisend Setup Guide": "Guides/Multisend-Setup-Guide.md"
       - "NetBSD Build Guide": "Guides/NetBSD-build-guide.md"
       - "OpenBSD Build Guide": "Guides/OpenBSD-build-guide.md"
+      - "Masternode Shutdown Guide": "Guides/Shutdown-Masternode.md"
       - "Secure Home Node": "Guides/Secure-Home-Node.md"
       - "Staking Guide": "Guides/Staking-Guide.md"
-      - "Staking Troubleshooting - CLI": "Guides/Staking-Troubleshooting-CLI.md"
-      - "Staking Troubleshooting - GUI": "Guides/Staking-Troubleshooting-GUI.md"
+      - "Staking Script": "Guides/Staking-Script.md"
+      - "Submit Github Issues": "Guides/Submit-GitHub-Issue.md"
       - "Wallet Syncing Issues": "Guides/Wallet-Syncing-Issues.md"
       - "Windows Build Guide": "Guides/Windows-Build-Guide.md"
       - "Windows Masternode": "Guides/Windows-Masternode.md"
@@ -67,20 +71,30 @@ nav:
       - "Bootstrap": "Information/Bootstrap.md"
       - "Bulwark API Calls": "Information/Bulwark-API-Calls.md"
       - "Default Data Locations": "Information/Default-Data-Locations.md"
-      - "Governance": "Information/Governance.md"
+      - "How to identify Scams": "Information/howtonotgetscammed.md"
       - "Masternode Commands": "Information/Masternode-Commands.md"
       - "Masternode RPC Changes": "Information/Masternode-RPC-Changes.md"
-      - "Reduce Traffic In Bulwark Core":
-          "Information/Reduce-Traffic-in-Bulwark-Core.md"
+      - "Reduce Traffic In Bulwark Core": "Information/Reduce-Traffic-in-Bulwark-Core.md"
       - "Running Bulwark": "Information/Running-Bulwark.md"
-      - "SwiftTX Technical Information":
-          "Information/SwiftTX-Technical-Information.md"
+      - "SHN Commands": "Information/SHN-Commands.md"
+      - "SwiftTX Technical Information": "Information/SwiftTX-Technical-Information.md"
       - "TOR Support In Bulwark": "Information/TOR-Support-In-Bulwark.md"
   - "Links":
       - "Home": "Links/index.md"
       - "Official Links": "Links/Official-Links.md"
       - "Social Media Pages": "Links/Social-Media-Pages.md"
       - "Exchange List": "Links/Exchanges.md"
+      - "Downloads": "Links/Downloads.md"
+  - "Troubleshooting":
+      - "Home": "Troubleshooting/Index.md"
+      - "The Bulwark Folder": "Troubleshooting/Find-Bulwark-Folder.md"
+      - "Masternode Issues": "Troubleshooting/Masternode-Troubleshooting-FAQ.md"
+      - "Recover your Wallet.dat": "Troubleshooting/Recover-Walletdotdat.md"
+      - "Troubleshooting Staking on CLI": "Troubleshooting/Staking-Troubleshooting-CLI.md"
+      - "Troubleshooting Staking on GUI": "Troubleshooting/Staking-Troubleshooting-GUI.md"
+      - "Staking Troubleshooting FAQ": "Troubleshooting/Staking-Troubleshooting-FAQ.md"
+      - "Wallet Issues": "Troubleshooting/Wallet-Troubleshooting-FAQ.md"
+      - "Debug Window issues": "Troubleshooting/Debug-window-issues.md"
 
 # Configuration
 theme:
@@ -148,3 +162,6 @@ markdown_extensions:
 google_analytics:
   - "UA-117434807-2"
   - "auto"
+
+extra_css:
+  - CSS/video.css

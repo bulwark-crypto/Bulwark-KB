@@ -10,6 +10,8 @@
 
 * [Official Bulwark Website](https://bulwarkcrypto.com/)
 
+* [Official Bulwark Store](https://store.bulwarkcrypto.com/)
+
 * [Official Bulwark Community Forum](https://community.bulwarkcrypto.com/)
 
 * [Bulwark Roadmap](https://bulwarkcrypto.com/roadmap/)
@@ -20,19 +22,11 @@
 
 * [Official Bulwark Block Explorer](http://explorer.bulwarkcrypto.com/)
 
+* [Governance Proposal Explorers](https://proposals.network/bulwark/)
+
 * [Bulwark Knowledgebase](https://kb.bulwarkcrypto.com/)
 
-* Third Party Block Explorers:
-
-    * [Altmix](https://altmix.org/coins/10-Bulwark)
-
-    * [JABE](http://jabe.network:3001/)
-
-    * [CCORE](https://bwk.ccore.online/)
-
-    * [POOLR](https://poolr.io/explorer/BWK)
-
-* [Bulwark Blog](https://bulwarkcrypto.com/blog/)
+* [Bulwark Blog](https://medium.com/bulwark-cryptocurrency)
 
 * [Bulwark Github](https://github.com/bulwark-crypto/Bulwark)
 
@@ -43,3 +37,7 @@
 * [Bulwark CoinMarketCap Page](https://coinmarketcap.com/currencies/bulwark/)
 
 * [Social Media Accounts](https://kb.bulwarkcrypto.com/Links/Social-Media-Pages/)
+
+* Third Party Block Explorers:
+
+    * [CCORE](https://bwk.ccore.online/)
